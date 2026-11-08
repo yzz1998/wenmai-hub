@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="黄鞠 —— 隋代水利 · 凿龙腰开霍地">
+  <title>黄鞠 · 隋代水利 · 凿龙腰开霍地</title>
+
+  <defs>
+    <linearGradient id="sky16" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#f4e7c8"/>
+      <stop offset="100%" stop-color="#dcbc74" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat16" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74"/>
+      <stop offset="100%" stop-color="#836021"/>
+    </linearGradient>
+    <linearGradient id="mtn16" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#836021" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow16" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#b5893a" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#b5893a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky16)"/>
+  <circle cx="182" cy="112" r="86" fill="url(#glow16)"/>
+  <circle cx="182" cy="112" r="30" fill="#b5893a" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn16)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn16)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat16)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 206)">
+      <!-- 山体剖面与渠水 -->
+      <path d="M-180 40 L-70 -60 L20 20 L96 -46 L180 40 L180 96 L-180 96 Z" fill="#836021" opacity="0.82"/>
+      <path d="M-180 40 L-70 -60 L20 20 L96 -46 L180 40" fill="none" stroke="#b5893a" stroke-width="3.4"/>
+      <!-- 凿开的明渠暗道 -->
+      <g fill="none" stroke="#fbf5e8" stroke-width="7" stroke-linecap="round" stroke-opacity="0.85">
+        <path d="M-150 62 q70 -22 140 0 t140 -14"/>
+      </g>
+      <g fill="none" stroke="#dcbc74" stroke-width="3" stroke-linecap="round" stroke-opacity="0.85">
+        <path d="M-150 62 q70 -22 140 0 t140 -14"/>
+        <path d="M-134 -30 q60 -20 120 0" stroke-dasharray="8 8"/>
+      </g>
+      <!-- 水轮与禾苗 -->
+      <g transform="translate(-108 24)">
+        <circle r="26" fill="none" stroke="#b5893a" stroke-width="4"/>
+        <circle r="5" fill="#b5893a"/>
+        <g stroke="#b5893a" stroke-width="3">
+          <line x1="-26" y1="0" x2="26" y2="0"/>
+          <line x1="0" y1="-26" x2="0" y2="26"/>
+          <line x1="-18" y1="-18" x2="18" y2="18"/>
+          <line x1="-18" y1="18" x2="18" y2="-18"/>
+        </g>
+      </g>
+      <g transform="translate(122 62)" stroke="#dcbc74" stroke-width="3" fill="none" stroke-linecap="round">
+        <path d="M0 30 L0 -14 M0 4 q-14 -10 -18 -22 M0 -6 q14 -10 18 -22"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">黄鞠</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">隋代水利 · 凿龙腰开霍地</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="鲤鱼溪护鱼习俗 —— 人鱼同乐 · 鱼冢">
+  <title>鲤鱼溪护鱼习俗 · 人鱼同乐 · 鱼冢</title>
+
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#fadad3"/>
+      <stop offset="100%" stop-color="#e5897a" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e5897a"/>
+      <stop offset="100%" stop-color="#8f2f24"/>
+    </linearGradient>
+    <linearGradient id="mtn4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e5897a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8f2f24" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bd4536" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#bd4536" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky4)"/>
+  <circle cx="368" cy="112" r="86" fill="url(#glow4)"/>
+  <circle cx="368" cy="112" r="30" fill="#bd4536" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn4)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn4)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat4)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 224)">
+      <path d="M-150 -14 q150 -34 300 0" fill="none" stroke="#8f2f24" stroke-width="3" stroke-opacity="0.4"/>
+      <g fill="#8f2f24" opacity="0.85">
+        <g transform="translate(-84 10) scale(0.95)">
+          <path d="M-32 0 q22 -20 46 0 q-22 20 -46 0 z"/>
+          <path d="M-32 0 l-16 -12 l4 12 l-4 12 z"/>
+          <circle cx="6" cy="-4" r="3" fill="#fdefec"/>
+        </g>
+        <g transform="translate(10 -14) scale(1.15)">
+          <path d="M-32 0 q22 -20 46 0 q-22 20 -46 0 z"/>
+          <path d="M-32 0 l-16 -12 l4 12 l-4 12 z"/>
+          <circle cx="6" cy="-4" r="3" fill="#fdefec"/>
+        </g>
+        <g transform="translate(102 16) scale(0.88)">
+          <path d="M-32 0 q22 -20 46 0 q-22 20 -46 0 z"/>
+          <path d="M-32 0 l-16 -12 l4 12 l-4 12 z"/>
+          <circle cx="6" cy="-4" r="3" fill="#fdefec"/>
+        </g>
+      </g>
+      <g stroke="#bd4536" stroke-width="2.6" fill="none" stroke-opacity="0.6">
+        <path d="M-140 56 q28 -16 56 0 t56 0 t56 0 t56 0 t56 0"/>
+        <path d="M-130 78 q28 -16 56 0 t56 0 t56 0 t56 0 t56 0" stroke-opacity="0.35"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">鲤鱼溪护鱼习俗</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">人鱼同乐 · 鱼冢</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

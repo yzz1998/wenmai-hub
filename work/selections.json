@@ -1,0 +1,135 @@
+{
+  "_note": "33 条需联网配图条目的最终选用候选。key 为 work/cand 下的目录名，pick 为候选编号。",
+  "HS2-001": {
+    "key": "HS2-001",
+    "pick": "c3"
+  },
+  "HS2-002": {
+    "key": "HS2-002",
+    "pick": "c2"
+  },
+  "HS2-003": {
+    "key": "HS2-003-v2",
+    "pick": "c2"
+  },
+  "HS2-004": {
+    "key": "HS2-004",
+    "pick": "c3"
+  },
+  "HS2-005": {
+    "key": "HS2-005",
+    "pick": "c1"
+  },
+  "HS2-006": {
+    "key": "HS2-006",
+    "pick": "c3"
+  },
+  "HS2-007": {
+    "key": "HS2-007",
+    "pick": "c3"
+  },
+  "HS2-008": {
+    "key": "HS2-008",
+    "pick": "c4"
+  },
+  "HS2-009": {
+    "key": "HS2-009",
+    "pick": "c2"
+  },
+  "HS2-010": {
+    "key": "HS2-010",
+    "pick": "c4"
+  },
+  "HS2-011": {
+    "key": "HS2-011",
+    "pick": "c1"
+  },
+  "HS2-012": {
+    "key": "HS2-012",
+    "pick": "c1"
+  },
+  "HS5-001": {
+    "key": "HS5-001",
+    "pick": "c1"
+  },
+  "HS5-002": {
+    "key": "HS5-002",
+    "pick": "c1"
+  },
+  "HS5-003": {
+    "key": "HS5-003",
+    "pick": "c4"
+  },
+  "HS5-004": {
+    "key": "HS5-004",
+    "pick": "c2"
+  },
+  "HS5-005": {
+    "key": "HS5-005",
+    "pick": "c1"
+  },
+  "HS5-006": {
+    "key": "HS5-006",
+    "pick": "c1"
+  },
+  "HS5-007": {
+    "key": "HS5-007",
+    "pick": "c3"
+  },
+  "HS5-008": {
+    "key": "HS5-008",
+    "pick": "c3"
+  },
+  "HS5-009": {
+    "key": "HS5-009",
+    "pick": "c3"
+  },
+  "HS5-010": {
+    "key": "HS5-010",
+    "pick": "c1"
+  },
+  "HS5-011": {
+    "key": "HS5-011",
+    "pick": "c1"
+  },
+  "HS5-012": {
+    "key": "HS5-012",
+    "pick": "c1"
+  },
+  "HS5-013": {
+    "key": "HS5-013",
+    "pick": "c1"
+  },
+  "SHE-LANG-01": {
+    "key": "SHE-LANG-01",
+    "pick": "c2"
+  },
+  "SHE-LANG-02": {
+    "key": "SHE-LANG-02",
+    "pick": "c3"
+  },
+  "SHE-LANG-03": {
+    "key": "SHE-LANG-03",
+    "pick": "c2"
+  },
+  "SHE-LANG-04": {
+    "key": "SHE-LANG-04",
+    "pick": "c1"
+  },
+  "SHE-FESTIVAL-02": {
+    "key": "SHE-FESTIVAL-02",
+    "pick": "c1"
+  },
+  "SHE-CRAFT-04": {
+    "key": "SHE-CRAFT-04",
+    "pick": "c2"
+  },
+  "SHE-ARCHIVE-01": {
+    "key": "SHE-ARCHIVE-01-v2",
+    "pick": "c1"
+  },
+  "SHE-RIBBON-05": {
+    "key": "SHE-RIBBON-05",
+    "pick": "c1"
+  }
+}

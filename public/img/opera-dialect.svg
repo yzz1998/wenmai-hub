@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="闽东语（福宁片） —— 福安话 · 戚林八音">
+  <title>闽东语（福宁片） · 福安话 · 戚林八音</title>
+
+  <defs>
+    <linearGradient id="sky11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d5e3ef"/>
+      <stop offset="100%" stop-color="#89aecd" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd"/>
+      <stop offset="100%" stop-color="#264a6b"/>
+    </linearGradient>
+    <linearGradient id="mtn11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#264a6b" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow11" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#37648c" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#37648c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky11)"/>
+  <circle cx="182" cy="112" r="86" fill="url(#glow11)"/>
+  <circle cx="182" cy="112" r="30" fill="#37648c" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn11)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn11)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat11)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 210)">
+      <!-- 声母韵母字盘 -->
+      <g fill="none" stroke="#264a6b" stroke-width="2.4" stroke-opacity="0.28">
+        <circle r="104"/>
+        <circle r="76"/>
+      </g>
+      <g font-family="serif" font-size="24" font-weight="700" text-anchor="middle">
+        <text x="-104" y="-94" fill="#264a6b" opacity="0.9">柳</text><text x="-30" y="-122" fill="#37648c" opacity="0.86">边</text><text x="58" y="-108" fill="#264a6b" opacity="0.8200000000000001">求</text><text x="116" y="-44" fill="#37648c" opacity="0.78">气</text><text x="112" y="44" fill="#264a6b" opacity="0.74">低</text><text x="58" y="108" fill="#37648c" opacity="0.7">波</text><text x="-30" y="122" fill="#264a6b" opacity="0.66">他</text><text x="-104" y="92" fill="#37648c" opacity="0.62">曾</text><text x="-126" y="8" fill="#264a6b" opacity="0.5800000000000001">日</text><text x="-126" y="-44" fill="#37648c" opacity="0.54">时</text>
+      </g>
+      <circle r="30" fill="#264a6b" opacity="0.9"/>
+      <text y="8" font-family="serif" font-size="22" font-weight="700" fill="#eef3f8" text-anchor="middle">八音</text>
+      <!-- 声调曲线 -->
+      <g fill="none" stroke="#37648c" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7">
+        <path d="M-176 -132 l28 -10 M-176 -108 l28 6 M-176 -84 l28 -18"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">闽东语（福宁片）</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">福安话 · 戚林八音</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

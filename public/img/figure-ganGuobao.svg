@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="甘国宝 —— 两度戍台 · 万民伞">
+  <title>甘国宝 · 两度戍台 · 万民伞</title>
+
+  <defs>
+    <linearGradient id="sky15" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#f4e7c8"/>
+      <stop offset="100%" stop-color="#dcbc74" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat15" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74"/>
+      <stop offset="100%" stop-color="#836021"/>
+    </linearGradient>
+    <linearGradient id="mtn15" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#836021" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow15" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#b5893a" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#b5893a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky15)"/>
+  <circle cx="120" cy="112" r="86" fill="url(#glow15)"/>
+  <circle cx="120" cy="112" r="30" fill="#b5893a" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn15)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn15)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat15)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 208)">
+      <!-- 海防城台 -->
+      <g transform="translate(-92 40)">
+        <rect x="-84" y="-62" width="168" height="72" fill="#b5893a" opacity="0.88"/>
+        <g fill="#836021">
+          <rect x="-84" y="-76" width="24" height="16" rx="3"/><rect x="-48" y="-76" width="24" height="16" rx="3"/><rect x="-12" y="-76" width="24" height="16" rx="3"/><rect x="24" y="-76" width="24" height="16" rx="3"/><rect x="60" y="-76" width="24" height="16" rx="3"/>
+        </g>
+        <rect x="-96" y="10" width="192" height="13" rx="5" fill="#836021"/>
+        <path d="M-18 10 l0 -34 q18 -16 36 0 l0 34 z" fill="#836021" opacity="0.7"/>
+      </g>
+      <!-- 万民伞 -->
+      <g transform="translate(104 -30)">
+        <path d="M0 -52 q-70 12 -70 46 q70 -14 140 0 q0 -34 -70 -46 z" fill="#b5893a"/>
+        <path d="M0 -52 q-70 12 -70 46 q70 -14 140 0 q0 -34 -70 -46 z" fill="none" stroke="#836021" stroke-width="3"/>
+        <line x1="0" y1="-52" x2="0" y2="64" stroke="#836021" stroke-width="4" stroke-linecap="round"/>
+        <g stroke="#836021" stroke-width="2" stroke-opacity="0.5">
+          <line x1="-46" y1="-35" x2="-46" y2="-8"/>
+          <line x1="0" y1="-52" x2="0" y2="-4"/>
+          <line x1="46" y1="-35" x2="46" y2="-8"/>
+        </g>
+      </g>
+      <g fill="none" stroke="#dcbc74" stroke-width="3" stroke-linecap="round" stroke-opacity="0.55">
+        <path d="M-160 96 q40 -18 80 0 t80 0 t80 0 t80 0"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">甘国宝</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">两度戍台 · 万民伞</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

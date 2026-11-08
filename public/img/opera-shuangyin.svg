@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="畲族民歌「双音」 —— 二声部山歌 · 口头百科全书">
+  <title>畲族民歌「双音」 · 二声部山歌 · 口头百科全书</title>
+
+  <defs>
+    <linearGradient id="sky10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d5e3ef"/>
+      <stop offset="100%" stop-color="#89aecd" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd"/>
+      <stop offset="100%" stop-color="#264a6b"/>
+    </linearGradient>
+    <linearGradient id="mtn10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#264a6b" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow10" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#37648c" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#37648c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky10)"/>
+  <circle cx="120" cy="112" r="86" fill="url(#glow10)"/>
+  <circle cx="120" cy="112" r="30" fill="#37648c" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn10)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn10)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat10)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 206)">
+      <circle r="82" fill="#37648c" opacity="0.09"/>
+      <!-- 两个声部：高低对应的波形 -->
+      <g fill="none" stroke-linecap="round" stroke-width="3.4">
+        <path d="M-140 40 q14 -66 28 0 t28 0 t28 0 t28 0" stroke="#264a6b"/>
+        <path d="M-140 40 q14 -34 28 0 t28 0 t28 0 t28 0" stroke="#37648c" stroke-opacity="0.75"/>
+      </g>
+      <!-- 两位歌者 -->
+      <g transform="translate(-70 -36)">
+        <circle cy="-24" r="15" fill="#264a6b"/>
+        <path d="M-22 0 q22 -14 44 0 l6 46 h-56 z" fill="#264a6b"/>
+        <path d="M-24 -24 q-16 -14 -22 -34" stroke="#37648c" stroke-width="3" fill="none" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(70 -24)">
+        <circle cy="-24" r="15" fill="#37648c"/>
+        <path d="M-22 0 q22 -14 44 0 l6 46 h-56 z" fill="#37648c"/>
+        <path d="M24 -24 q16 -14 22 -34" stroke="#264a6b" stroke-width="3" fill="none" stroke-linecap="round"/>
+      </g>
+      <!-- 声部标识 -->
+      <g font-family="serif" font-size="17" font-weight="700" fill="#264a6b" opacity="0.65" text-anchor="middle">
+        <text x="-140" y="-96">高</text>
+        <text x="140" y="-112">低</text>
+      </g>
+      <g stroke="#264a6b" stroke-width="2.5" stroke-opacity="0.3" stroke-dasharray="5 7">
+        <line x1="-116" y1="-104" x2="116" y2="-120"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">畲族民歌「双音」</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">二声部山歌 · 口头百科全书</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

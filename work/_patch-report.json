@@ -1,0 +1,219 @@
+[
+ {
+  "id": "SHE-LANG-01",
+  "file": "she.json",
+  "replaced": true,
+  "credit": "k.sina.cn",
+  "note": "闽东畲族山村与梯田全景"
+ },
+ {
+  "id": "SHE-LANG-02",
+  "file": "she.json",
+  "replaced": true,
+  "credit": "政府网站",
+  "note": "「官畲」村门楼——族称落在村名标识上"
+ },
+ {
+  "id": "SHE-LANG-03",
+  "file": "she.json",
+  "replaced": true,
+  "credit": "政府网站",
+  "note": "清·畲族红漆描金龙首木祖杖（闽东畲族博物馆藏）"
+ },
+ {
+  "id": "SHE-LANG-04",
+  "file": "she.json",
+  "replaced": true,
+  "credit": "人民网",
+  "note": "畲族山歌对唱（人民网）——避免与闽东「畲族歌言」条目同图"
+ },
+ {
+  "id": "SHE-FESTIVAL-02",
+  "file": "she.json",
+  "replaced": true,
+  "credit": "k.sina.com.cn",
+  "note": "畲族迎亲队伍：唢呐、花轿与披红的牛——与闽东「畲族婚俗」条目换用不同照片"
+ },
+ {
+  "id": "SHE-CRAFT-04",
+  "file": "she.json",
+  "replaced": true,
+  "credit": "宁德网",
+  "note": "木拱廊桥与溪面倒影"
+ },
+ {
+  "id": "HS2-001",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "k.sina.com.cn",
+  "note": "露天采矿场航拍——自然资源的实物形态"
+ },
+ {
+  "id": "HS2-002",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "cn.sungrowpower.com",
+  "note": "风电场与光伏阵列——可再生资源的利用形态"
+ },
+ {
+  "id": "HS2-003",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "k.sina.com.cn",
+  "note": "湿地蜿蜒水系航拍——自然资源的整体性"
+ },
+ {
+  "id": "HS2-004",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "wenhui.whb.cn",
+  "note": "高校科研实验室——社会资源中的知识与人力"
+ },
+ {
+  "id": "HS2-005",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "k.sina.cn",
+  "note": "大庆油田抽油机群——能源依赖链的起点"
+ },
+ {
+  "id": "HS2-006",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "news.sina.cn",
+  "note": "地铁站早高峰人流——人口与资源压力的直观呈现"
+ },
+ {
+  "id": "HS2-007",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "xcmg.com",
+  "note": "露天矿场重型卡车作业——不可再生资源的开采强度"
+ },
+ {
+  "id": "HS2-008",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "csteelnews.com",
+  "note": "钢铁厂高炉与烟囱全景——排放与工业污染"
+ },
+ {
+  "id": "HS2-009",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "uux.cn",
+  "note": "NASA「蓝色弹珠」地球照（1972，阿波罗17号）——全球议程的视觉符号"
+ },
+ {
+  "id": "HS2-010",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "中国网",
+  "note": "湿地白鹭群——生态底线与生物多样性"
+ },
+ {
+  "id": "HS2-011",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "政府网站",
+  "note": "再生资源回收站内打包的回收物——资源化的实体环节"
+ },
+ {
+  "id": "HS2-012",
+  "file": "hs-ch2.json",
+  "replaced": true,
+  "credit": "cpanet.org.cn",
+  "note": "塞罕坝林海与草甸——生态修复的国家实践"
+ },
+ {
+  "id": "HS5-001",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "政府网站",
+  "note": "寿春城遗址考古探方——城邑遗址的发掘现场"
+ },
+ {
+  "id": "HS5-002",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "k.sina.cn",
+  "note": "广州珠江新城建筑群夜景——大都市区的集聚形态"
+ },
+ {
+  "id": "HS5-003",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "eeo.com.cn",
+  "note": "密集高层住宅群——城市化的空间密度"
+ },
+ {
+  "id": "HS5-004",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "k.sina.com.cn",
+  "note": "郊区新城住宅与湖面——城市向外扩张的形态"
+ },
+ {
+  "id": "HS5-005",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "travel.ifeng.com",
+  "note": "上海陆家嘴天际线——中国城镇化的速度与高度"
+ },
+ {
+  "id": "HS5-006",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "3w.huanqiu.com",
+  "note": "北京国贸桥晚高峰车流——城市问题的典型场景"
+ },
+ {
+  "id": "HS5-007",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "jiu.ifeng.com",
+  "note": "哈尼梯田稻作景观——农业起源后的耕作形态"
+ },
+ {
+  "id": "HS5-008",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "linwuxinwen.cn",
+  "note": "水牛犁田的传统耕作场景"
+ },
+ {
+  "id": "HS5-009",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "ctdsb.net",
+  "note": "联合收割机在麦田作业——农业机械化"
+ },
+ {
+  "id": "HS5-010",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "新华网",
+  "note": "福建传统村落土墙老屋街巷"
+ },
+ {
+  "id": "HS5-011",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "jl.ifeng.com",
+  "note": "工业遗产公园中的老式蒸汽机车"
+ },
+ {
+  "id": "HS5-012",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "xchuxing.com",
+  "note": "汽车工厂机器人焊装线——「用机器生产机器」"
+ },
+ {
+  "id": "HS5-013",
+  "file": "hs-ch5.json",
+  "replaced": true,
+  "credit": "news.jstv.com",
+  "note": "航拍村落与远处城镇——城乡交界的空间对照"
+ }
+]

@@ -1,0 +1,28 @@
+node_modules/
+dist/
+dist-single/
+.deploy/
+.deploy2/
+# EdgeOne 部署暂存目录：是 dist 的整份副本（170MB+），不随源码入库
+.edgeone/
+# 打包/导出的 zip（曾有一份 347MB 的整站压缩包）
+*.zip
+
+# 一次性核查的原始 dump（几百 KB 到 2MB，可随时重跑生成）
+work/_verify-raw.json
+
+# 检索阶段的候选图池与拼版缓存（可随时重建，不入库）
+.img-staging/
+work/cand/
+work/sheet/
+work/shots/
+work/fixtures/
+
+# 环境变量：含 DEEPSEEK_API_KEY，绝不入库
+.env
+.env.local
+.env.*.local
+
+# 系统与日志
+.DS_Store
+*.log

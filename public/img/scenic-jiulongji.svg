@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="九龙漈瀑布 —— 奇绝飞瀑 · 生态画廊">
+  <title>九龙漈瀑布 · 奇绝飞瀑 · 生态画廊</title>
+
+  <defs>
+    <linearGradient id="sky38" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#f6e7d2"/>
+      <stop offset="100%" stop-color="#e3bd8d" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat38" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e3bd8d"/>
+      <stop offset="100%" stop-color="#966532"/>
+    </linearGradient>
+    <linearGradient id="mtn38" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e3bd8d" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#966532" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow38" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#c98f4d" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#c98f4d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky38)"/>
+  <circle cx="306" cy="112" r="86" fill="url(#glow38)"/>
+  <circle cx="306" cy="112" r="30" fill="#c98f4d" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn38)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn38)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat38)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 212)">
+      <!-- 多级叠瀑 -->
+      <g fill="#966532" opacity="0.8">
+        <path d="M-176 -70 L-120 -70 L-120 6 L-176 6 Z"/>
+        <path d="M176 -70 L120 -70 L120 6 L176 6 Z"/>
+      </g>
+      <g fill="#c98f4d">
+        <path d="M-120 -70 L-118 10 L-86 26 L-88 -70 Z" opacity="0.85"/>
+        <path d="M120 -70 L118 10 L86 26 L88 -70 Z" opacity="0.85"/>
+      </g>
+      <!-- 三层瀑布 -->
+      <g fill="#e3bd8d">
+        <path d="M-64 -70 L-64 -6 L-20 -6 L-20 -70 Z" opacity="0.9"/>
+        <path d="M-84 6 L-84 58 L-16 58 L-16 6 L-40 22 L-64 6 Z" opacity="0.8"/>
+        <path d="M-104 70 L-104 108 L8 108 L8 70 L-48 88 Z" opacity="0.7"/>
+      </g>
+      <g fill="#fdf6ec" opacity="0.55">
+        <path d="M-64 -70 L-64 -6 L-52 -6 L-52 -70 Z"/>
+        <path d="M-84 6 L-84 22 L-40 6 L-52 6 Z"/>
+      </g>
+      <!-- 水花 -->
+      <g fill="#fdf6ec" opacity="0.8">
+        <circle cx="-96" cy="112" r="6"/>
+        <circle cx="-70" cy="118" r="4.4"/>
+        <circle cx="-40" cy="114" r="5.4"/>
+        <circle cx="-14" cy="120" r="3.6"/>
+      </g>
+      <!-- 峡谷岩石 -->
+      <g fill="#966532">
+        <path d="M-176 60 L-114 40 L-104 74 L-176 96 Z" opacity="0.7"/>
+        <path d="M176 60 L114 40 L104 74 L176 96 Z" opacity="0.7"/>
+      </g>
+      <!-- 树木 -->
+      <g transform="translate(140 -20)" stroke="#966532" stroke-width="3.4" fill="none" stroke-linecap="round">
+        <path d="M0 40 L0 -8"/>
+        <path d="M0 -8 q-26 -12 -32 -30 M0 -8 q26 -12 32 -30 M0 -8 q-12 -24 -8 -42 M0 -8 q12 -24 8 -42"/>
+      </g>
+      <!-- 鸳鸯（鲤鱼溪联动元素） -->
+      <g transform="translate(-140 76)" fill="#c98f4d">
+        <ellipse rx="18" ry="11"/>
+        <circle cx="14" cy="-10" r="7"/>
+        <path d="M-18 0 l-12 -8 l2 8 l-2 8 z"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">九龙漈瀑布</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">奇绝飞瀑 · 生态画廊</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

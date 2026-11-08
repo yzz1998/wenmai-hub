@@ -1,0 +1,2038 @@
+{
+ "entries": [
+  {
+   "id": "SHE-LANG-01",
+   "collection": "she",
+   "sourceId": "lang-1",
+   "title": "畲族民族概况与畲语",
+   "subtitle": "民族志 · 官方档案",
+   "summary": "畲语属汉藏语系，与客家方言接近；畲族没有本民族文字，通用汉文。全族自称「山哈」，意为山里的客人。",
+   "body": [
+    "畲族总人口约 70 万（2010 年人口普查），散居于闽、浙、赣、粤、黔、皖、湘七省 80 余县的山地，其中九成以上聚居在福建、浙江山区。",
+    "畲语归属汉藏语系，可分为两支：绝大部分畲族使用接近汉语客家方言的「山哈话」；而广东博罗、增城等地极少数畲族使用接近瑶族布努语的苗语支畲语。畲族无本民族文字，历史上依赖宗谱、歌本与口头传唱记载历史。"
+   ],
+   "tags": [
+    "畲语",
+    "山哈",
+    "汉藏语系",
+    "七省散居"
+   ],
+   "category": "lang",
+   "region": "语言文化区",
+   "era": "活态传承",
+   "level": "文字 · 官方档案",
+   "media": [],
+   "source": "江西省民宗局",
+   "sourceUrl": "https://mzj.jiangxi.gov.cn/jxsmzzjswj/col/col37747/content/content_1766139376231444480.html",
+   "links": [
+    [
+     "江西省民宗局",
+     "https://mzj.jiangxi.gov.cn/jxsmzzjswj/col/col37747/content/content_1766139376231444480.html"
+    ]
+   ],
+   "facets": {
+    "zone": "语言文化区",
+    "type": "文字 · 官方档案",
+    "art": "phoenix",
+    "photoCount": 0
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-LANG-02",
+   "collection": "she",
+   "sourceId": "lang-2",
+   "title": "从「畲」字看一个民族的命名",
+   "subtitle": "文字溯源 · 央视专题",
+   "summary": "「畲」意为刀耕火种。南宋末年它才被用作族称，元代后固定，新中国成立后正式定名畲族。",
+   "body": [
+    "「畲」字本义为开垦火种后的田地，引申为刀耕火种。早在春秋已见其字，南宋末年始用作民族名称，时见「畲民」「輋民」。元代以来「畲民」逐渐成为专称。中华人民共和国成立后，正式把畲族确定为统一民族名称。",
+    "畲族自称「山哈」「山达」，哈、达在畲语中意为「客人」，山哈即「山里人 / 山里的客人」，此称不见于史书，却在民间普遍流传，透露了这个民族与山的血脉联系。"
+   ],
+   "tags": [
+    "畲字",
+    "族称",
+    "刀耕火种",
+    "山哈"
+   ],
+   "category": "lang",
+   "region": "语言文化区",
+   "era": "活态传承",
+   "level": "文字 · 历史",
+   "media": [],
+   "source": "央视网·字里拾遗",
+   "sourceUrl": "https://www.ihchina.cn/project_details/24906",
+   "links": [
+    [
+     "央视网·字里拾遗",
+     "https://www.ihchina.cn/project_details/24906"
+    ]
+   ],
+   "facets": {
+    "zone": "语言文化区",
+    "type": "文字 · 历史",
+    "art": "weave",
+    "photoCount": 0
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-LANG-03",
+   "collection": "she",
+   "sourceId": "lang-3",
+   "title": "盘蓝雷钟 · 畲族姓氏与宗谱",
+   "subtitle": "宗族 · 谱牒传统",
+   "summary": "畲族以盘、蓝、雷、钟四姓为血缘纽带，聚族而居。祠堂与宗谱是「无字民族」书写历史的另一种方式。",
+   "body": [
+    "畲族宗族结构分「总祠—同姓宗祠—房—家庭」四层，同姓相聚而居。民间认为蓝、雷、钟三姓本是一家，珍藏的清代宗谱多附盘、蓝、雷、钟四姓血脉相承的图表。",
+    "畲家有「五世不修谱，乃祖宗之罪人」之说，宗谱一般约二十年一修，是研究民族迁徙与家族史的核心文献。人丁入谱按行第排列，循环使用「念、大、小、百、千、万」等字。"
+   ],
+   "tags": [
+    "四姓",
+    "宗谱",
+    "祠堂",
+    "迁徙记忆"
+   ],
+   "category": "lang",
+   "region": "语言文化区",
+   "era": "活态传承",
+   "level": "文字 · 民俗",
+   "media": [],
+   "source": "央视网·民族专题",
+   "sourceUrl": "https://news.cctv.com/special/C16295/20060826/102147.shtml",
+   "links": [
+    [
+     "央视网·民族专题",
+     "https://news.cctv.com/special/C16295/20060826/102147.shtml"
+    ]
+   ],
+   "facets": {
+    "zone": "语言文化区",
+    "type": "文字 · 民俗",
+    "art": "pattern",
+    "photoCount": 0
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-LANG-04",
+   "collection": "she",
+   "sourceId": "lang-4",
+   "title": "以歌为言 · 无文字的口传传统",
+   "subtitle": "文化与载体",
+   "summary": "畲族把山歌称作「歌言」，以歌代说、以歌传情、以歌达意，一部完整的小说歌集就是一部畲族的历史。",
+   "body": [
+    "在没有文字的长久岁月里，畲族用歌谣记史、记人、记事。山歌覆盖叙事（神话传说歌、小说歌）、杂歌（爱情、劳动、伦理、娱乐）、仪式歌（婚仪歌、祭祖歌、功德歌）三大类。",
+    "这种口传传统使畲族文学高度发达——小说歌、高皇歌等长篇史诗，正是畲族「以歌为史」智慧的结晶，也催生了本馆「歌舞视听厅」与「文史典籍库」的展陈脉络。"
+   ],
+   "tags": [
+    "歌言",
+    "口传",
+    "史诗",
+    "无文字"
+   ],
+   "category": "lang",
+   "region": "语言文化区",
+   "era": "活态传承",
+   "level": "文字 · 概念",
+   "media": [],
+   "source": "福建省艺术馆",
+   "sourceUrl": "https://www.fjysg.net/portal/feiyi/read?id=27&nid=28",
+   "links": [
+    [
+     "福建省艺术馆",
+     "https://www.fjysg.net/portal/feiyi/read?id=27&nid=28"
+    ]
+   ],
+   "facets": {
+    "zone": "语言文化区",
+    "type": "文字 · 概念",
+    "art": "music",
+    "photoCount": 0
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CLOTH-01",
+   "collection": "she",
+   "sourceId": "cloth-1",
+   "title": "凤凰装 · 穿在身上的图腾",
+   "subtitle": "国家级非遗 · 代表服饰",
+   "summary": "凤冠为头、绣衣为身、垂带为尾、银铃为鸣——畲族女性一生最重要的礼服，便是这套将凤凰穿在身上的「凤凰装」。",
+   "body": [
+    "畲族视凤凰为吉祥与尊贵，凤凰装是畲族女性的标志性盛装。它由上衣、裙、围身裙、脚绑、鞋五部分，与凤凰冠及全套银饰组成。",
+    "其符号系统完整而浪漫：头顶盘髻、戴凤冠喻「凤头」；衣领、袖口、围裙绣大红桃红花边、以金银线勾勒喻「凤羽」；后腰垂下金黄或彩色花带（合手巾带）喻「凤尾」；周身悬挂银饰，行走时叮当作响喻「凤鸣」。罗源式凤凰装 1975 年被国家民委指定为全国畲族女性代表装，2008 年畲族服饰列入国家级非物质文化遗产名录。"
+   ],
+   "tags": [
+    "凤凰装",
+    "凤冠",
+    "国家级非遗",
+    "罗源"
+   ],
+   "category": "cloth",
+   "region": "服饰展区",
+   "era": "活态传承",
+   "level": "文字 · 图片",
+   "media": [
+    {
+     "src": "img/she/cloth/p001-thumb.jpg",
+     "full": "img/she/cloth/p001-full.jpg",
+     "kind": "photo",
+     "credit": "通讯员 刘其燚 / 福建日报",
+     "alt": "凤凰装 · 穿在身上的图腾"
+    },
+    {
+     "src": "img/she/cloth/p002-thumb.jpg",
+     "full": "img/she/cloth/p002-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "凤凰装 · 穿在身上的图腾"
+    },
+    {
+     "src": "img/she/cloth/p003-thumb.jpg",
+     "full": "img/she/cloth/p003-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "凤凰装 · 穿在身上的图腾"
+    },
+    {
+     "src": "img/she/cloth/p004-thumb.jpg",
+     "full": "img/she/cloth/p004-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "凤凰装 · 穿在身上的图腾"
+    },
+    {
+     "src": "img/she/cloth/p005-thumb.jpg",
+     "full": "img/she/cloth/p005-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "凤凰装 · 穿在身上的图腾"
+    },
+    {
+     "src": "img/she/cloth/p006-thumb.jpg",
+     "full": "img/she/cloth/p006-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "凤凰装 · 穿在身上的图腾"
+    }
+   ],
+   "source": "罗源凤凰装专题",
+   "sourceUrl": "https://so.html5.qq.com/page/real/search_news?docid=70000021_12068dd0c1269552",
+   "links": [
+    [
+     "罗源凤凰装专题",
+     "https://so.html5.qq.com/page/real/search_news?docid=70000021_12068dd0c1269552"
+    ]
+   ],
+   "facets": {
+    "zone": "服饰展区",
+    "type": "文字 · 图片",
+    "art": "dress",
+    "photoCount": 6
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CLOTH-02",
+   "collection": "she",
+   "sourceId": "cloth-2",
+   "title": "三种凤凰装 · 福鼎式 / 霞浦式 / 福安式",
+   "subtitle": "地方差异 · 刺绣谱系",
+   "summary": "同一套凤凰装的想象，在不同地域长出各自的花纹：福鼎的红绒球、霞浦的两面翻、福安的老虎牙。",
+   "body": [
+    "畲族女装虽有共通内核，但各地形成了鲜明的地方样式：",
+    "· 福鼎式（福宁东路装）：大领小领，多用水红、水绿作底加绣，领口缀红绒球与料珠，即「杨梅花」。\n· 霞浦式（福宁西路装）：前后衣片等长，可两面翻穿，服斗刺绣集中在上角，按绣花组数称「一红衣」「三红衣」。\n· 福安式：纹样较简，领上饰水红黄绿虎牙纹，服斗镶红布边。",
+    "此外盘髻亦有讲究——已婚妇女梳「盘龙髻」又称凤凰髻，顶部压银簪，霞浦式尤见繁复工艺。"
+   ],
+   "tags": [
+    "福鼎式",
+    "霞浦式",
+    "福安式",
+    "盘龙髻"
+   ],
+   "category": "cloth",
+   "region": "服饰展区",
+   "era": "活态传承",
+   "level": "文字 · 图志",
+   "media": [
+    {
+     "src": "img/she/cloth/p007-thumb.jpg",
+     "full": "img/she/cloth/p007-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "三种凤凰装 · 福鼎式 / 霞浦式 / 福安式"
+    },
+    {
+     "src": "img/she/cloth/p008-thumb.jpg",
+     "full": "img/she/cloth/p008-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "三种凤凰装 · 福鼎式 / 霞浦式 / 福安式"
+    },
+    {
+     "src": "img/she/cloth/p009-thumb.jpg",
+     "full": "img/she/cloth/p009-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "三种凤凰装 · 福鼎式 / 霞浦式 / 福安式"
+    },
+    {
+     "src": "img/she/cloth/p010-thumb.jpg",
+     "full": "img/she/cloth/p010-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "三种凤凰装 · 福鼎式 / 霞浦式 / 福安式"
+    },
+    {
+     "src": "img/she/cloth/p011-thumb.jpg",
+     "full": "img/she/cloth/p011-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "三种凤凰装 · 福鼎式 / 霞浦式 / 福安式"
+    },
+    {
+     "src": "img/she/cloth/p012-thumb.jpg",
+     "full": "img/she/cloth/p012-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "三种凤凰装 · 福鼎式 / 霞浦式 / 福安式"
+    }
+   ],
+   "source": "央视网·服饰详录",
+   "sourceUrl": "https://news.cctv.com/special/C16295/20060826/102147.shtml",
+   "links": [
+    [
+     "央视网·服饰详录",
+     "https://news.cctv.com/special/C16295/20060826/102147.shtml"
+    ]
+   ],
+   "facets": {
+    "zone": "服饰展区",
+    "type": "文字 · 图志",
+    "art": "dress",
+    "photoCount": 6
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CLOTH-03",
+   "collection": "she",
+   "sourceId": "cloth-3",
+   "title": "畲族男装与「钱吊」",
+   "subtitle": "日常 · 礼服",
+   "summary": "畲族男子日常着青蓝色大襟苎麻衫，出门做客则穿「钱吊」，衣襟间藏着行走山间的生计。",
+   "body": [
+    "畲族男子传统服装多为青黑或蓝色。夏穿大襟苎布衫，用耐咸耐磨、通风透气的苎麻布缝制，分长袖、短褂两种；冬穿棉布大襟衫，老人加穿夹袄或棉袄。",
+    "出门做客时穿「钱吊」，形同背心，中间开襟，两边腰间各有口袋以藏钱物；婚礼礼服为黑缎官帽、青色绣花长衫配青靴。"
+   ],
+   "tags": [
+    "男装",
+    "苎麻布",
+    "钱吊",
+    "礼服"
+   ],
+   "category": "cloth",
+   "region": "服饰展区",
+   "era": "活态传承",
+   "level": "文字 · 服饰志",
+   "media": [
+    {
+     "src": "img/she/cloth/p013-thumb.jpg",
+     "full": "img/she/cloth/p013-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲族男装与「钱吊」"
+    },
+    {
+     "src": "img/she/cloth/p014-thumb.jpg",
+     "full": "img/she/cloth/p014-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲族男装与「钱吊」"
+    },
+    {
+     "src": "img/she/cloth/p015-thumb.jpg",
+     "full": "img/she/cloth/p015-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲族男装与「钱吊」"
+    },
+    {
+     "src": "img/she/cloth/p016-thumb.jpg",
+     "full": "img/she/cloth/p016-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲族男装与「钱吊」"
+    }
+   ],
+   "source": "央视网·服饰详录",
+   "sourceUrl": "https://news.cctv.com/special/C16295/20060826/102147.shtml",
+   "links": [
+    [
+     "央视网·服饰详录",
+     "https://news.cctv.com/special/C16295/20060826/102147.shtml"
+    ]
+   ],
+   "facets": {
+    "zone": "服饰展区",
+    "type": "文字 · 服饰志",
+    "art": "cloth",
+    "photoCount": 4
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CLOTH-04",
+   "collection": "she",
+   "sourceId": "cloth-4",
+   "title": "畲绣与凤凰纹饰",
+   "subtitle": "非遗工艺 · 传统美术",
+   "summary": "银针走彩线，畲族妇女以刺绣在衣缘袖口织入对生活的祈愿——凤凰、花鸟、几何纹层层叠叠。",
+   "body": [
+    "畲族服饰刺绣是承载凤凰装精美视觉的核心工艺，福建畲族地区设有专门的传统服饰刺绣非遗项目。绣样以凤凰、花鸟与几何纹为主，色彩大胆而协调，讲究「黑青喻大地群山，红黄蓝喻花与天空」。",
+    "畲族是我国少数民族中唯一系统性在服装上运用凤凰纹样的民族，每一件绣品都是母亲与少女们以针线写下的无声祝福。"
+   ],
+   "tags": [
+    "畲绣",
+    "凤凰纹",
+    "传统美术",
+    "霞浦"
+   ],
+   "category": "cloth",
+   "region": "服饰展区",
+   "era": "活态传承",
+   "level": "文字 · 工艺",
+   "media": [
+    {
+     "src": "img/she/cloth/p006-thumb.jpg",
+     "full": "img/she/cloth/p006-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲绣与凤凰纹饰"
+    },
+    {
+     "src": "img/she/cloth/p012-thumb.jpg",
+     "full": "img/she/cloth/p012-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲绣与凤凰纹饰"
+    },
+    {
+     "src": "img/she/cloth/p017-thumb.jpg",
+     "full": "img/she/cloth/p017-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲绣与凤凰纹饰"
+    },
+    {
+     "src": "img/she/cloth/p018-thumb.jpg",
+     "full": "img/she/cloth/p018-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲绣与凤凰纹饰"
+    },
+    {
+     "src": "img/she/cloth/p019-thumb.jpg",
+     "full": "img/she/cloth/p019-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲绣与凤凰纹饰"
+    },
+    {
+     "src": "img/she/cloth/p002-thumb.jpg",
+     "full": "img/she/cloth/p002-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲绣与凤凰纹饰"
+    }
+   ],
+   "source": "宁德非遗名录",
+   "sourceUrl": "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm",
+   "links": [
+    [
+     "宁德非遗名录",
+     "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "服饰展区",
+    "type": "文字 · 工艺",
+    "art": "pattern",
+    "photoCount": 6
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-MUSIC-01",
+   "collection": "she",
+   "sourceId": "music-1",
+   "title": "畲族民歌（国家级非遗）",
+   "subtitle": "传统音乐 · Ⅱ-7",
+   "summary": "不论男女老少大都善歌——畲族民歌是传史、记事、传情、娱乐的多功能载体，其曲调分山歌调与师公调两大类。",
+   "body": [
+    "畲族民歌于 2006 年列入第一批国家级非遗名录（Ⅱ-7，申报地福建宁德）。",
+    "按内容分叙事歌（含神话传说歌与小说歌）、杂歌（爱情、劳动、传授知识、伦理、娱乐）、仪式歌（婚仪歌、祭祖歌、功德歌）；曲调分山歌调（福宁、福鼎、霞浦、罗连、丽水、景宁、龙泉、文成等调）与师公调。",
+    "畲族山歌多用假声演唱，有平讲调、假声唱、放高音三种唱法。宁德北部还存一种罕见的「双音」——男女二人同词演唱，形成支声、模仿或和音关系。"
+   ],
+   "tags": [
+    "畲族民歌",
+    "国家级非遗",
+    "假声",
+    "山歌调"
+   ],
+   "category": "music",
+   "region": "歌舞视听厅",
+   "era": "活态传承",
+   "level": "文字 · 音频线索",
+   "media": [
+    {
+     "src": "img/she/dance/p020-thumb.jpg",
+     "full": "img/she/dance/p020-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族民歌（国家级非遗）"
+    },
+    {
+     "src": "img/she/dance/p021-thumb.jpg",
+     "full": "img/she/dance/p021-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族民歌（国家级非遗）"
+    },
+    {
+     "src": "img/she/dance/p022-thumb.jpg",
+     "full": "img/she/dance/p022-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族民歌（国家级非遗）"
+    },
+    {
+     "src": "img/she/dance/p023-thumb.jpg",
+     "full": "img/she/dance/p023-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族民歌（国家级非遗）"
+    }
+   ],
+   "source": "国家非遗网",
+   "sourceUrl": "https://www.ihchina.cn/Article/Index/detail?id=12418",
+   "links": [
+    [
+     "国家非遗网",
+     "https://www.ihchina.cn/Article/Index/detail?id=12418"
+    ]
+   ],
+   "facets": {
+    "zone": "歌舞视听厅",
+    "type": "文字 · 音频线索",
+    "art": "music",
+    "photoCount": 4
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-MUSIC-02",
+   "collection": "she",
+   "sourceId": "music-2",
+   "title": "畲族「双音」与央视春晚",
+   "subtitle": "二声部 · 罕见唱法",
+   "summary": "二人同词、支声相和——畲族双音在民歌世界中罕见，2022 年更登上央视春晚舞台，让全国听见山哈之声。",
+   "body": [
+    "畲族双音流行于福建宁德蕉城一带，由男女二人用同一歌词演唱，两条旋律形成支声式、模仿式或和音式关系，在畲族及全国少数民族民间音乐中都属罕见。",
+    "2022 年，「畲族双音」登上央视春晚，成为畲族歌谣走向全国的高光时刻。此前它已在蕉城区列入非物质文化遗产名录，代表作有《风吹竹叶尾提提》等。"
+   ],
+   "tags": [
+    "双音",
+    "二声部",
+    "蕉城",
+    "央视春晚"
+   ],
+   "category": "music",
+   "region": "歌舞视听厅",
+   "era": "活态传承",
+   "level": "文字 · 影像",
+   "media": [
+    {
+     "src": "img/she/dance/p024-thumb.jpg",
+     "full": "img/she/dance/p024-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族「双音」与央视春晚"
+    },
+    {
+     "src": "img/she/dance/p025-thumb.jpg",
+     "full": "img/she/dance/p025-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族「双音」与央视春晚"
+    },
+    {
+     "src": "img/she/dance/p026-thumb.jpg",
+     "full": "img/she/dance/p026-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族「双音」与央视春晚"
+    },
+    {
+     "src": "img/she/festival-site/p027-thumb.jpg",
+     "full": "img/she/festival-site/p027-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族「双音」与央视春晚"
+    }
+   ],
+   "source": "腾讯新闻·双音回顾",
+   "sourceUrl": "https://new.qq.com/rain/a/20230422A07PMQ00",
+   "links": [
+    [
+     "腾讯新闻·双音回顾",
+     "https://new.qq.com/rain/a/20230422A07PMQ00"
+    ]
+   ],
+   "facets": {
+    "zone": "歌舞视听厅",
+    "type": "文字 · 影像",
+    "art": "music",
+    "photoCount": 4
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-MUSIC-03",
+   "collection": "she",
+   "sourceId": "music-3",
+   "title": "畲族小说歌 · 史诗般的歌书",
+   "subtitle": "民间文学 · 国家级非遗",
+   "summary": "清末源于霞浦白露坑，畲族歌手把汉族章回小说改编为四行七字的山歌唱本，一部歌书便是一部民族历史。",
+   "body": [
+    "畲族小说歌于 2006 年列入第一批国家级非遗名录，属民间文学类，由福建省霞浦县申报。",
+    "它源于清代霞浦县溪南镇白露坑村：识字的畲族歌手将汉族章回小说、评话唱本、戏曲曲艺故事改编成畲族山歌唱本，并结合本民族语言特点再创作。每篇由众多单首组成，单首四行七字，近似汉语「七绝」，作者署名巧妙地藏在歌尾。",
+    "代表作《钟良弼》《钟景祺》《蓝佃玉》等。「畲族歌王」钟学吉（白露坑人）使小说歌由口传进入文字兼传时代，堪称畲族文学最完美的载体。已出版《畲族小说歌》收录代表性歌谣 44 首、15 万字。"
+   ],
+   "tags": [
+    "小说歌",
+    "白露坑",
+    "钟学吉",
+    "歌言"
+   ],
+   "category": "music",
+   "region": "歌舞视听厅",
+   "era": "活态传承",
+   "level": "文字 · 文学",
+   "media": [
+    {
+     "src": "img/she/festival-site/p028-thumb.jpg",
+     "full": "img/she/festival-site/p028-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族小说歌 · 史诗般的歌书"
+    },
+    {
+     "src": "img/she/festival-site/p029-thumb.jpg",
+     "full": "img/she/festival-site/p029-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族小说歌 · 史诗般的歌书"
+    },
+    {
+     "src": "img/she/festival-site/p030-thumb.jpg",
+     "full": "img/she/festival-site/p030-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族小说歌 · 史诗般的歌书"
+    }
+   ],
+   "source": "福建省艺术馆；宁德民宗局",
+   "sourceUrl": "https://www.fjysg.net/portal/feiyi/read?id=27&nid=28",
+   "links": [
+    [
+     "福建省艺术馆",
+     "https://www.fjysg.net/portal/feiyi/read?id=27&nid=28"
+    ],
+    [
+     "宁德民宗局",
+     "https://mzzjj.ningde.gov.cn/xwdt/gzdt/202309/t20230928_1863878.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "歌舞视听厅",
+    "type": "文字 · 文学",
+    "art": "book",
+    "photoCount": 3
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-MUSIC-04",
+   "collection": "she",
+   "sourceId": "music-4",
+   "title": "畲族传统舞蹈与奶娘催罡巫舞",
+   "subtitle": "传统舞蹈 · 祭祀文化",
+   "summary": "龙头舞、铃刀舞、猎捕舞——畲族舞蹈多与祖先崇拜、狩猎信仰相连，宁德畲族奶娘催罡巫舞更列入省级非遗。",
+   "body": [
+    "畲族传统民间舞蹈以祭祀性为主，如龙头舞、铃刀舞、猎捕舞等，多与图腾崇拜、狩猎文化及祖灵祭祀相关。",
+    "「宁德畲族奶娘催罡巫舞」列入福建省第一批省级非遗名录（民间舞蹈类），是了解畲族巫舞与信仰的重要窗口。节庆场合的竹竿舞、龙头舞，则是畲族群众喜闻乐见的集体舞蹈。"
+   ],
+   "tags": [
+    "龙头舞",
+    "奶娘催罡巫舞",
+    "祭祀",
+    "竹竿舞"
+   ],
+   "category": "music",
+   "region": "歌舞视听厅",
+   "era": "活态传承",
+   "level": "文字 · 舞谱",
+   "media": [
+    {
+     "src": "img/she/festival-site/p031-thumb.jpg",
+     "full": "img/she/festival-site/p031-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族传统舞蹈与奶娘催罡巫舞"
+    },
+    {
+     "src": "img/she/festival-site/p032-thumb.jpg",
+     "full": "img/she/festival-site/p032-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族传统舞蹈与奶娘催罡巫舞"
+    },
+    {
+     "src": "img/she/festival-site/p033-thumb.jpg",
+     "full": "img/she/festival-site/p033-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族传统舞蹈与奶娘催罡巫舞"
+    }
+   ],
+   "source": "福建省非遗名录",
+   "sourceUrl": "https://zfgb.fujian.gov.cn/2680",
+   "links": [
+    [
+     "福建省非遗名录",
+     "https://zfgb.fujian.gov.cn/2680"
+    ]
+   ],
+   "facets": {
+    "zone": "歌舞视听厅",
+    "type": "文字 · 舞谱",
+    "art": "dance",
+    "photoCount": 3
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-FESTIVAL-01",
+   "collection": "she",
+   "sourceId": "festival-1",
+   "title": "三月三 · 乌饭节",
+   "subtitle": "国家级非遗 · 最盛大的节日",
+   "summary": "采乌稔叶，炊乌米饭，纪念以乌稔充饥冲出重围的始祖——三月三是畲族堪比春节的全民节庆。",
+   "body": [
+    "农历三月初三，是畲族最盛大的传统节日。相传唐代畲族义军被围困山中，粮草断绝，靠采食乌稔野果充饥，得以于三月初三冲出重围。畲民自此年年采乌稔叶煮汁，染米炊乌饭以示纪念，故又名「乌饭节」。",
+    "节间畲民宰牲祭祖、对歌盘歌、围坐长桌宴、舞龙灯狮子鱼灯火把灯，还举行操杠、操石磉等体育竞技。青年男女也多择此日定情婚配。",
+    "「畲族三月三」于 2008 年列入第二批国家级非遗名录（申报地浙江景宁）。浙江景宁中国畲乡「三月三」已连续举办十八届，年均吸引游客逾二十万人次，实现从传统节日到民族节庆品牌的跃升。"
+   ],
+   "tags": [
+    "三月三",
+    "乌饭",
+    "国家级非遗",
+    "景宁"
+   ],
+   "category": "festival",
+   "region": "节庆非遗长廊",
+   "era": "活态传承",
+   "level": "文字 · 图集",
+   "media": [
+    {
+     "src": "img/she/festival-site/p034-thumb.jpg",
+     "full": "img/she/festival-site/p034-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "三月三 · 乌饭节"
+    },
+    {
+     "src": "img/she/festival-site/p031-thumb.jpg",
+     "full": "img/she/festival-site/p031-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "三月三 · 乌饭节"
+    },
+    {
+     "src": "img/she/festival-site/p035-thumb.jpg",
+     "full": "img/she/festival-site/p035-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "三月三 · 乌饭节"
+    },
+    {
+     "src": "img/she/festival-site/p036-thumb.jpg",
+     "full": "img/she/festival-site/p036-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "三月三 · 乌饭节"
+    },
+    {
+     "src": "img/she/festival-site/p032-thumb.jpg",
+     "full": "img/she/festival-site/p032-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "三月三 · 乌饭节"
+    },
+    {
+     "src": "img/she/festival-site/p037-thumb.jpg",
+     "full": "img/she/festival-site/p037-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "三月三 · 乌饭节"
+    },
+    {
+     "src": "img/she/festival-site/p038-thumb.jpg",
+     "full": "img/she/festival-site/p038-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "三月三 · 乌饭节"
+    },
+    {
+     "src": "img/she/festival-site/p039-thumb.jpg",
+     "full": "img/she/festival-site/p039-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "三月三 · 乌饭节"
+    }
+   ],
+   "source": "浙江文明网；学习强国",
+   "sourceUrl": "http://www.zjwmw.zj.gov.cn/art/2025/4/1/art_1229830123_11208.html",
+   "links": [
+    [
+     "浙江文明网",
+     "http://www.zjwmw.zj.gov.cn/art/2025/4/1/art_1229830123_11208.html"
+    ],
+    [
+     "学习强国",
+     "https://article.xuexi.cn/articles/index.html?art_id=7561985201521914025"
+    ]
+   ],
+   "facets": {
+    "zone": "节庆非遗长廊",
+    "type": "文字 · 图集",
+    "art": "festival",
+    "photoCount": 8
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-FESTIVAL-02",
+   "collection": "she",
+   "sourceId": "festival-2",
+   "title": "畲族婚俗 · 一场流动的歌",
+   "subtitle": "国家级非遗 · Ⅹ-139",
+   "summary": "拦路要放炮、借镬要念谜、杀鸡不许滴血——畲族婚礼以「刁难亲家伯」开篇，一路以歌贯穿到洞房。",
+   "body": [
+    "畲族婚俗于 2014 年列入第四批国家级非遗名录（Ⅹ-139），浙江景宁与福建霞浦分别申报。",
+    "婚嫁方式有女嫁男方、男嫁女方、做两头家、子媳缘亲四种，以女嫁男方常见。女嫁男方要历经相亲、定亲、送糯米、选亲家、选行郎、送彩礼、拦路、借镬、杀鸡、劝酒、对歌诸环节。",
+    "拦路：女方阿姨舅母以杉树枝拦门，要迎亲队大放鞭炮并示意夜来须对歌；借镬：男方赤郎须念谜语借齐炊具；杀鸡：赤郎执刀不能让鸡血落地，姑娘会故意碰撞他再罚酒；对歌：赤娘赤郎对唱直至新娘起身。",
+    "闽东（霞浦）婚俗含定亲、迎亲、成亲、回门四环节，「男拜女不拜」凸显对妇女地位的尊崇，深受母系氏族文化影响。"
+   ],
+   "tags": [
+    "婚俗",
+    "拦路",
+    "对歌",
+    "国家级非遗"
+   ],
+   "category": "festival",
+   "region": "节庆非遗长廊",
+   "era": "活态传承",
+   "level": "文字 · 实录",
+   "media": [
+    {
+     "src": "img/she/wedding/p040-thumb.jpg",
+     "full": "img/she/wedding/p040-full.jpg",
+     "kind": "photo",
+     "credit": "通讯员 刘其燚 / 福建日报",
+     "alt": "畲族婚俗 · 一场流动的歌"
+    },
+    {
+     "src": "img/she/cloth/p001-thumb.jpg",
+     "full": "img/she/cloth/p001-full.jpg",
+     "kind": "photo",
+     "credit": "通讯员 刘其燚 / 福建日报",
+     "alt": "畲族婚俗 · 一场流动的歌"
+    }
+   ],
+   "source": "国家非遗网·景宁；国家非遗网·霞浦",
+   "sourceUrl": "https://www.ihchina.cn/project_details/15306/",
+   "links": [
+    [
+     "国家非遗网·景宁",
+     "https://www.ihchina.cn/project_details/15306/"
+    ],
+    [
+     "国家非遗网·霞浦",
+     "https://www.ihchina.cn/project_details/15307"
+    ]
+   ],
+   "facets": {
+    "zone": "节庆非遗长廊",
+    "type": "文字 · 实录",
+    "art": "wedding",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-FESTIVAL-03",
+   "collection": "she",
+   "sourceId": "festival-3",
+   "title": "畲族歌会 · 以歌会亲",
+   "subtitle": "会亲节 · 盘歌传统",
+   "summary": "二月二会亲节、分龙节歌会、重阳歌会——畲家的岁序里写满「以歌会友、以歌认亲」的古老邀约。",
+   "body": [
+    "畲族有「俗不离歌」的传统，各地按节令形成固定的盘歌歌会：",
+    "· 二月二「会亲节」：福安后门坪、福鼎双华等畲村定点聚会，以歌会亲友。\n· 四月「分龙节」：福安穆阳牛石岗歌会。\n· 六月初一白云山歌会、七月初七歌会、八月中秋歌会、九月初九霞浦马洋目莲山歌会。",
+    "福鼎瑞云「四月八歌会」、双华「会亲节」已传承三百余年。福建畲族歌会（福鼎）列入省级非遗，歌会也是保护畲语、维系民族认同的重要场域。"
+   ],
+   "tags": [
+    "歌会",
+    "会亲节",
+    "盘歌",
+    "分龙节"
+   ],
+   "category": "festival",
+   "region": "节庆非遗长廊",
+   "era": "活态传承",
+   "level": "文字 · 节俗",
+   "media": [
+    {
+     "src": "img/she/festival-site/p030-thumb.jpg",
+     "full": "img/she/festival-site/p030-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族歌会 · 以歌会亲"
+    },
+    {
+     "src": "img/she/festival-site/p041-thumb.jpg",
+     "full": "img/she/festival-site/p041-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族歌会 · 以歌会亲"
+    },
+    {
+     "src": "img/she/festival-site/p042-thumb.jpg",
+     "full": "img/she/festival-site/p042-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族歌会 · 以歌会亲"
+    },
+    {
+     "src": "img/she/festival-site/p043-thumb.jpg",
+     "full": "img/she/festival-site/p043-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "畲族歌会 · 以歌会亲"
+    }
+   ],
+   "source": "央视网·节俗",
+   "sourceUrl": "https://news.cctv.com/special/C16295/20060826/102147.shtml",
+   "links": [
+    [
+     "央视网·节俗",
+     "https://news.cctv.com/special/C16295/20060826/102147.shtml"
+    ]
+   ],
+   "facets": {
+    "zone": "节庆非遗长廊",
+    "type": "文字 · 节俗",
+    "art": "song",
+    "photoCount": 4
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-FESTIVAL-04",
+   "collection": "she",
+   "sourceId": "festival-4",
+   "title": "岁时节令 · 一年里的畲家烟火",
+   "subtitle": "农耕 · 节律",
+   "summary": "牛歇节、晒服节、尝新节、谷神节……畲族把对土地的感恩与对祖灵的追怀，安放进一整年的节令里。",
+   "body": [
+    "畲族岁时风俗总体有三特点：与盘瓠祖先崇拜相连、与农业社会形态相应、与汉族岁时相融合。",
+    "· 正月初一至元宵「做年」；· 四月初八「牛歇节」，不鞭牛、给牛洗澡喂精料；· 端午裹「菅粽」祭「盘护忠勇王」；· 六月初六「晒服节」，翻晒衣物歌本书契防虫蛀；· 七月半祭祖鸣炮、吃「太公饭」；· 秋收「尝新节」煮新米饭祭谷神请亲邻；· 立冬「圆冬节」舂糍粑滋补。"
+   ],
+   "tags": [
+    "牛歇节",
+    "晒服节",
+    "尝新节",
+    "谷神节"
+   ],
+   "category": "festival",
+   "region": "节庆非遗长廊",
+   "era": "活态传承",
+   "level": "文字 · 岁时",
+   "media": [
+    {
+     "src": "img/she/festival-site/p033-thumb.jpg",
+     "full": "img/she/festival-site/p033-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "岁时节令 · 一年里的畲家烟火"
+    },
+    {
+     "src": "img/she/festival-site/p044-thumb.jpg",
+     "full": "img/she/festival-site/p044-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "岁时节令 · 一年里的畲家烟火"
+    },
+    {
+     "src": "img/she/festival-site/p045-thumb.jpg",
+     "full": "img/she/festival-site/p045-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "岁时节令 · 一年里的畲家烟火"
+    }
+   ],
+   "source": "央视网·节俗",
+   "sourceUrl": "https://news.cctv.com/special/C16295/20060826/102147.shtml",
+   "links": [
+    [
+     "央视网·节俗",
+     "https://news.cctv.com/special/C16295/20060826/102147.shtml"
+    ]
+   ],
+   "facets": {
+    "zone": "节庆非遗长廊",
+    "type": "文字 · 岁时",
+    "art": "festival",
+    "photoCount": 3
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CRAFT-01",
+   "collection": "she",
+   "sourceId": "craft-1",
+   "title": "畲族银器 · 无字民族的文明錾刻",
+   "subtitle": "国家级非遗 · Ⅷ-40",
+   "summary": "「小锤敲过数千年，无字传承几度秋」——畲族把民族记忆一刀刀錾进银器，让饰物流传文明。",
+   "body": [
+    "银饰锻制技艺（畲族银器锻制技艺）于 2011/2014 年列入国家级非遗名录（Ⅷ-40），福建宁德、福安分别申报。",
+    "畲族银器制作以「操、凿、起、解、披」五大技法为核心，工序涵盖熔银、倒条、打型、切料、锤揲、雕刻、焊接、煮银、清洗等，并融合圆雕、镂空雕、浮雕、平雕四种工艺，在点翠、珐琅、花丝上尤见特色。",
+    "制品分头饰、发饰、服饰、带饰、手镯、脚镯、童铃及餐具、酒具、茶具、摆件等。宁德「盈盛号」有案可查的历史已 147 年，源头可溯至唐末五代。畲族崇银，三月三、婚丧嫁娶皆以银器为尊，银饰是女性身份、家族财富与吉祥祝福的象征。"
+   ],
+   "tags": [
+    "银器",
+    "五大技法",
+    "盈盛号",
+    "Ⅷ-40"
+   ],
+   "category": "craft",
+   "region": "手工技艺馆",
+   "era": "活态传承",
+   "level": "文字 · 工艺志",
+   "media": [
+    {
+     "src": "img/she/silver/p046-thumb.jpg",
+     "full": "img/she/silver/p046-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    },
+    {
+     "src": "img/she/silver/p047-thumb.jpg",
+     "full": "img/she/silver/p047-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    },
+    {
+     "src": "img/she/silver/p048-thumb.jpg",
+     "full": "img/she/silver/p048-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    },
+    {
+     "src": "img/she/silver/p049-thumb.jpg",
+     "full": "img/she/silver/p049-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    },
+    {
+     "src": "img/she/silver/p050-thumb.jpg",
+     "full": "img/she/silver/p050-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    },
+    {
+     "src": "img/she/silver/p051-thumb.jpg",
+     "full": "img/she/silver/p051-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    },
+    {
+     "src": "img/she/silver/p052-thumb.jpg",
+     "full": "img/she/silver/p052-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    },
+    {
+     "src": "img/she/silver/p053-thumb.jpg",
+     "full": "img/she/silver/p053-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "畲族银器 · 无字民族的文明錾刻"
+    }
+   ],
+   "source": "国家非遗网",
+   "sourceUrl": "https://www.ihchina.cn/project_details/14337",
+   "links": [
+    [
+     "国家非遗网",
+     "https://www.ihchina.cn/project_details/14337"
+    ]
+   ],
+   "facets": {
+    "zone": "手工技艺馆",
+    "type": "文字 · 工艺志",
+    "art": "silver",
+    "photoCount": 8
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CRAFT-02",
+   "collection": "she",
+   "sourceId": "craft-2",
+   "title": "珍华堂 · 两百年银雕世家",
+   "subtitle": "传承 · 朱碧山一脉",
+   "summary": "福安叶氏「珍华堂」承元代银雕巨匠朱碧山衣钵，以动态镂雕与银蓝工艺名世，传近两百年。",
+   "body": [
+    "珍华堂银雕传承自福安叶氏一脉，渊源可上溯到元代宫廷银匠朱碧山。清代中叶，福安下白石人叶长青赴泉州师从朱碧山传人，学成返乡开银铺；1973 年其裔孙林仕元自创「珍华堂」，总结出「操凿起解披」五大工艺精髓。",
+    "珍华堂一反传统银饰的小巧，作品气势恢弘、镂雕凹凸有致、层次分明，并掌握独门煮银保养秘方。代表作「金龙戏珠」获第三届中国国际民博会金奖。目前工艺难度大、学艺周期长，面临后继乏人，亟待保护。"
+   ],
+   "tags": [
+    "珍华堂",
+    "林仕元",
+    "朱碧山",
+    "银蓝工艺"
+   ],
+   "category": "craft",
+   "region": "手工技艺馆",
+   "era": "活态传承",
+   "level": "文字 · 传承",
+   "media": [
+    {
+     "src": "img/she/silver/p054-thumb.jpg",
+     "full": "img/she/silver/p054-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p055-thumb.jpg",
+     "full": "img/she/silver/p055-full.jpg",
+     "kind": "photo",
+     "credit": "林伟星·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p056-thumb.jpg",
+     "full": "img/she/silver/p056-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p057-thumb.jpg",
+     "full": "img/she/silver/p057-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p058-thumb.jpg",
+     "full": "img/she/silver/p058-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p059-thumb.jpg",
+     "full": "img/she/silver/p059-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p060-thumb.jpg",
+     "full": "img/she/silver/p060-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p061-thumb.jpg",
+     "full": "img/she/silver/p061-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p062-thumb.jpg",
+     "full": "img/she/silver/p062-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    },
+    {
+     "src": "img/she/silver/p063-thumb.jpg",
+     "full": "img/she/silver/p063-full.jpg",
+     "kind": "photo",
+     "credit": "林仕元·珍华堂",
+     "alt": "珍华堂 · 两百年银雕世家"
+    }
+   ],
+   "source": "国家非遗网；中国青年网",
+   "sourceUrl": "https://www.ihchina.cn/project_details/14334",
+   "links": [
+    [
+     "国家非遗网",
+     "https://www.ihchina.cn/project_details/14334"
+    ],
+    [
+     "中国青年网",
+     "https://feiyi.youth.cn/rdjj/202205/t20220507_13673689.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "手工技艺馆",
+    "type": "文字 · 传承",
+    "art": "silver",
+    "photoCount": 10
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CRAFT-03",
+   "collection": "she",
+   "sourceId": "craft-3",
+   "title": "乌饭、花斗笠与菅粽",
+   "subtitle": "生活技艺 · 畲家味道",
+   "summary": "乌稔染饭、竹篾编笠、菅叶裹粽——这些朴素的手艺，让畲族的日常既果腹又寄情。",
+   "body": [
+    "畲族特色制作技艺代代相传：",
+    "· 闽东畲族乌饭制作技艺：取乌稔树嫩叶捣汁染糯米炊制，乌饭补益脾肾、乌发明目，杜甫诗「岂无青精饭，使我颜色好」或即指此，与米酒、银器并称「畲家三宝」。\n· 畲族花斗笠：精细到 30 多道工序的手编竹笠，霞浦上水村为代表，畲歌《畲族花斗笠》广为传唱。\n· 菅粽：端午以菅草叶裹制、扎五节，祭「盘护忠勇王」。\n· 拦腰（五彩腰带）：畲族女子的织造饰物。"
+   ],
+   "tags": [
+    "乌饭",
+    "花斗笠",
+    "菅粽",
+    "拦腰"
+   ],
+   "category": "craft",
+   "region": "手工技艺馆",
+   "era": "活态传承",
+   "level": "文字 · 美食/编织",
+   "media": [
+    {
+     "src": "img/she/festival-site/p036-thumb.jpg",
+     "full": "img/she/festival-site/p036-full.jpg",
+     "kind": "photo",
+     "credit": "中新社·傅飞扬",
+     "alt": "乌饭、花斗笠与菅粽"
+    },
+    {
+     "src": "img/she/cloth/p013-thumb.jpg",
+     "full": "img/she/cloth/p013-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "乌饭、花斗笠与菅粽"
+    }
+   ],
+   "source": "宁德非遗名录",
+   "sourceUrl": "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm",
+   "links": [
+    [
+     "宁德非遗名录",
+     "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "手工技艺馆",
+    "type": "文字 · 美食/编织",
+    "art": "weave",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-CRAFT-04",
+   "collection": "she",
+   "sourceId": "craft-4",
+   "title": "木拱廊桥 · 桥廊一体的活化石",
+   "subtitle": "人类非遗代表作 · 畲乡廊桥",
+   "summary": "不用寸钉片铁，只凭椽靠椽、桁嵌桁——木拱廊桥以「桥上建廊、以廊护桥」的智慧，被誉世界桥梁活化石。",
+   "body": [
+    "中国木拱桥传统营造技艺于 2008 年列入国家级非遗名录，2009 年列入联合国教科文组织《急需保护的非物质文化遗产名录》，2024 年 12 月正式转入《人类非物质文化遗产代表作名录》。",
+    "木拱廊桥以「河上架桥、桥上建廊、以廊护桥、桥廊一体」的独特样式闻名，其结构不用铁钉，凭木构件交叉搭接自成稳固拱架。宁德现保存 52 座，寿宁下党鸾峰桥单孔跨度 37.6 米，为世界现存单孔最大木拱桥。",
+    "（注：此技艺为闽浙多民族共有，宁德畲乡为主要存续地之一，在文化上联动畲汉，畲族群众同样崇桥、护桥、传承建桥技艺。）"
+   ],
+   "tags": [
+    "木拱廊桥",
+    "鸾峰桥",
+    "人类非遗",
+    "世界遗产预备"
+   ],
+   "category": "craft",
+   "region": "手工技艺馆",
+   "era": "活态传承",
+   "level": "文字 · 营造",
+   "media": [],
+   "source": "宁德文旅局；法治日报",
+   "sourceUrl": "https://wlj.ningde.gov.cn/zwgk/jyta/rddbjy/202511/t20251117_2412500.htm",
+   "links": [
+    [
+     "宁德文旅局",
+     "https://wlj.ningde.gov.cn/zwgk/jyta/rddbjy/202511/t20251117_2412500.htm"
+    ],
+    [
+     "法治日报",
+     "https://epaper.legaldaily.com.cn/fzrb/content/20260602/Articel06003GN.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "手工技艺馆",
+    "type": "文字 · 营造",
+    "art": "bridge",
+    "photoCount": 0
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-ARCHIVE-01",
+   "collection": "she",
+   "sourceId": "archive-1",
+   "title": "畲族医药 · 六神为本草有灵",
+   "subtitle": "国家级非遗 · 传统医药",
+   "summary": "畲医以「六神」主宰人一身气血筋脉，将百草按畲语命名，世代采药治病，守护深山里的健康。",
+   "body": [
+    "畲族医药于 2008 年列入第二批国家级非遗名录，含福建罗源「六神经络骨通药制作工艺」与浙江丽水「痧症疗法」。",
+    "畲医认为生命由气、血、筋、脉维持，心肝肺脾肾胆六脏之神（六神）主宰，指挥人体三十六骨节、七十二筋脉、十二条血路。疾病分寒、风、气、血症与杂症五大类，每类细分为 72 种。痧症疗法含针刺、挑针、放血拔罐、刮痧、撮痧、淬痧、搓痧等。",
+    "畲药以植物为主、随采随用，讲究新鲜，药名多从畲语方言音译（如「乌饭树」「赤根草」）。罗源八井畲族村为畲药重镇。畲医多祖传口授、单线传承，抢救性保护刻不容缓。"
+   ],
+   "tags": [
+    "畲医药",
+    "六神经络骨通药",
+    "痧症",
+    "罗源八井"
+   ],
+   "category": "archive",
+   "region": "文史典籍库",
+   "era": "活态传承",
+   "level": "文字 · 医药",
+   "media": [
+    {
+     "src": "img/she/cloth/p013-thumb.jpg",
+     "full": "img/she/cloth/p013-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻·雷圣初",
+     "alt": "畲族医药 · 六神为本草有灵"
+    }
+   ],
+   "source": "福州市政府；央视网",
+   "sourceUrl": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/msfq/201308/t20130809_129760.htm",
+   "links": [
+    [
+     "福州市政府",
+     "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/msfq/201308/t20130809_129760.htm"
+    ],
+    [
+     "央视网",
+     "https://local.cctv.com/2024/08/13/ARTI61VZ8DoYVKscxfMdYuiR240813.shtml"
+    ]
+   ],
+   "facets": {
+    "zone": "文史典籍库",
+    "type": "文字 · 医药",
+    "art": "herb",
+    "photoCount": 1
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-ARCHIVE-02",
+   "collection": "she",
+   "sourceId": "archive-2",
+   "title": "畲族武术 · 山中拳风",
+   "subtitle": "传统体育 · 非遗项目",
+   "summary": "盘柴槌、畲家拳、白鹤拳——畲族拳法南拳风格步稳势烈，是山哈人尚武坚韧的写照。",
+   "body": [
+    "畲族武术散落于闽东各地，多列入非物质文化遗产名录：",
+    "· 畲族武术（盘柴槌）：霞浦县省级非遗，以柴棍对练为基础。\n· 畲族白鹤拳、牛家拳：霞浦县级非遗。\n· 蕉城畲族下申厝拳术与棍术：区级非遗。",
+    "福安金斗洋村有三百余年习武史，被誉为「畲族武术之源」，其畲家拳具南拳步稳势烈、发力短猛的特点，多次在全国及省民运会获奖。"
+   ],
+   "tags": [
+    "盘柴槌",
+    "畲家拳",
+    "金斗洋",
+    "白鹤拳"
+   ],
+   "category": "archive",
+   "region": "文史典籍库",
+   "era": "活态传承",
+   "level": "文字 · 体育",
+   "media": [
+    {
+     "src": "img/she/life/p064-thumb.jpg",
+     "full": "img/she/life/p064-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族武术 · 山中拳风"
+    },
+    {
+     "src": "img/she/life/p065-thumb.jpg",
+     "full": "img/she/life/p065-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族武术 · 山中拳风"
+    }
+   ],
+   "source": "宁德非遗名录",
+   "sourceUrl": "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm",
+   "links": [
+    [
+     "宁德非遗名录",
+     "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "文史典籍库",
+    "type": "文字 · 体育",
+    "art": "fist",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-ARCHIVE-03",
+   "collection": "she",
+   "sourceId": "archive-3",
+   "title": "畲族文献数字化 · 一座云端文献库",
+   "subtitle": "数字资源 · 权威平台",
+   "summary": "闽东畲族文献资料中心及其分中心，收藏畲族文献逾 5 万件——器物照片上万张、畲歌 145 首、有声讲解 100 集。",
+   "body": [
+    "在数字化浪潮下，畲族文化的保护已从单项走向区域整体：",
+    "· 闽东畲族文献资料中心及 6 个分中心：建成文献特藏书库、畲族论文数据库、地方志资源库与文献物件数字化展览系统，现有相关文献 5 万余件，含电子期刊 3 万余篇、畲族器物照片 1 万余张、有声讲解视频 100 集、畲族民歌 145 首、专题视频 60 集。",
+    "· 《闽东畲族民歌(音像)集成》拍摄记录传承艺人 120 余人、原生态歌曲 190 多首，形成约 60GB 核心音像数据。",
+    "· 宁德「非遗云小镇」上线畲族非遗专属展示区，运用 VR/AR 升级线上云展厅。"
+   ],
+   "tags": [
+    "文献中心",
+    "数字化",
+    "云展厅",
+    "60GB音像"
+   ],
+   "category": "archive",
+   "region": "文史典籍库",
+   "era": "活态传承",
+   "level": "文字 · 数据平台",
+   "media": [
+    {
+     "src": "img/she/life/p066-thumb.jpg",
+     "full": "img/she/life/p066-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族文献数字化 · 一座云端文献库"
+    },
+    {
+     "src": "img/she/life/p067-thumb.jpg",
+     "full": "img/she/life/p067-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族文献数字化 · 一座云端文献库"
+    },
+    {
+     "src": "img/she/life/p068-thumb.jpg",
+     "full": "img/she/life/p068-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族文献数字化 · 一座云端文献库"
+    }
+   ],
+   "source": "福建省文旅厅答复",
+   "sourceUrl": "https://fujian.gov.cn/suc/login/logout?redirtUrl=http%3A%2F%2Ffujian.gov.cn%2Fzwgk%2Fzdlyxxgk%2Fjytabl_1%2F202605%2Ft20260522_7151018.htm",
+   "links": [
+    [
+     "福建省文旅厅答复",
+     "https://fujian.gov.cn/suc/login/logout?redirtUrl=http%3A%2F%2Ffujian.gov.cn%2Fzwgk%2Fzdlyxxgk%2Fjytabl_1%2F202605%2Ft20260522_7151018.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "文史典籍库",
+    "type": "文字 · 数据平台",
+    "art": "arch",
+    "photoCount": 3
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-ARCHIVE-04",
+   "collection": "she",
+   "sourceId": "archive-4",
+   "title": "国家级非遗项目图谱",
+   "subtitle": "文化地图 · 名录",
+   "summary": "从第一批到第五批，畲族以小说歌、民歌、三月三、医药、婚俗、银器、彩带七项跻身国家级非遗名录。",
+   "body": [
+    "畲族入选国家级非物质文化遗产代表性项目名录的主要项目：",
+    "· 畲族小说歌（民间文学，第一批，福建霞浦）\n· 畲族民歌（传统音乐Ⅱ-7，第一批，福建宁德）\n· 畲族三月三（民俗，第二批，浙江景宁）\n· 畲族医药·痧症疗法/六神经络骨通药（传统医药，第二批，浙江丽水/福建罗源）\n· 婚俗·畲族婚俗（民俗Ⅹ-139，第四批，浙江景宁/福建霞浦）\n· 银饰锻制技艺·畲族银器（传统技艺Ⅷ-40，第三、四批，福建宁德/福安）\n· 畲族彩带编织技艺（传统技艺Ⅷ-247，第五批，浙江景宁）",
+    "另有畲族服饰（凤凰装，2008 年列入）、木拱廊桥传统营造技艺（2008 国家非遗，2024 转人类非遗代表作）等相邻项目，构成畲族非遗的多维谱系。"
+   ],
+   "tags": [
+    "国家级非遗",
+    "项目图谱",
+    "七项核心",
+    "名录"
+   ],
+   "category": "archive",
+   "region": "文史典籍库",
+   "era": "活态传承",
+   "level": "文字 · 名录",
+   "media": [
+    {
+     "src": "img/she/life/p069-thumb.jpg",
+     "full": "img/she/life/p069-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "国家级非遗项目图谱"
+    },
+    {
+     "src": "img/she/life/p070-thumb.jpg",
+     "full": "img/she/life/p070-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "国家级非遗项目图谱"
+    },
+    {
+     "src": "img/she/life/p071-thumb.jpg",
+     "full": "img/she/life/p071-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "国家级非遗项目图谱"
+    },
+    {
+     "src": "img/she/life/p072-thumb.jpg",
+     "full": "img/she/life/p072-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "国家级非遗项目图谱"
+    }
+   ],
+   "source": "宁德非遗名录",
+   "sourceUrl": "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm",
+   "links": [
+    [
+     "宁德非遗名录",
+     "https://wlj.ningde.gov.cn/zwgk/gsgg/202608/t20260811_2475335.htm"
+    ]
+   ],
+   "facets": {
+    "zone": "文史典籍库",
+    "type": "文字 · 名录",
+    "art": "arch",
+    "photoCount": 4
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-RIBBON-01",
+   "collection": "she",
+   "sourceId": "ribbon-1",
+   "title": "畲族彩带 · 被称为「活着」的文物",
+   "subtitle": "国家级非遗 · Ⅷ-247 · 文化根脉",
+   "summary": "一条彩带，一个民族的记忆活化石。它不是装饰品，而是畲家女儿从外婆手中接过的第一卷无声家谱。",
+   "body": [
+    "畲族彩带又称「山哈带」「字带」，2021 年列入第五批国家级非物质文化遗产名录（Ⅷ-247），申报地浙江景宁。",
+    "彩带起源于畲民日常所用的束衣带、扎腰带、背包带、裤带、拦腰带、刀鞘带等生活实用品，后逐步发展为服饰装饰与婚俗信物。关于它的来历，畲族民间流传着「三公主与报晓鸡」的传说：畲族女始祖三公主将报晓鸡留给畲家小妹，鸡死后其肠子化作彩带，成为定情信物，寓意祝福夫妻恩爱、白头偕老。",
+    "畲族没有本民族文字，彩带便承担了「无字史书」的独特角色——那些织在带面上的花纹与文字，是这个民族留给未来的密码。它被称为「活着的畲族文物」，至今仍在景宁、霞浦、福安等地代代相传。"
+   ],
+   "tags": [
+    "彩带",
+    "活化石",
+    "定情信物",
+    "景宁"
+   ],
+   "category": "ribbon",
+   "region": "彩带织锦",
+   "era": "活态传承",
+   "level": "文字 · 真实图片",
+   "media": [
+    {
+     "src": "img/she/ribbon/p073-thumb.jpg",
+     "full": "img/she/ribbon/p073-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "畲族彩带 · 被称为「活着」的文物"
+    },
+    {
+     "src": "img/she/ribbon/p074-thumb.jpg",
+     "full": "img/she/ribbon/p074-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "畲族彩带 · 被称为「活着」的文物"
+    }
+   ],
+   "source": "国家非遗网·景宁；浙江档案网；丽水非遗图鉴",
+   "sourceUrl": "https://www.ihchina.cn/project_details/23560/",
+   "links": [
+    [
+     "国家非遗网·景宁",
+     "https://www.ihchina.cn/project_details/23560/"
+    ],
+    [
+     "浙江档案网",
+     "https://www.zjda.gov.cn/art/2016/9/8/art_9_13429.html"
+    ],
+    [
+     "丽水非遗图鉴",
+     "https://new.qq.com/rain/a/20220831A07MMS00"
+    ]
+   ],
+   "facets": {
+    "zone": "彩带织锦",
+    "type": "文字 · 真实图片",
+    "art": "ribbon",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-RIBBON-02",
+   "collection": "she",
+   "sourceId": "ribbon-2",
+   "title": "经典纹样 · 蝴蝶水竹铜钱万字",
+   "subtitle": "纹样谱系 · 寓意解码",
+   "summary": "蝴蝶成双、水竹通气、铜钱纳财、万字延绵——每一种彩带纹样，都藏着一个畲家女子的祈愿。",
+   "body": [
+    "畲族彩带纹样按寓意可分为自然类、生活类、信仰祝愿类；按形式则分为图案带、符号带和字带三大类。主要传统纹样包括：",
+    "· 蝴蝶花：「蝴蝶成双翅膀翘，彩带一条束郎腰」——象征情侣相伴、婚姻美满。\n· 水击花（水蓟花）：水竹通灵，寓意风调雨顺、生活顺畅。\n· 铜钱帮：外圈方孔、象征财源广进、镇宅辟邪。\n· 万字花：「卍」字四端延绵不断，寓意福寿绵长、万事如意。\n· 十三行：横向均匀条纹，是最基础也最考验功底的传统款式。\n· 五字带：编织五个汉字，常见「风调雨顺」「百年好合」等祈愿语。\n· 十二生肖：完整呈现十二属相，是畲族少数保留完整图腾的纹样。\n· 蜻蜓纹、蝙蝠纹：取其谐音「福」「庆」，兼具美学与祝福。",
+    "字带则是彩带的最大特色，许多畲家妇女虽不识字，却能凭记忆与手感织出工整的方块汉字。清代已有织 42 字吉祥语的彩带存世（如「福禄寿喜、金玉满堂、青松不老」）。"
+   ],
+   "tags": [
+    "蝴蝶花",
+    "万字花",
+    "铜钱",
+    "字带",
+    "十三行"
+   ],
+   "category": "ribbon",
+   "region": "彩带织锦",
+   "era": "活态传承",
+   "level": "文字 · 工艺",
+   "media": [
+    {
+     "src": "img/she/ribbon/p075-thumb.jpg",
+     "full": "img/she/ribbon/p075-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "经典纹样 · 蝴蝶水竹铜钱万字"
+    },
+    {
+     "src": "img/she/ribbon/p076-thumb.jpg",
+     "full": "img/she/ribbon/p076-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "经典纹样 · 蝴蝶水竹铜钱万字"
+    }
+   ],
+   "source": "搜狐·福建民间风俗百图；云和县文化馆",
+   "sourceUrl": "https://www.sohu.com/a/809549508_121117461",
+   "links": [
+    [
+     "搜狐·福建民间风俗百图",
+     "https://www.sohu.com/a/809549508_121117461"
+    ],
+    [
+     "云和县文化馆",
+     "http://yhxwhg.com/fyzz/show-5.html"
+    ]
+   ],
+   "facets": {
+    "zone": "彩带织锦",
+    "type": "文字 · 工艺",
+    "art": "ribbon_butterfly",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-RIBBON-03",
+   "collection": "she",
+   "sourceId": "ribbon-3",
+   "title": "织造技艺 · 腰机一席地，三竹可成机",
+   "subtitle": "工艺流程 · 国家级非遗",
+   "summary": "无需织机，只要三根织带竹、一条腰身，畲家姑娘便可在山野间飞梭走线——这是世间最轻盈的织机。",
+   "body": [
+    "畲族彩带的织造工具简单到令人惊叹：通常只需一个简易织带架，甚至只要三条长约 20 厘米、直径 5 厘米左右的圆竹竿——畲民称之为「织带竹」。",
+    "核心工艺流程分为五个步骤：备纱、整经、提综、织纹、收口。具体操作是：把经线（彩线）一端拴在桌脚、凳脚、门环或柱子、篱笆、树枝上，另一端系在织者腰间——这就是著名的「腰机织造法」。通过提综、挑织完成花纹，无论屋内屋外、山野田间皆可编织，蓝延兰说「上山放牛时也能织带」。",
+    "彩带的宽窄由经线根数决定，常见的有五双（10 根）、十三根、十六根、二十二根、三十二根、五十五根等。经线多则宽、少则窄；纬线基本采用白线，无论带子宽窄，花纹图案只靠正中的若干根经线编织，其余经线用于编织平面花边，这便是「七根花」口诀的由来。",
+    "传统彩带为表里交换的双层提花组织，核心技法包括「双面带」（两面图案相同，宽约 12-15 厘米，带芯用 34 双套色编织）。一条普通彩带需数天至一个月，复杂者甚至需数月——错一针则纹路错乱，几乎没有容错空间。"
+   ],
+   "tags": [
+    "腰机",
+    "织带竹",
+    "五字十三桁",
+    "双面带"
+   ],
+   "category": "ribbon",
+   "region": "彩带织锦",
+   "era": "活态传承",
+   "level": "文字 · 工艺",
+   "media": [
+    {
+     "src": "img/she/ribbon/p074-thumb.jpg",
+     "full": "img/she/ribbon/p074-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "织造技艺 · 腰机一席地，三竹可成机"
+    },
+    {
+     "src": "img/she/ribbon/p077-thumb.jpg",
+     "full": "img/she/ribbon/p077-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "织造技艺 · 腰机一席地，三竹可成机"
+    },
+    {
+     "src": "img/she/ribbon/p078-thumb.jpg",
+     "full": "img/she/ribbon/p078-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "织造技艺 · 腰机一席地，三竹可成机"
+    }
+   ],
+   "source": "国家非遗网；福建文艺网；丽水非遗图鉴",
+   "sourceUrl": "https://www.ihchina.cn/project_details/23560/",
+   "links": [
+    [
+     "国家非遗网",
+     "https://www.ihchina.cn/project_details/23560/"
+    ],
+    [
+     "福建文艺网",
+     "https://www.fjwyw.com/"
+    ],
+    [
+     "丽水非遗图鉴",
+     "https://new.qq.com/rain/a/20220831A07MMS00"
+    ]
+   ],
+   "facets": {
+    "zone": "彩带织锦",
+    "type": "文字 · 工艺",
+    "art": "ribbon_loom",
+    "photoCount": 3
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-RIBBON-04",
+   "collection": "she",
+   "sourceId": "ribbon-4",
+   "title": "传统配色 · 黑白蓝底 vs 五彩缤纷",
+   "subtitle": "地域差异 · 色彩美学",
+   "summary": "福建畲族以蓝白黑为骨，浙江畲族以五彩为魂——同一条彩带，在两地生出了完全不同的色彩哲学。",
+   "body": [
+    "畲族彩带的配色因地域而异，体现两种截然不同的色彩哲学：",
+    "· 福建畲族（福安、霞浦、罗源）：以蓝、白、黑为主色，配色质朴大方，对比鲜明。这与畲族传统使用天然染料「青靛」浸染原料有关——蓝靛染出的深邃墨色耐脏、易洗，是最适合山区生活的实用色系。传统纹饰部分以黑白两色织就、简洁朴素，纹饰清晰。",
+    "· 浙江畲族（景宁、丽水、云和）：配色鲜艳，常用红、绿、黄、黑、白、紫等多种颜色交织。不仅图案复杂，更织有祈盼吉祥的文字，如「风调雨顺，国泰民安」「百年好合，五世其昌」「金玉满堂，花开富贵」等，色彩热烈、寓意饱满。",
+    "· 现代传承人蓝延兰打破了传统仅有蓝白黑三色的限制，创新性地将红、绿、黄等多色融入彩带，并创造性地将汉字与花纹结合，使彩带从生活用品升级为艺术珍品。蓝延兰说：「以前彩带只有蓝白黑三种颜色，现在将文字、图案融入彩带，给客人带来很大的观赏性。」",
+    "畲族彩带的色彩对比中尤为独特的是「眼睛纹样」，不止于装饰，更象征着守护与庇佑——织在彩带上的「眼睛」，是畲族姑娘送给亲人的护身符。"
+   ],
+   "tags": [
+    "青靛",
+    "黑白",
+    "五彩",
+    "眼睛纹",
+    "地域"
+   ],
+   "category": "ribbon",
+   "region": "彩带织锦",
+   "era": "活态传承",
+   "level": "文字 · 美学",
+   "media": [
+    {
+     "src": "img/she/ribbon/p076-thumb.jpg",
+     "full": "img/she/ribbon/p076-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "传统配色 · 黑白蓝底 vs 五彩缤纷"
+    },
+    {
+     "src": "img/she/ribbon/p073-thumb.jpg",
+     "full": "img/she/ribbon/p073-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "传统配色 · 黑白蓝底 vs 五彩缤纷"
+    }
+   ],
+   "source": "百度百科·畲族彩带；搜狐·福建民间风俗百图",
+   "sourceUrl": "https://baike.baidu.com/item/%E7%95%B2%E6%97%8F%E5%BD%A9%E5%B8%A6/18747316",
+   "links": [
+    [
+     "百度百科·畲族彩带",
+     "https://baike.baidu.com/item/%E7%95%B2%E6%97%8F%E5%BD%A9%E5%B8%A6/18747316"
+    ],
+    [
+     "搜狐·福建民间风俗百图",
+     "https://www.sohu.com/a/251419941_686915"
+    ]
+   ],
+   "facets": {
+    "zone": "彩带织锦",
+    "type": "文字 · 美学",
+    "art": "ribbon_palette",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-RIBBON-05",
+   "collection": "she",
+   "sourceId": "ribbon-5",
+   "title": "代表作 · 「彩带王」与蓝延兰字带",
+   "subtitle": "代表作 · 国家级传承人",
+   "summary": "4 米长、10.6 厘米宽、56 个民族名织成——蓝延兰编织的「彩带王」是畲族彩带艺术的高峰。",
+   "body": [
+    "蓝延兰，1968 年生于景宁畲族自治县，是省级畲族彩带非遗代表性传承人、首批「浙江省优秀民间文艺人才」。她的外婆蓝龙银、外婆的外婆蓝七女都是清末有名的彩带艺人——一部蓝家彩带史，就是半部畲族彩带史。",
+    "代表作「彩带王」《56 个民族》：长 4 米、宽 10.6 厘米，织有满、侗、瑶、白、土……等中国 56 个民族简称。蓝延兰花了四十几天才织完，里面的线是三十几根，织上 100 多个汉字——「这种彩带比较难织，字形笔画分别很多」。这是她唯一想出来的织字织法。",
+    "代表作「皇帝朝纪」字带：清末蓝七女所织，成为当地畲族织带的样版，后辈代代临摹。",
+    "历年里程碑：\n· 1984 年：织出「浙江景宁畲族自治县」汉字字纹，纪念自治县成立；\n· 1997 年：织出「庆贺香港回归」字样彩带，记录国之盛事；\n· 1999 年：「皇帝朝纪」获 99 浙江·中国民间艺术展特别金奖；\n· 2017 年：登上央视《我有传家宝》，边唱山歌边织彩带；\n· 2021 年：彩带编织技艺入选第五批国家级非遗名录；\n· 2022 年：与姐妹织就 100 条彩带献礼建党百年。"
+   ],
+   "tags": [
+    "彩带王",
+    "蓝延兰",
+    "56民族",
+    "字带"
+   ],
+   "category": "ribbon",
+   "region": "彩带织锦",
+   "era": "活态传承",
+   "level": "文字 · 真实图片",
+   "media": [
+    {
+     "src": "img/she/ribbon/p075-thumb.jpg",
+     "full": "img/she/ribbon/p075-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "代表作 · 「彩带王」与蓝延兰字带"
+    },
+    {
+     "src": "img/she/ribbon/p077-thumb.jpg",
+     "full": "img/she/ribbon/p077-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "代表作 · 「彩带王」与蓝延兰字带"
+    }
+   ],
+   "source": "搜狐·蓝延兰专访；光明日报·巧手织得凤凰来；澎湃新闻·蓝延兰",
+   "sourceUrl": "https://www.sohu.com/a/251419941_686915",
+   "links": [
+    [
+     "搜狐·蓝延兰专访",
+     "https://www.sohu.com/a/251419941_686915"
+    ],
+    [
+     "光明日报·巧手织得凤凰来",
+     "https://news.gmw.cn/2018-06/13/content_29255028.htm"
+    ],
+    [
+     "澎湃新闻·蓝延兰",
+     "https://m.thepaper.cn/baijiahao_18026708"
+    ]
+   ],
+   "facets": {
+    "zone": "彩带织锦",
+    "type": "文字 · 真实图片",
+    "art": "ribbon_text",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  },
+  {
+   "id": "SHE-RIBBON-06",
+   "collection": "she",
+   "sourceId": "ribbon-6",
+   "title": "当代传承 · 从东弄村到米兰时装周",
+   "subtitle": "活态传承 · 国际舞台",
+   "summary": "蓝延兰在东弄村自家建起畲族彩带馆，年均 3000 人次到访；演员蓝盈莹身披「凤凰霓裳」让彩带登上米兰时装周。",
+   "body": [
+    "今天，畲族彩带正从山野走向世界：",
+    "· 国家级传承人蓝延兰在景宁县鹤溪街道东弄村自家建起「畲族彩带艺术工作室」与「畲族彩带传承馆」，年均吸引 3000 余人次参观学习，并培训徒弟百余名。\n· 景宁已建立完整非遗档案库，记录彩带编织的 36 种技法等工序。\n· 全国 70% 以上的畲族服饰产自景宁企业，销往福建、广东、江西等省份。\n· 畲族服饰省级传承人陈卫娟将彩带与帆布包结合设计的「龙凤吉祥」包，首批 500 件 10 天售罄，远销海外。\n· 演员蓝盈莹身披融合畲族彩带等非遗技艺的「凤凰霓裳」亮相米兰时装周。\n· 彩妆品牌「橘朵」将彩带纹样与压纹工艺结合，应用于眼影盘、香囊等文创产品。\n· 非遗传承人雷苏文 2019 年受邀参加新西兰灯会，环保布袋等彩带文创通过阿里巴巴国际站销往美国等海外市场。",
+    "从外婆手中的织带竹，到米兰时装周的 T 台；从外婆蓝七女的「皇帝朝纪」，到蓝延兰的「彩带王」——一条彩带，串联起畲族女性四代人的梦想与坚守。它被称为「活着的畲族文物」，正在以新的姿态，向世界诉说一个无字民族的千年故事。"
+   ],
+   "tags": [
+    "活态传承",
+    "米兰时装周",
+    "凤凰霓裳",
+    "文创"
+   ],
+   "category": "ribbon",
+   "region": "彩带织锦",
+   "era": "活态传承",
+   "level": "文字 · 传承",
+   "media": [
+    {
+     "src": "img/she/ribbon/p078-thumb.jpg",
+     "full": "img/she/ribbon/p078-full.jpg",
+     "kind": "photo",
+     "credit": "人民图片网",
+     "alt": "当代传承 · 从东弄村到米兰时装周"
+    },
+    {
+     "src": "img/she/ribbon/p073-thumb.jpg",
+     "full": "img/she/ribbon/p073-full.jpg",
+     "kind": "photo",
+     "credit": "潮新闻",
+     "alt": "当代传承 · 从东弄村到米兰时装周"
+    }
+   ],
+   "source": "人民日报·一条彩带的传承路；中国经济网",
+   "sourceUrl": "https://politics.people.com.cn/BIG5/n1/2024/0414/c1001-40215661.html",
+   "links": [
+    [
+     "人民日报·一条彩带的传承路",
+     "https://politics.people.com.cn/BIG5/n1/2024/0414/c1001-40215661.html"
+    ],
+    [
+     "中国经济网",
+     "http://tuopin.ce.cn/news/202406/28/t20240628_39053046.shtml"
+    ]
+   ],
+   "facets": {
+    "zone": "彩带织锦",
+    "type": "文字 · 传承",
+    "art": "ribbon_knot",
+    "photoCount": 2
+   },
+   "status": "published",
+   "createdAt": "2026-09-09",
+   "updatedAt": "2026-09-10"
+  }
+ ],
+ "categories": [
+  {
+   "id": "lang",
+   "name": "语言文字",
+   "en": "LANGUAGE",
+   "desc": "畲语流脉 · 族群记忆 · 无字而有言",
+   "count": 4
+  },
+  {
+   "id": "cloth",
+   "name": "传统服饰",
+   "en": "COSTUME",
+   "desc": "凤凰装的五种姿态 · 从衣领到凤冠",
+   "count": 4
+  },
+  {
+   "id": "music",
+   "name": "歌舞艺术",
+   "en": "MUSIC & DANCE",
+   "desc": "畲歌如泉 · 双音和鸣 · 舞以敬祖",
+   "count": 4
+  },
+  {
+   "id": "festival",
+   "name": "节庆习俗",
+   "en": "FESTIVAL",
+   "desc": "乌饭飘香 · 三月三的千年灯火",
+   "count": 4
+  },
+  {
+   "id": "craft",
+   "name": "手工技艺",
+   "en": "CRAFT",
+   "desc": "银之錾痕 · 彩带经纬 · 廊桥构架",
+   "count": 4
+  },
+  {
+   "id": "archive",
+   "name": "文史医药",
+   "en": "ARCHIVE",
+   "desc": "本草有灵 · 拳法有魂 · 文献可考",
+   "count": 4
+  },
+  {
+   "id": "ribbon",
+   "name": "彩带织锦",
+   "en": "RIBBON",
+   "desc": "丝缕织就 · 经纬生花 · 字带春秋",
+   "count": 6
+  }
+ ]
+}

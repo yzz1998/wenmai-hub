@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="柘荣剪纸纹样再设计 —— 学生成果 · 设计习作">
+  <title>柘荣剪纸纹样再设计 · 学生成果 · 设计习作</title>
+
+  <defs>
+    <linearGradient id="wsky14" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d6e5e0"/>
+      <stop offset="100%" stop-color="#8fb3a9" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="wwat14" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb3a9"/>
+      <stop offset="100%" stop-color="#2b463e"/>
+    </linearGradient>
+    <radialGradient id="wglow14" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#3f6257" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3f6257" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#wsky14)"/>
+  <circle cx="404" cy="104" r="88" fill="url(#wglow14)"/>
+  <circle cx="404" cy="104" r="28" fill="#3f6257" opacity="0.45"/>
+  <path d="M0 272 L96 200 L156 254 L228 180 L300 252 L372 204 L440 262 L508 212 L570 258 L640 218 L640 300 L0 300 Z" fill="#2b463e" opacity="0.26"/>
+  <path d="M0 304 L110 248 L186 296 L268 236 L350 292 L432 252 L514 300 L600 258 L640 290 L640 420 L0 420 Z" fill="#2b463e" opacity="0.5"/>
+  <rect y="334" width="640" height="86" fill="url(#wwat14)" opacity="0.5"/>
+  <g stroke="#ffffff" stroke-opacity="0.28" stroke-width="2" fill="none">
+    <path d="M-10 356 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+  </g>
+
+    <circle cx="320" cy="188" r="74" fill="#eef4f2" opacity="0.9"/>
+    <circle cx="320" cy="188" r="74" fill="none" stroke="#3f6257" stroke-width="2.5" stroke-opacity="0.55"/>
+    <circle cx="320" cy="188" r="88" fill="none" stroke="#3f6257" stroke-width="1.2" stroke-opacity="0.25" stroke-dasharray="5 7"/>
+      <g transform="translate(320 188)">
+        <rect x="-46" y="-36" width="92" height="72" rx="7" fill="#eef4f2" stroke="#2b463e" stroke-width="3.2"/>
+        <circle cx="18" cy="-14" r="9" fill="#3f6257"/>
+        <path d="M-40 28 L-12 -6 L8 14 L24 -4 L40 28 Z" fill="#3f6257" opacity="0.8"/>
+      </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="23" font-weight="700" fill="#1d2b2a" opacity="0.9">柘荣剪纸纹样再设计</text>
+    <text y="23" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13.5" fill="#1d2b2a" opacity="0.55">学生成果 · 设计习作</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

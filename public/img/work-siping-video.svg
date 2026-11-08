@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="四平戏锣鼓点与翻唱 —— 学生成果 · 视频记录">
+  <title>四平戏锣鼓点与翻唱 · 学生成果 · 视频记录</title>
+
+  <defs>
+    <linearGradient id="wsky16" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#f4e7c8"/>
+      <stop offset="100%" stop-color="#dcbc74" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="wwat16" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74"/>
+      <stop offset="100%" stop-color="#836021"/>
+    </linearGradient>
+    <radialGradient id="wglow16" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#b5893a" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#b5893a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#wsky16)"/>
+  <circle cx="300" cy="104" r="88" fill="url(#wglow16)"/>
+  <circle cx="300" cy="104" r="28" fill="#b5893a" opacity="0.45"/>
+  <path d="M0 272 L96 200 L156 254 L228 180 L300 252 L372 204 L440 262 L508 212 L570 258 L640 218 L640 300 L0 300 Z" fill="#836021" opacity="0.26"/>
+  <path d="M0 304 L110 248 L186 296 L268 236 L350 292 L432 252 L514 300 L600 258 L640 290 L640 420 L0 420 Z" fill="#836021" opacity="0.5"/>
+  <rect y="334" width="640" height="86" fill="url(#wwat16)" opacity="0.5"/>
+  <g stroke="#ffffff" stroke-opacity="0.28" stroke-width="2" fill="none">
+    <path d="M-10 356 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+  </g>
+
+    <circle cx="320" cy="188" r="74" fill="#fbf5e8" opacity="0.9"/>
+    <circle cx="320" cy="188" r="74" fill="none" stroke="#b5893a" stroke-width="2.5" stroke-opacity="0.55"/>
+    <circle cx="320" cy="188" r="88" fill="none" stroke="#b5893a" stroke-width="1.2" stroke-opacity="0.25" stroke-dasharray="5 7"/>
+      <g transform="translate(320 188)">
+        <rect x="-48" y="-38" width="96" height="76" rx="9" fill="#fbf5e8" stroke="#836021" stroke-width="3.2"/>
+        <g fill="#836021" opacity="0.55">
+          <rect x="-42" y="-32" width="9" height="9" rx="2"/>
+          <rect x="-42" y="-9" width="9" height="9" rx="2"/>
+          <rect x="-42" y="14" width="9" height="9" rx="2"/>
+          <rect x="33" y="-32" width="9" height="9" rx="2"/>
+          <rect x="33" y="-9" width="9" height="9" rx="2"/>
+          <rect x="33" y="14" width="9" height="9" rx="2"/>
+        </g>
+        <path d="M-10 -16 L22 0 L-10 16 Z" fill="#b5893a"/>
+      </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="23" font-weight="700" fill="#1d2b2a" opacity="0.9">四平戏锣鼓点与翻唱</text>
+    <text y="23" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13.5" fill="#1d2b2a" opacity="0.55">学生成果 · 视频记录</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

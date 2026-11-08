@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="李拔 —— 福宁知府 · 兴修水利">
+  <title>李拔 · 福宁知府 · 兴修水利</title>
+
+  <defs>
+    <linearGradient id="sky18" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#f4e7c8"/>
+      <stop offset="100%" stop-color="#dcbc74" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat18" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74"/>
+      <stop offset="100%" stop-color="#836021"/>
+    </linearGradient>
+    <linearGradient id="mtn18" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#836021" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow18" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#b5893a" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#b5893a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky18)"/>
+  <circle cx="306" cy="112" r="86" fill="url(#glow18)"/>
+  <circle cx="306" cy="112" r="30" fill="#b5893a" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn18)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn18)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat18)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 208)">
+      <!-- 水利塘堰 -->
+      <g fill="#836021" opacity="0.24">
+        <path d="M-180 46 q90 -26 180 0 t180 0 l0 14 q-90 -26 -180 0 t-180 0 z"/>
+        <path d="M-180 74 q90 -26 180 0 t180 0 l0 14 q-90 -26 -180 0 t-180 0 z"/>
+      </g>
+      <!-- 石坝 -->
+      <g transform="translate(0 26)">
+        <path d="M-140 -30 L140 -30 L122 30 L-122 30 Z" fill="#b5893a"/>
+        <g stroke="#836021" stroke-width="2.6" stroke-opacity="0.55">
+          <line x1="-122" y1="-14" x2="122" y2="-14"/>
+          <line x1="-114" y1="6" x2="114" y2="6"/>
+          <line x1="-60" y1="-30" x2="-70" y2="30"/>
+          <line x1="0" y1="-30" x2="0" y2="30"/>
+          <line x1="62" y1="-30" x2="72" y2="30"/>
+        </g>
+      </g>
+      <!-- 玉米（番豆） -->
+      <g transform="translate(-136 -46)" fill="#b5893a">
+        <ellipse rx="16" ry="34" fill="#836021"/>
+        <ellipse rx="12" ry="30" fill="#b5893a"/>
+        <g stroke="#fbf5e8" stroke-width="1.6" stroke-opacity="0.6">
+          <line x1="-8" y1="-24" x2="-8" y2="24"/>
+          <line x1="0" y1="-28" x2="0" y2="28"/>
+          <line x1="8" y1="-24" x2="8" y2="24"/>
+        </g>
+        <path d="M14 -30 q26 -8 34 -30" stroke="#b5893a" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </g>
+      <!-- 长溪河源碑 -->
+      <g transform="translate(134 0)">
+        <rect x="-32" y="-72" width="64" height="96" rx="7" fill="#836021"/>
+        <g stroke="#fbf5e8" stroke-width="2" stroke-opacity="0.6">
+          <line x1="-20" y1="-58" x2="20" y2="-58"/>
+          <line x1="-20" y1="-44" x2="20" y2="-44"/>
+        </g>
+        <text y="20" font-family="serif" font-size="20" font-weight="700" fill="#fbf5e8" text-anchor="middle">水利</text>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">李拔</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">福宁知府 · 兴修水利</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

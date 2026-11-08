@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="霍童线狮 —— 以线为引 · 中华一绝">
+  <title>霍童线狮 · 以线为引 · 中华一绝</title>
+
+  <defs>
+    <linearGradient id="sky23" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d6e5e0"/>
+      <stop offset="100%" stop-color="#8fb3a9" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat23" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb3a9"/>
+      <stop offset="100%" stop-color="#2b463e"/>
+    </linearGradient>
+    <linearGradient id="mtn23" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb3a9" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2b463e" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow23" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#3f6257" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#3f6257" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky23)"/>
+  <circle cx="306" cy="112" r="86" fill="url(#glow23)"/>
+  <circle cx="306" cy="112" r="30" fill="#3f6257" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn23)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn23)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat23)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 208)">
+      <!-- 线狮 -->
+      <g transform="translate(-46 0)">
+        <g fill="#2b463e">
+          <circle cy="-20" r="34"/>
+          <circle cx="-26" cy="-44" r="15"/>
+          <circle cx="26" cy="-44" r="15"/>
+          <path d="M-52 -6 q52 -20 104 0 l-8 58 q-44 16 -88 0 z"/>
+          <path d="M-58 52 q-22 10 -30 26 l24 4 q10 -14 22 -20 z"/>
+          <path d="M58 52 q22 10 30 26 l-24 4 q-10 -14 -22 -20 z"/>
+        </g>
+        <g fill="#eef4f2">
+          <circle cx="-12" cy="-26" r="6"/>
+          <circle cx="12" cy="-26" r="6"/>
+          <path d="M-14 -6 q14 10 28 0" stroke="#eef4f2" stroke-width="3" fill="none"/>
+        </g>
+        <g stroke="#3f6257" stroke-width="2.4" fill="none" stroke-opacity="0.85">
+          <path d="M-38 -34 q-14 -18 -8 -34"/>
+          <path d="M38 -34 q14 -18 8 -34"/>
+        </g>
+      </g>
+      <!-- 提线 -->
+      <g stroke="#3f6257" stroke-width="2" stroke-dasharray="6 5" fill="none" stroke-opacity="0.85">
+        <line x1="-46" y1="-58" x2="-46" y2="-118"/>
+        <line x1="-72" y1="-48" x2="-102" y2="-118"/>
+        <line x1="-20" y1="-48" x2="10" y2="-118"/>
+      </g>
+      <!-- 操纵架 -->
+      <g fill="#2b463e">
+        <rect x="-132" y="-132" width="176" height="9" rx="4.5"/>
+        <rect x="-132" y="-132" width="9" height="26" rx="4"/>
+        <rect x="35" y="-132" width="9" height="26" rx="4"/>
+      </g>
+      <!-- 锣鼓 -->
+      <g transform="translate(132 56)">
+        <ellipse rx="30" ry="8" fill="#3f6257" opacity="0.4"/>
+        <ellipse ry="26" rx="26" fill="none" stroke="#2b463e" stroke-width="5"/>
+        <ellipse ry="16" rx="16" fill="none" stroke="#3f6257" stroke-width="3"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">霍童线狮</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">以线为引 · 中华一绝</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

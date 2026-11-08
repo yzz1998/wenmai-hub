@@ -1,0 +1,3152 @@
+{
+ "generatedAt": "2026-11-04 13:44:35",
+ "spec": {
+  "width": 1200,
+  "height": 900,
+  "format": "jpeg",
+  "quality": 82,
+  "background": "#f4efe4",
+  "frame": "rgba(43,33,25,0.14) 1px",
+  "tone": "saturation +3% / brightness +1.2% / contrast +2%"
+ },
+ "total": 334,
+ "covered": 334,
+ "failed": 0,
+ "items": {
+  "PC-001": {
+   "cover": "img/cover/PC-001.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-002": {
+   "cover": "img/cover/PC-002.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-003": {
+   "cover": "img/cover/PC-003.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-004": {
+   "cover": "img/cover/PC-004.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-005": {
+   "cover": "img/cover/PC-005.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-006": {
+   "cover": "img/cover/PC-006.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-007": {
+   "cover": "img/cover/PC-007.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-008": {
+   "cover": "img/cover/PC-008.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-009": {
+   "cover": "img/cover/PC-009.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-010": {
+   "cover": "img/cover/PC-010.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-011": {
+   "cover": "img/cover/PC-011.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-012": {
+   "cover": "img/cover/PC-012.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-013": {
+   "cover": "img/cover/PC-013.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-014": {
+   "cover": "img/cover/PC-014.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-015": {
+   "cover": "img/cover/PC-015.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-016": {
+   "cover": "img/cover/PC-016.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-017": {
+   "cover": "img/cover/PC-017.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-018": {
+   "cover": "img/cover/PC-018.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-019": {
+   "cover": "img/cover/PC-019.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-020": {
+   "cover": "img/cover/PC-020.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-021": {
+   "cover": "img/cover/PC-021.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-022": {
+   "cover": "img/cover/PC-022.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-023": {
+   "cover": "img/cover/PC-023.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-024": {
+   "cover": "img/cover/PC-024.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-025": {
+   "cover": "img/cover/PC-025.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-026": {
+   "cover": "img/cover/PC-026.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-027": {
+   "cover": "img/cover/PC-027.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-028": {
+   "cover": "img/cover/PC-028.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-029": {
+   "cover": "img/cover/PC-029.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-030": {
+   "cover": "img/cover/PC-030.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-031": {
+   "cover": "img/cover/PC-031.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-032": {
+   "cover": "img/cover/PC-032.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-033": {
+   "cover": "img/cover/PC-033.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-034": {
+   "cover": "img/cover/PC-034.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-035": {
+   "cover": "img/cover/PC-035.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-036": {
+   "cover": "img/cover/PC-036.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-037": {
+   "cover": "img/cover/PC-037.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-038": {
+   "cover": "img/cover/PC-038.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-039": {
+   "cover": "img/cover/PC-039.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-040": {
+   "cover": "img/cover/PC-040.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-041": {
+   "cover": "img/cover/PC-041.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-042": {
+   "cover": "img/cover/PC-042.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-043": {
+   "cover": "img/cover/PC-043.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-044": {
+   "cover": "img/cover/PC-044.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-045": {
+   "cover": "img/cover/PC-045.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-046": {
+   "cover": "img/cover/PC-046.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-047": {
+   "cover": "img/cover/PC-047.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-048": {
+   "cover": "img/cover/PC-048.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-049": {
+   "cover": "img/cover/PC-049.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-050": {
+   "cover": "img/cover/PC-050.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-051": {
+   "cover": "img/cover/PC-051.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-052": {
+   "cover": "img/cover/PC-052.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-053": {
+   "cover": "img/cover/PC-053.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-054": {
+   "cover": "img/cover/PC-054.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-055": {
+   "cover": "img/cover/PC-055.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-056": {
+   "cover": "img/cover/PC-056.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-057": {
+   "cover": "img/cover/PC-057.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-058": {
+   "cover": "img/cover/PC-058.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-059": {
+   "cover": "img/cover/PC-059.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-060": {
+   "cover": "img/cover/PC-060.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-061": {
+   "cover": "img/cover/PC-061.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-062": {
+   "cover": "img/cover/PC-062.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-063": {
+   "cover": "img/cover/PC-063.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-064": {
+   "cover": "img/cover/PC-064.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-065": {
+   "cover": "img/cover/PC-065.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-066": {
+   "cover": "img/cover/PC-066.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-067": {
+   "cover": "img/cover/PC-067.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-068": {
+   "cover": "img/cover/PC-068.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-069": {
+   "cover": "img/cover/PC-069.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-070": {
+   "cover": "img/cover/PC-070.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-071": {
+   "cover": "img/cover/PC-071.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-072": {
+   "cover": "img/cover/PC-072.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-073": {
+   "cover": "img/cover/PC-073.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-074": {
+   "cover": "img/cover/PC-074.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-075": {
+   "cover": "img/cover/PC-075.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-076": {
+   "cover": "img/cover/PC-076.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-077": {
+   "cover": "img/cover/PC-077.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-078": {
+   "cover": "img/cover/PC-078.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-079": {
+   "cover": "img/cover/PC-079.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-080": {
+   "cover": "img/cover/PC-080.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-081": {
+   "cover": "img/cover/PC-081.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-082": {
+   "cover": "img/cover/PC-082.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-083": {
+   "cover": "img/cover/PC-083.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-084": {
+   "cover": "img/cover/PC-084.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-085": {
+   "cover": "img/cover/PC-085.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-086": {
+   "cover": "img/cover/PC-086.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-087": {
+   "cover": "img/cover/PC-087.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-088": {
+   "cover": "img/cover/PC-088.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-089": {
+   "cover": "img/cover/PC-089.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-090": {
+   "cover": "img/cover/PC-090.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-091": {
+   "cover": "img/cover/PC-091.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-092": {
+   "cover": "img/cover/PC-092.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-093": {
+   "cover": "img/cover/PC-093.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-094": {
+   "cover": "img/cover/PC-094.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-095": {
+   "cover": "img/cover/PC-095.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-096": {
+   "cover": "img/cover/PC-096.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-097": {
+   "cover": "img/cover/PC-097.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-098": {
+   "cover": "img/cover/PC-098.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-099": {
+   "cover": "img/cover/PC-099.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-100": {
+   "cover": "img/cover/PC-100.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-101": {
+   "cover": "img/cover/PC-101.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-102": {
+   "cover": "img/cover/PC-102.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-103": {
+   "cover": "img/cover/PC-103.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-104": {
+   "cover": "img/cover/PC-104.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-105": {
+   "cover": "img/cover/PC-105.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-106": {
+   "cover": "img/cover/PC-106.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-107": {
+   "cover": "img/cover/PC-107.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-108": {
+   "cover": "img/cover/PC-108.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-109": {
+   "cover": "img/cover/PC-109.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-110": {
+   "cover": "img/cover/PC-110.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-111": {
+   "cover": "img/cover/PC-111.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-112": {
+   "cover": "img/cover/PC-112.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-113": {
+   "cover": "img/cover/PC-113.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-114": {
+   "cover": "img/cover/PC-114.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-115": {
+   "cover": "img/cover/PC-115.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-116": {
+   "cover": "img/cover/PC-116.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-117": {
+   "cover": "img/cover/PC-117.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-118": {
+   "cover": "img/cover/PC-118.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-119": {
+   "cover": "img/cover/PC-119.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-120": {
+   "cover": "img/cover/PC-120.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-121": {
+   "cover": "img/cover/PC-121.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-122": {
+   "cover": "img/cover/PC-122.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-123": {
+   "cover": "img/cover/PC-123.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-124": {
+   "cover": "img/cover/PC-124.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-125": {
+   "cover": "img/cover/PC-125.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-126": {
+   "cover": "img/cover/PC-126.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-127": {
+   "cover": "img/cover/PC-127.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-128": {
+   "cover": "img/cover/PC-128.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-129": {
+   "cover": "img/cover/PC-129.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-130": {
+   "cover": "img/cover/PC-130.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-131": {
+   "cover": "img/cover/PC-131.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-132": {
+   "cover": "img/cover/PC-132.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-133": {
+   "cover": "img/cover/PC-133.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-134": {
+   "cover": "img/cover/PC-134.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-135": {
+   "cover": "img/cover/PC-135.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-136": {
+   "cover": "img/cover/PC-136.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-137": {
+   "cover": "img/cover/PC-137.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-138": {
+   "cover": "img/cover/PC-138.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-139": {
+   "cover": "img/cover/PC-139.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-140": {
+   "cover": "img/cover/PC-140.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-141": {
+   "cover": "img/cover/PC-141.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-142": {
+   "cover": "img/cover/PC-142.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-143": {
+   "cover": "img/cover/PC-143.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-144": {
+   "cover": "img/cover/PC-144.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-145": {
+   "cover": "img/cover/PC-145.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-146": {
+   "cover": "img/cover/PC-146.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-147": {
+   "cover": "img/cover/PC-147.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-148": {
+   "cover": "img/cover/PC-148.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-149": {
+   "cover": "img/cover/PC-149.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-150": {
+   "cover": "img/cover/PC-150.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-151": {
+   "cover": "img/cover/PC-151.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-152": {
+   "cover": "img/cover/PC-152.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-153": {
+   "cover": "img/cover/PC-153.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-154": {
+   "cover": "img/cover/PC-154.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-155": {
+   "cover": "img/cover/PC-155.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-156": {
+   "cover": "img/cover/PC-156.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-157": {
+   "cover": "img/cover/PC-157.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-158": {
+   "cover": "img/cover/PC-158.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-159": {
+   "cover": "img/cover/PC-159.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-160": {
+   "cover": "img/cover/PC-160.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-161": {
+   "cover": "img/cover/PC-161.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-162": {
+   "cover": "img/cover/PC-162.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-163": {
+   "cover": "img/cover/PC-163.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-164": {
+   "cover": "img/cover/PC-164.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-165": {
+   "cover": "img/cover/PC-165.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-166": {
+   "cover": "img/cover/PC-166.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-167": {
+   "cover": "img/cover/PC-167.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-168": {
+   "cover": "img/cover/PC-168.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-169": {
+   "cover": "img/cover/PC-169.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-170": {
+   "cover": "img/cover/PC-170.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-171": {
+   "cover": "img/cover/PC-171.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-172": {
+   "cover": "img/cover/PC-172.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-173": {
+   "cover": "img/cover/PC-173.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-174": {
+   "cover": "img/cover/PC-174.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-175": {
+   "cover": "img/cover/PC-175.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-176": {
+   "cover": "img/cover/PC-176.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-177": {
+   "cover": "img/cover/PC-177.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-178": {
+   "cover": "img/cover/PC-178.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-179": {
+   "cover": "img/cover/PC-179.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-180": {
+   "cover": "img/cover/PC-180.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-181": {
+   "cover": "img/cover/PC-181.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-182": {
+   "cover": "img/cover/PC-182.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-183": {
+   "cover": "img/cover/PC-183.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-184": {
+   "cover": "img/cover/PC-184.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-185": {
+   "cover": "img/cover/PC-185.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-186": {
+   "cover": "img/cover/PC-186.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-187": {
+   "cover": "img/cover/PC-187.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-188": {
+   "cover": "img/cover/PC-188.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-189": {
+   "cover": "img/cover/PC-189.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-190": {
+   "cover": "img/cover/PC-190.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-191": {
+   "cover": "img/cover/PC-191.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-192": {
+   "cover": "img/cover/PC-192.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-193": {
+   "cover": "img/cover/PC-193.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-194": {
+   "cover": "img/cover/PC-194.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-195": {
+   "cover": "img/cover/PC-195.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-196": {
+   "cover": "img/cover/PC-196.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-197": {
+   "cover": "img/cover/PC-197.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-198": {
+   "cover": "img/cover/PC-198.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-199": {
+   "cover": "img/cover/PC-199.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-200": {
+   "cover": "img/cover/PC-200.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-201": {
+   "cover": "img/cover/PC-201.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-202": {
+   "cover": "img/cover/PC-202.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-203": {
+   "cover": "img/cover/PC-203.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-204": {
+   "cover": "img/cover/PC-204.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-205": {
+   "cover": "img/cover/PC-205.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-206": {
+   "cover": "img/cover/PC-206.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-207": {
+   "cover": "img/cover/PC-207.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-208": {
+   "cover": "img/cover/PC-208.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-209": {
+   "cover": "img/cover/PC-209.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-210": {
+   "cover": "img/cover/PC-210.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-211": {
+   "cover": "img/cover/PC-211.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-212": {
+   "cover": "img/cover/PC-212.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-213": {
+   "cover": "img/cover/PC-213.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-214": {
+   "cover": "img/cover/PC-214.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-215": {
+   "cover": "img/cover/PC-215.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-216": {
+   "cover": "img/cover/PC-216.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-217": {
+   "cover": "img/cover/PC-217.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-218": {
+   "cover": "img/cover/PC-218.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-219": {
+   "cover": "img/cover/PC-219.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-220": {
+   "cover": "img/cover/PC-220.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-221": {
+   "cover": "img/cover/PC-221.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-222": {
+   "cover": "img/cover/PC-222.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-223": {
+   "cover": "img/cover/PC-223.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-224": {
+   "cover": "img/cover/PC-224.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-225": {
+   "cover": "img/cover/PC-225.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-226": {
+   "cover": "img/cover/PC-226.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-227": {
+   "cover": "img/cover/PC-227.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-228": {
+   "cover": "img/cover/PC-228.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-229": {
+   "cover": "img/cover/PC-229.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-230": {
+   "cover": "img/cover/PC-230.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-231": {
+   "cover": "img/cover/PC-231.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-232": {
+   "cover": "img/cover/PC-232.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-233": {
+   "cover": "img/cover/PC-233.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-234": {
+   "cover": "img/cover/PC-234.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-235": {
+   "cover": "img/cover/PC-235.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-236": {
+   "cover": "img/cover/PC-236.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-237": {
+   "cover": "img/cover/PC-237.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-238": {
+   "cover": "img/cover/PC-238.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-239": {
+   "cover": "img/cover/PC-239.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-240": {
+   "cover": "img/cover/PC-240.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "PC-241": {
+   "cover": "img/cover/PC-241.jpg",
+   "kind": "plate",
+   "fit": "contain",
+   "source": "原图录图版",
+   "sourceUrl": "",
+   "credit": "图版来源：《剪花娘子》图录",
+   "license": "原始项目文献图版"
+  },
+  "SHE-LANG-01": {
+   "cover": "img/cover/SHE-LANG-01.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "cmstop.ndsww.com",
+   "sourceUrl": "http://cmstop.ndsww.com/p/74267.html",
+   "credit": "尽展畲族服饰魅力《凤凰霓裳魅力山哈》文艺汇演在市艺术馆举办_新宁德",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "畲族 凤凰装 传统服饰",
+    "She ethnic minority costume China"
+   ]
+  },
+  "SHE-LANG-02": {
+   "cover": "img/cover/SHE-LANG-02.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "bbs.zol.com.cn",
+   "sourceUrl": "https://bbs.zol.com.cn/dcbbs/d17_61913.html",
+   "credit": "畲族古村落---半月里（一）-中关村在线摄影论坛",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "畲族 古村落 山哈"
+   ]
+  },
+  "SHE-LANG-03": {
+   "cover": "img/cover/SHE-LANG-03.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "som.zufe.edu.cn",
+   "sourceUrl": "https://som.zufe.edu.cn/info/1039/11228.htm",
+   "credit": "“访新时代宗祠族谱 探数字化乡愁记忆”之二：市营专业“数字乡村”研究团队走进富阳美丽乡村-浙江财经大学管理学院",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "畲族 宗祠 祠堂 宗谱"
+   ]
+  },
+  "SHE-LANG-04": {
+   "cover": "img/cover/SHE-LANG-04.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "dashangu.com",
+   "sourceUrl": "http://www.dashangu.com/postimg_23388046.html",
+   "credit": "畲族山歌对唱,景宁_大山谷图库",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "畲族 山歌 对唱 歌会"
+   ]
+  },
+  "SHE-CLOTH-01": {
+   "cover": "img/cover/SHE-CLOTH-01.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "通讯员 刘其燚 / 福建日报",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-CLOTH-02": {
+   "cover": "img/cover/SHE-CLOTH-02.jpg",
+   "kind": "photo",
+   "fit": "contain",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻·雷圣初",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-CLOTH-03": {
+   "cover": "img/cover/SHE-CLOTH-03.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻·雷圣初",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-CLOTH-04": {
+   "cover": "img/cover/SHE-CLOTH-04.jpg",
+   "kind": "photo",
+   "fit": "contain",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻·雷圣初",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-MUSIC-01": {
+   "cover": "img/cover/SHE-MUSIC-01.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-MUSIC-02": {
+   "cover": "img/cover/SHE-MUSIC-02.jpg",
+   "kind": "photo",
+   "fit": "contain",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-MUSIC-03": {
+   "cover": "img/cover/SHE-MUSIC-03.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "中新社·傅飞扬",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-MUSIC-04": {
+   "cover": "img/cover/SHE-MUSIC-04.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "中新社·傅飞扬",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-FESTIVAL-01": {
+   "cover": "img/cover/SHE-FESTIVAL-01.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "中新社·傅飞扬",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-FESTIVAL-02": {
+   "cover": "img/cover/SHE-FESTIVAL-02.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "k.sina.com.cn",
+   "sourceUrl": "https://k.sina.com.cn/article_2704465265_pa132dd71001009mkr.html",
+   "credit": "中国这个少数民族婚礼，热热闹闹很有趣|畲族|婚礼|新娘_新浪新闻",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "畲族 婚俗 婚礼 花轿"
+   ]
+  },
+  "SHE-FESTIVAL-03": {
+   "cover": "img/cover/SHE-FESTIVAL-03.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "中新社·傅飞扬",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-FESTIVAL-04": {
+   "cover": "img/cover/SHE-FESTIVAL-04.jpg",
+   "kind": "photo",
+   "fit": "contain",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "中新社·傅飞扬",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-CRAFT-01": {
+   "cover": "img/cover/SHE-CRAFT-01.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "林仕元·珍华堂",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-CRAFT-02": {
+   "cover": "img/cover/SHE-CRAFT-02.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "林仕元·珍华堂",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-CRAFT-03": {
+   "cover": "img/cover/SHE-CRAFT-03.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "中新社·傅飞扬",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-CRAFT-04": {
+   "cover": "img/cover/SHE-CRAFT-04.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "cmstop.ndsww.com",
+   "sourceUrl": "http://cmstop.ndsww.com/p/83973.html",
+   "credit": "非遗里的闽人智慧 | 跨山过水、见证巨变的木拱廊桥_新宁德",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "木拱廊桥 福建 廊桥",
+    "wooden arch covered bridge Fujian"
+   ]
+  },
+  "SHE-ARCHIVE-01": {
+   "cover": "img/cover/SHE-ARCHIVE-01.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "ha.news.cn",
+   "sourceUrl": "http://ha.news.cn/photo/newsphoto/2023-04/09/c_1129504199.htm",
+   "credit": "桐柏山区采药忙 - 新华网河南频道",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "中药材 晾晒 药材",
+    "中草药 种植 基地",
+    "dried chinese herbal medicine"
+   ]
+  },
+  "SHE-ARCHIVE-02": {
+   "cover": "img/cover/SHE-ARCHIVE-02.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-ARCHIVE-03": {
+   "cover": "img/cover/SHE-ARCHIVE-03.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-ARCHIVE-04": {
+   "cover": "img/cover/SHE-ARCHIVE-04.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-RIBBON-01": {
+   "cover": "img/cover/SHE-RIBBON-01.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "潮新闻",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-RIBBON-02": {
+   "cover": "img/cover/SHE-RIBBON-02.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "人民图片网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-RIBBON-03": {
+   "cover": "img/cover/SHE-RIBBON-03.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "人民图片网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-RIBBON-04": {
+   "cover": "img/cover/SHE-RIBBON-04.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "人民图片网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "SHE-RIBBON-05": {
+   "cover": "img/cover/SHE-RIBBON-05.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "aol.scnu.edu.cn",
+   "sourceUrl": "http://aol.scnu.edu.cn/a/20250508/1221.html",
+   "credit": "畲韵传薪火 巧手织传承——“畲彩织创”华师美术学院创新创业实践团队 - 学生风采 - 华南师范大学美术学院",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "畲族 彩带 织带 编织"
+   ]
+  },
+  "SHE-RIBBON-06": {
+   "cover": "img/cover/SHE-RIBBON-06.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "人民图片网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FEST-001": {
+   "cover": "img/cover/M-FEST-001.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.ndwww.cn/xw/ndxw/2025/0321/305543.shtml",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FEST-002": {
+   "cover": "img/cover/M-FEST-002.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.ndwww.cn/xw/ndxw/2025/0303/304394.shtml",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FEST-003": {
+   "cover": "img/cover/M-FEST-003.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/92535.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FEST-004": {
+   "cover": "img/cover/M-FEST-004.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.ndwww.cn/xw/ndxw/2025/1218/318124.shtml",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FEST-005": {
+   "cover": "img/cover/M-FEST-005.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://fjnews.fjsen.com/2019-10/09/content_30010499_0.htm",
+   "credit": "东南网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FEST-006": {
+   "cover": "img/cover/M-FEST-006.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.ndwww.cn/xw/ndxw/2023/1209/272393.shtml",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-OPERA-001": {
+   "cover": "img/cover/M-OPERA-001.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/70619.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-OPERA-002": {
+   "cover": "img/cover/M-OPERA-002.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/108621.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-OPERA-003": {
+   "cover": "img/cover/M-OPERA-003.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/wvjj/202407/t20240713_6483116.htm",
+   "credit": "福建省人民政府",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-OPERA-004": {
+   "cover": "img/cover/M-OPERA-004.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/74259.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-OPERA-005": {
+   "cover": "img/cover/M-OPERA-005.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/90737.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-OPERA-006": {
+   "cover": "img/cover/M-OPERA-006.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/86457.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-001": {
+   "cover": "img/cover/M-FIGURE-001.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://wlt.fujian.gov.cn/zwgk/ztzl/fjsjplyc/ndsfaslc/201908/t20190808_5294476.htm",
+   "credit": "福建省文化和旅游厅",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-002": {
+   "cover": "img/cover/M-FIGURE-002.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.ndwww.cn/xspd/snxw/2024/0403/285171.shtml",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-003": {
+   "cover": "img/cover/M-FIGURE-003.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.ndwww.cn/xspd/pnxw/2023/0629/259848.shtml",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-004": {
+   "cover": "img/cover/M-FIGURE-004.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://wwj.wlt.fj.gov.cn/wwzy/bmww/202410/t20241009_6540277.htm",
+   "credit": "福建省文物局",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-005": {
+   "cover": "img/cover/M-FIGURE-005.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "",
+   "credit": "",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-006": {
+   "cover": "img/cover/M-FIGURE-006.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://zx.fuzhou.gov.cn/zz/ywjx/ywjx/202508/t20250805_5057751.htm",
+   "credit": "福州市人民政府",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-007": {
+   "cover": "img/cover/M-FIGURE-007.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/wvjj/202306/t20230615_6187368.htm",
+   "credit": "福建省人民政府",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-FIGURE-008": {
+   "cover": "img/cover/M-FIGURE-008.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/100559.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-001": {
+   "cover": "img/cover/M-CRAFT-001.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/83973.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-002": {
+   "cover": "img/cover/M-CRAFT-002.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://ndwm.fjsen.com/2025-03/14/content_31861895.htm",
+   "credit": "东南网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-003": {
+   "cover": "img/cover/M-CRAFT-003.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/103998.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-004": {
+   "cover": "img/cover/M-CRAFT-004.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://fj.news.cn/jhbd/2022-05/25/c_1128681749.htm",
+   "credit": "新华网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-005": {
+   "cover": "img/cover/M-CRAFT-005.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/101820.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-006": {
+   "cover": "img/cover/M-CRAFT-006.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/86141.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-007": {
+   "cover": "img/cover/M-CRAFT-007.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://fj.news.cn/jdt/2022-05/06/c_1128625542.htm",
+   "credit": "新华网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-CRAFT-008": {
+   "cover": "img/cover/M-CRAFT-008.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/wvjj/202309/t20230905_6249595.htm",
+   "credit": "福建省人民政府",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-001": {
+   "cover": "img/cover/M-SCENIC-001.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/101240.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-002": {
+   "cover": "img/cover/M-SCENIC-002.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.fjdaily.com/app/content/2021-11/30/content_1225453.html",
+   "credit": "福建日报",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-003": {
+   "cover": "img/cover/M-SCENIC-003.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/93992.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-004": {
+   "cover": "img/cover/M-SCENIC-004.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://www.fjdaily.com/app/content/2022-08/25/content_1573525.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-005": {
+   "cover": "img/cover/M-SCENIC-005.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/98326.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-006": {
+   "cover": "img/cover/M-SCENIC-006.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/102316.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-007": {
+   "cover": "img/cover/M-SCENIC-007.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "https://wlt.fujian.gov.cn/zwgk/ztzl/fjsjplyc/ndsfaslc/201908/t20190808_5294476.htm",
+   "credit": "福建省文化和旅游厅",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-008": {
+   "cover": "img/cover/M-SCENIC-008.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/89247.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-009": {
+   "cover": "img/cover/M-SCENIC-009.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/89182.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "M-SCENIC-010": {
+   "cover": "img/cover/M-SCENIC-010.jpg",
+   "kind": "photo",
+   "fit": "cover",
+   "source": "原实景/素材照片",
+   "sourceUrl": "http://cmstop.ndsww.com/p/85101.html",
+   "credit": "宁德网",
+   "license": "原始项目实景/素材照片（来源见 credit）"
+  },
+  "HS2-001": {
+   "cover": "img/cover/HS2-001.jpg",
+   "kind": "web",
+   "fit": "contain",
+   "source": "sucai.redocn.com",
+   "sourceUrl": "https://sucai.redocn.com/13726429.html",
+   "credit": "山川河流森林自然风光下载_红动中国",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "自然资源 山川 河流 生态",
+    "natural resources landscape"
+   ]
+  },
+  "HS2-002": {
+   "cover": "img/cover/HS2-002.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "freepik.com",
+   "sourceUrl": "https://www.freepik.com/premium-ai-image/open-pit-open-pit-mining-open-pit-mine-aerial-view_94585423.htm",
+   "credit": "Premium AI Image | open pit open pit mining open pit mine aerial view",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "露天矿 采矿 矿石",
+    "open pit mine"
+   ]
+  },
+  "HS2-003": {
+   "cover": "img/cover/HS2-003.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "livekong.com",
+   "sourceUrl": "https://www.livekong.com/29767.html",
+   "credit": "航拍山川河流-livekong来悟空",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "山区 流域 集水区 航拍",
+    "湿地 河流 航拍 生态",
+    "aerial river wetland landscape"
+   ]
+  },
+  "HS2-004": {
+   "cover": "img/cover/HS2-004.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "qa.hnist.cn",
+   "sourceUrl": "https://qa.hnist.cn/info/1011/5827.htm",
+   "credit": "“传统文化浸课堂 深耕细研润无声”——教育科学学院小学教育专业全体学生赴畔湖湾小学研学-湖南理工学院-教育科学学院",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "课堂 学生 教学",
+    "students classroom"
+   ]
+  },
+  "HS2-005": {
+   "cover": "img/cover/HS2-005.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "k.sina.cn",
+   "sourceUrl": "https://k.sina.cn/article_5393222784_141760c8000100c23k.html",
+   "credit": "发电厂的“大烟囱”到底是干什么用的？",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "燃煤电厂 烟囱 工业",
+    "coal power plant"
+   ]
+  },
+  "HS2-006": {
+   "cover": "img/cover/HS2-006.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "vecteezy.com",
+   "sourceUrl": "https://www.vecteezy.com/free-photos/crowded-city-street",
+   "credit": "Crowded City Street Stock Photos, Images and Backgrounds for Free Download",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "人群 拥挤 街道 人流",
+    "crowd people street"
+   ]
+  },
+  "HS2-007": {
+   "cover": "img/cover/HS2-007.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "hzmik.com",
+   "sourceUrl": "http://www.hzmik.com/newsdetail_957.html",
+   "credit": "美仪“走进”亚洲最大的露天铜矿",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "铜矿 露天采矿 矿坑",
+    "copper mine pit"
+   ]
+  },
+  "HS2-008": {
+   "cover": "img/cover/HS2-008.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "shetu66.com",
+   "sourceUrl": "https://www.shetu66.com/muban/726147280201194411",
+   "credit": "重雾霾城市空气污染图片png下载_编号726147280201194411-设图网",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "雾霾 城市 空气污染",
+    "smog air pollution city"
+   ]
+  },
+  "HS2-009": {
+   "cover": "img/cover/HS2-009.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "52112.com",
+   "sourceUrl": "https://www.52112.com/pic/236000.html",
+   "credit": "蓝色星球图片-太空中发光的蓝色地球素材-高清图片-摄影照片-寻图免费打包下载",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "地球 太空 蓝色星球",
+    "Earth from space"
+   ]
+  },
+  "HS2-010": {
+   "cover": "img/cover/HS2-010.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "vecteezy.com",
+   "sourceUrl": "https://www.vecteezy.com/photo/6024461-solar-panels-and-wind-turbines-green-energy-concept",
+   "credit": "Solar panels and wind turbines, Green energy concept 6024461 Stock ...",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "太阳能 光伏 电站 风机",
+    "solar panels wind turbines"
+   ]
+  },
+  "HS2-011": {
+   "cover": "img/cover/HS2-011.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "dlbder.com",
+   "sourceUrl": "https://www.dlbder.com/New/New-182.html",
+   "credit": "一分到底！德隆博德尔中标山西分拣中心可回收垃圾处理项目 - 山东德隆博德尔环保装备发展有限公司",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "垃圾 回收 分拣 再生资源",
+    "recycling plant waste sorting"
+   ]
+  },
+  "HS2-012": {
+   "cover": "img/cover/HS2-012.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "xj.news.cn",
+   "sourceUrl": "http://xj.news.cn/zt/2024-03/27/c_1130097191.htm",
+   "credit": "沙漠光伏发电“照亮”墨玉绿色前行路",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "中国 光伏电站 沙漠",
+    "solar farm China"
+   ]
+  },
+  "HS5-001": {
+   "cover": "img/cover/HS5-001.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "yn.xinhuanet.com",
+   "sourceUrl": "http://www.yn.xinhuanet.com/original/2023-02/15/c_1310697704.htm",
+   "credit": "“考古中国”发布！云南古城村遗址发现完整的商周时期环壕聚落",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "古城 遗址 城墙 考古",
+    "ancient city ruins"
+   ]
+  },
+  "HS5-002": {
+   "cover": "img/cover/HS5-002.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "vecteezy.com",
+   "sourceUrl": "https://www.vecteezy.com/photo/28576306-aerial-view-of-new-york-city-skyline-with-skyscrapers-aerial-views-of-the-downtown-manhattan-skyline-ai-generated",
+   "credit": "Aerial view of New York City skyline with skyscrapers. Aerial Views of ...",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "城市 天际线 航拍 高楼",
+    "city skyline aerial"
+   ]
+  },
+  "HS5-003": {
+   "cover": "img/cover/HS5-003.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "twistedsifter.com",
+   "sourceUrl": "https://twistedsifter.com/2010/07/urban-sprawl-aerials-christoph-gielen/",
+   "credit": "Urban Sprawl in the United States: 10 Incredible Aerials - TwistedSifter",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "城市 扩张 建成区 航拍",
+    "urban sprawl aerial"
+   ]
+  },
+  "HS5-004": {
+   "cover": "img/cover/HS5-004.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "freepik.com",
+   "sourceUrl": "https://www.freepik.com/premium-ai-image/aerial-view-suburban-neighborhood-with-rows-houses_181984838.htm",
+   "credit": "Premium Photo | An aerial view of a suburban neighborhood with rows of ...",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "郊区 住宅区 航拍",
+    "suburb houses aerial"
+   ]
+  },
+  "HS5-005": {
+   "cover": "img/cover/HS5-005.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "shetu66.com",
+   "sourceUrl": "https://www.shetu66.com/muban/662729045007537235",
+   "credit": "都市大厦天空天际线建筑高楼城市风光jpg下载_编号662729045007537235-设图网",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "中国 城市 高楼 天际线",
+    "Chinese city skyline"
+   ]
+  },
+  "HS5-006": {
+   "cover": "img/cover/HS5-006.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "weather.com.cn",
+   "sourceUrl": "http://www.weather.com.cn/guangxi/gxgqtp/3613543.shtml",
+   "credit": "南宁早高峰遇雨交通拥堵-广西高清图片-中国天气网",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "城市 交通拥堵 车流",
+    "traffic congestion city"
+   ]
+  },
+  "HS5-007": {
+   "cover": "img/cover/HS5-007.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "wholegrainscouncil.org",
+   "sourceUrl": "https://wholegrainscouncil.org/blog/2019/12/5-surprising-facts-about-modern-wheat",
+   "credit": "5 Surprising Facts about Modern Wheat | The Whole Grains Council",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "麦田 麦穗 金黄",
+    "wheat field"
+   ]
+  },
+  "HS5-008": {
+   "cover": "img/cover/HS5-008.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "hunantoday.cn",
+   "sourceUrl": "https://www.hunantoday.cn/news/xhn/202405/19981782.html",
+   "credit": "“牛耕文化”成为亮丽风景！临武县：金盆村梯田上的传统农耕之美 - 大美乡镇 - 新湖南",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "梯田 水田 耕作 牛耕",
+    "rice terraces China"
+   ]
+  },
+  "HS5-009": {
+   "cover": "img/cover/HS5-009.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "vecteezy.com",
+   "sourceUrl": "https://www.vecteezy.com/photo/51146787-combine-harvester-in-action-on-the-field-combine-harvester-harvesting-machine-for-harvesting-a-wheat-field-concept",
+   "credit": "Combine harvester in action on the field. Combine harvester. Harvesting ...",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "联合收割机 麦田 机械化",
+    "combine harvester field"
+   ]
+  },
+  "HS5-010": {
+   "cover": "img/cover/HS5-010.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "huitu.com",
+   "sourceUrl": "https://www.huitu.com/photo/show/20190721/150309595060.html",
+   "credit": "村庄农舍,田园田野,自然风景,摄影素材,汇图网www.huitu.com",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "中国 乡村 村庄 农舍",
+    "Chinese rural village"
+   ]
+  },
+  "HS5-011": {
+   "cover": "img/cover/HS5-011.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "vip.people.com.cn",
+   "sourceUrl": "http://vip.people.com.cn/albumsDetail?aid=1244144&pid=8538105",
+   "credit": "江苏大生集团“数字化纺纱车间”引领中国纺织智能制造-人民图片网",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "纺织厂 机器 车间",
+    "textile mill machines"
+   ]
+  },
+  "HS5-012": {
+   "cover": "img/cover/HS5-012.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "zentong.com",
+   "sourceUrl": "https://www.zentong.com/a/p/204413.html",
+   "credit": "探秘高炉炼铁：从原料到铁水的工业奇迹 - 怎通",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "钢铁厂 高炉 冶炼",
+    "steel mill blast furnace"
+   ]
+  },
+  "HS5-013": {
+   "cover": "img/cover/HS5-013.jpg",
+   "kind": "web",
+   "fit": "cover",
+   "source": "vecteezy.com",
+   "sourceUrl": "https://www.vecteezy.com/photo/71109013-aerial-view-of-expanding-cityscape-blending-into-farmland-urban-growth-land-division-and-transition-between-natural-and-built-environments",
+   "credit": "Aerial view of expanding cityscape blending into farmland. Urban growth ...",
+   "license": "第三方网站图片，教学引用；正式出版需另行取得授权",
+   "query": [
+    "城市边缘 农田 航拍",
+    "city edge farmland aerial"
+   ]
+  }
+ }
+}

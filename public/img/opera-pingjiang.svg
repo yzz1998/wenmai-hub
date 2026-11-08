@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="平讲戏 —— 平白如讲话 · 闽剧源流">
+  <title>平讲戏 · 平白如讲话 · 闽剧源流</title>
+
+  <defs>
+    <linearGradient id="sky9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d5e3ef"/>
+      <stop offset="100%" stop-color="#89aecd" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd"/>
+      <stop offset="100%" stop-color="#264a6b"/>
+    </linearGradient>
+    <linearGradient id="mtn9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#264a6b" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow9" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#37648c" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#37648c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky9)"/>
+  <circle cx="368" cy="112" r="86" fill="url(#glow9)"/>
+  <circle cx="368" cy="112" r="30" fill="#37648c" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn9)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn9)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat9)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 210)">
+      <!-- 梯田戏台 -->
+      <g fill="#264a6b" opacity="0.28">
+        <path d="M-180 60 q90 -34 180 0 t180 0 l0 16 q-90 -34 -180 0 t-180 0 z"/>
+        <path d="M-180 90 q90 -34 180 0 t180 0 l0 16 q-90 -34 -180 0 t-180 0 z"/>
+        <path d="M-180 120 q90 -34 180 0 t180 0 l0 16 q-90 -34 -180 0 t-180 0 z"/>
+      </g>
+      <!-- 戏台 -->
+      <rect x="-116" y="-46" width="232" height="16" rx="5" fill="#264a6b"/>
+      <rect x="-104" y="-30" width="208" height="88" fill="#eef3f8" opacity="0.62"/>
+      <g fill="#264a6b" opacity="0.88">
+        <circle cx="-30" cy="-4" r="15"/>
+        <path d="M-52 22 q22 -15 44 0 l5 30 h-54 z"/>
+        <circle cx="52" cy="-8" r="15"/>
+        <path d="M30 18 q22 -15 44 0 l5 34 h-54 z"/>
+      </g>
+      <path d="M-116 -46 q116 -46 232 0 l-10 14 q-106 -38 -212 0 z" fill="#37648c"/>
+      <!-- 锣鼓 -->
+      <g transform="translate(-158 4)">
+        <ellipse rx="20" ry="20" fill="#37648c"/>
+        <ellipse rx="20" ry="20" fill="none" stroke="#264a6b" stroke-width="4"/>
+        <ellipse rx="11" ry="11" fill="#264a6b" opacity="0.5"/>
+      </g>
+      <g fill="none" stroke="#37648c" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7">
+        <path d="M-2 -84 q16 -12 32 0 M-24 -104 q28 -22 56 0"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">平讲戏</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">平白如讲话 · 闽剧源流</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

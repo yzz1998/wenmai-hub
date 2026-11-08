@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="谢翱 —— 宋末爱国诗人 · 汐社">
+  <title>谢翱 · 宋末爱国诗人 · 汐社</title>
+
+  <defs>
+    <linearGradient id="sky19" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#f4e7c8"/>
+      <stop offset="100%" stop-color="#dcbc74" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat19" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74"/>
+      <stop offset="100%" stop-color="#836021"/>
+    </linearGradient>
+    <linearGradient id="mtn19" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#836021" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow19" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#b5893a" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#b5893a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky19)"/>
+  <circle cx="368" cy="112" r="86" fill="url(#glow19)"/>
+  <circle cx="368" cy="112" r="30" fill="#b5893a" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn19)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn19)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat19)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 208)">
+      <!-- 章水握别：江水与远帆 -->
+      <circle cx="-116" cy="-84" r="30" fill="#b5893a" opacity="0.28"/>
+      <g fill="none" stroke="#b5893a" stroke-width="3.4" stroke-linecap="round" stroke-opacity="0.75">
+        <path d="M-160 34 q26 -16 52 0 t52 0 t52 0 t52 0 t52 0"/>
+        <path d="M-150 60 q26 -16 52 0 t52 0 t52 0 t52 0 t52 0" stroke-opacity="0.5"/>
+        <path d="M-142 86 q26 -16 52 0 t52 0 t52 0 t52 0 t52 0" stroke-opacity="0.3"/>
+      </g>
+      <!-- 文士剪影与剑 -->
+      <g transform="translate(52 -30)">
+        <circle cy="-42" r="19" fill="#836021"/>
+        <path d="M-28 -16 q28 -18 56 0 l8 66 h-72 z" fill="#836021"/>
+        <path d="M-16 20 q16 10 32 0" stroke="#b5893a" stroke-width="3" fill="none"/>
+      </g>
+      <g transform="translate(150 -30)" stroke="#b5893a" stroke-width="4" stroke-linecap="round">
+        <line x1="0" y1="-56" x2="0" y2="30"/>
+        <line x1="-16" y1="-56" x2="16" y2="-56"/>
+      </g>
+      <!-- 战旗 -->
+      <g transform="translate(-118 -40)">
+        <line x1="0" y1="-50" x2="0" y2="46" stroke="#836021" stroke-width="4"/>
+        <path d="M2 -48 q44 -10 62 12 q-32 8 -62 22 z" fill="#b5893a" opacity="0.9"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">谢翱</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">宋末爱国诗人 · 汐社</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

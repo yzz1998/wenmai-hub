@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="林聪 —— 明代刑部尚书 · 直声闻天下">
+  <title>林聪 · 明代刑部尚书 · 直声闻天下</title>
+
+  <defs>
+    <linearGradient id="sky17" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#f4e7c8"/>
+      <stop offset="100%" stop-color="#dcbc74" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat17" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74"/>
+      <stop offset="100%" stop-color="#836021"/>
+    </linearGradient>
+    <linearGradient id="mtn17" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dcbc74" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#836021" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow17" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#b5893a" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#b5893a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky17)"/>
+  <circle cx="244" cy="112" r="86" fill="url(#glow17)"/>
+  <circle cx="244" cy="112" r="30" fill="#b5893a" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn17)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn17)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat17)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 208)">
+      <!-- 官印与奏疏 -->
+      <g transform="translate(-96 4)">
+        <path d="M-72 40 q72 -34 144 -8 l0 56 q-72 -26 -144 8 z" fill="#fbf5e8"/>
+        <path d="M-72 40 q72 -34 144 -8 l0 56 q-72 -26 -144 8 z" fill="none" stroke="#836021" stroke-width="3"/>
+        <g stroke="#b5893a" stroke-width="2.2" stroke-opacity="0.6">
+          <line x1="-56" y1="56" x2="56" y2="42"/>
+          <line x1="-52" y1="72" x2="60" y2="58"/>
+          <line x1="-48" y1="88" x2="58" y2="76"/>
+        </g>
+      </g>
+      <g transform="translate(104 -22)">
+        <rect x="-46" y="-46" width="92" height="92" rx="8" fill="#a8382f"/>
+        <rect x="-34" y="-34" width="68" height="68" rx="3" fill="none" stroke="#fbf5e8" stroke-width="3" stroke-opacity="0.85"/>
+        <g stroke="#fbf5e8" stroke-width="4" fill="none" stroke-linecap="square" stroke-opacity="0.92">
+          <path d="M-26 -26 h18 M-17 -32 v18 M-26 -14 h18"/>
+          <path d="M8 -32 h18 v18 h-18 z M17 -32 v18"/>
+          <path d="M-26 8 h18 M-26 16 h18 M-26 24 h18"/>
+          <path d="M8 6 v26 M8 14 h18 M8 24 h14"/>
+        </g>
+      </g>
+      <!-- 天平（法度） -->
+      <g transform="translate(-100 -72)" stroke="#b5893a" stroke-width="3.4" fill="none" stroke-linecap="round">
+        <line x1="0" y1="-24" x2="0" y2="20"/>
+        <line x1="-34" y1="-18" x2="34" y2="-18"/>
+        <path d="M-34 -18 l-8 18 h16 z" fill="#b5893a" fill-opacity="0.5"/>
+        <path d="M34 -18 l-8 18 h16 z" fill="#b5893a" fill-opacity="0.5"/>
+      </g>
+      <g fill="none" stroke="#dcbc74" stroke-width="3" stroke-linecap="round" stroke-opacity="0.5">
+        <path d="M-170 100 q42 -18 84 0 t84 0 t84 0"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">林聪</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">明代刑部尚书 · 直声闻天下</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="畲族银器锻制技艺 —— 凤冠 · 錾刻花丝">
+  <title>畲族银器锻制技艺 · 凤冠 · 錾刻花丝</title>
+
+  <defs>
+    <linearGradient id="sky27" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d6e5e0"/>
+      <stop offset="100%" stop-color="#8fb3a9" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat27" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb3a9"/>
+      <stop offset="100%" stop-color="#2b463e"/>
+    </linearGradient>
+    <linearGradient id="mtn27" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb3a9" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2b463e" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow27" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#3f6257" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#3f6257" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky27)"/>
+  <circle cx="244" cy="112" r="86" fill="url(#glow27)"/>
+  <circle cx="244" cy="112" r="30" fill="#3f6257" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn27)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn27)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat27)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 206)">
+      <!-- 凤冠 -->
+      <g transform="translate(0 -30)">
+        <path d="M-96 30 q96 -84 192 0 q-96 34 -192 0 z" fill="#3f6257"/>
+        <path d="M-96 30 q96 -84 192 0 q-96 34 -192 0 z" fill="none" stroke="#2b463e" stroke-width="3.4"/>
+        <g stroke="#eef4f2" stroke-width="2.6" stroke-opacity="0.65">
+          <path d="M-70 14 q70 -58 140 0"/>
+          <path d="M-40 4 q40 -34 80 0"/>
+        </g>
+        <g fill="#2b463e">
+          <circle cx="-96" cy="34" r="7"/>
+          <circle cx="96" cy="34" r="7"/>
+          <circle cx="0" cy="-24" r="9"/>
+        </g>
+        <g stroke="#3f6257" stroke-width="2.6" fill="none" stroke-linecap="round">
+          <path d="M-64 34 q-6 22 4 34 M-32 40 q-4 24 6 36 M0 42 q0 26 0 38 M32 40 q4 24 -6 36 M64 34 q6 22 -4 34"/>
+        </g>
+      </g>
+      <!-- 银饰：钗与镯 -->
+      <g transform="translate(-124 92)">
+        <path d="M0 0 L0 -56" stroke="#2b463e" stroke-width="5" stroke-linecap="round"/>
+        <path d="M-18 -56 q18 -20 36 0" stroke="#3f6257" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(126 92)">
+        <circle r="30" fill="none" stroke="#2b463e" stroke-width="7"/>
+        <circle r="30" fill="none" stroke="#3f6257" stroke-width="3" stroke-dasharray="7 9"/>
+      </g>
+      <!-- 小锤 -->
+      <g transform="translate(-160 -78) rotate(24)">
+        <rect x="-8" y="-6" width="76" height="12" rx="6" fill="#2b463e"/>
+        <rect x="-32" y="-22" width="32" height="44" rx="8" fill="#3f6257"/>
+      </g>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">畲族银器锻制技艺</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">凤冠 · 錾刻花丝</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="平讲戏田野调查札记 —— 学生成果 · 调查报告">
+  <title>平讲戏田野调查札记 · 学生成果 · 调查报告</title>
+
+  <defs>
+    <linearGradient id="wsky11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d5e3ef"/>
+      <stop offset="100%" stop-color="#89aecd" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="wwat11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd"/>
+      <stop offset="100%" stop-color="#264a6b"/>
+    </linearGradient>
+    <radialGradient id="wglow11" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#37648c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#37648c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#wsky11)"/>
+  <circle cx="456" cy="104" r="88" fill="url(#wglow11)"/>
+  <circle cx="456" cy="104" r="28" fill="#37648c" opacity="0.45"/>
+  <path d="M0 272 L96 200 L156 254 L228 180 L300 252 L372 204 L440 262 L508 212 L570 258 L640 218 L640 300 L0 300 Z" fill="#264a6b" opacity="0.26"/>
+  <path d="M0 304 L110 248 L186 296 L268 236 L350 292 L432 252 L514 300 L600 258 L640 290 L640 420 L0 420 Z" fill="#264a6b" opacity="0.5"/>
+  <rect y="334" width="640" height="86" fill="url(#wwat11)" opacity="0.5"/>
+  <g stroke="#ffffff" stroke-opacity="0.28" stroke-width="2" fill="none">
+    <path d="M-10 356 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+  </g>
+
+    <circle cx="320" cy="188" r="74" fill="#eef3f8" opacity="0.9"/>
+    <circle cx="320" cy="188" r="74" fill="none" stroke="#37648c" stroke-width="2.5" stroke-opacity="0.55"/>
+    <circle cx="320" cy="188" r="88" fill="none" stroke="#37648c" stroke-width="1.2" stroke-opacity="0.25" stroke-dasharray="5 7"/>
+      <g transform="translate(320 188)" fill="none" stroke="#264a6b" stroke-width="3.2" stroke-linecap="round">
+        <path d="M-30 -40 h44 l18 18 v62 h-62 z" fill="#eef3f8" stroke-opacity="0.85"/>
+        <path d="M14 -40 v18 h18" stroke-opacity="0.85"/>
+        <path d="M-20 -6 h40" stroke-opacity="0.5"/>
+        <path d="M-20 6 h40" stroke-opacity="0.5"/>
+        <path d="M-20 18 h26" stroke-opacity="0.5"/>
+      </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="23" font-weight="700" fill="#1d2b2a" opacity="0.9">平讲戏田野调查札记</text>
+    <text y="23" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="13.5" fill="#1d2b2a" opacity="0.55">学生成果 · 调查报告</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>

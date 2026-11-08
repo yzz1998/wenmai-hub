@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="四平戏 —— 高腔 · 中国戏剧活化石">
+  <title>四平戏 · 高腔 · 中国戏剧活化石</title>
+
+  <defs>
+    <linearGradient id="sky7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf8f1"/>
+      <stop offset="60%" stop-color="#d5e3ef"/>
+      <stop offset="100%" stop-color="#89aecd" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="wat7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd"/>
+      <stop offset="100%" stop-color="#264a6b"/>
+    </linearGradient>
+    <linearGradient id="mtn7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89aecd" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#264a6b" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="glow7" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#37648c" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#37648c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky7)"/>
+  <circle cx="244" cy="112" r="86" fill="url(#glow7)"/>
+  <circle cx="244" cy="112" r="30" fill="#37648c" opacity="0.5"/>
+  <path d="M0 268 L96 196 L156 250 L228 176 L300 248 L372 200 L440 258 L508 208 L570 254 L640 214 L640 296 L0 296 Z" fill="url(#mtn7)" opacity="0.42"/>
+  <path d="M0 300 L110 244 L186 292 L268 232 L350 288 L432 248 L514 296 L600 254 L640 286 L640 420 L0 420 Z" fill="url(#mtn7)" opacity="0.72"/>
+  <rect y="330" width="640" height="90" fill="url(#wat7)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.30" stroke-width="2" fill="none">
+    <path d="M-10 352 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0"/>
+    <path d="M-10 376 q38 -12 76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0 t76 0" stroke-opacity="0.20"/>
+  </g>
+
+    <g transform="translate(320 206)">
+      <path d="M-170 -104 q170 -40 340 0 l-14 22 q-156 -36 -312 0 z" fill="#264a6b"/>
+      <rect x="-166" y="-84" width="332" height="10" rx="4" fill="#37648c"/>
+      <rect x="-126" y="-74" width="252" height="150" fill="#eef3f8" opacity="0.6"/>
+      <!-- 高腔艺人剪影 -->
+      <g fill="#264a6b" opacity="0.9">
+        <circle cx="-44" cy="-24" r="17"/>
+        <path d="M-70 8 q26 -18 52 0 l8 50 h-68 z"/>
+        <circle cx="40" cy="-30" r="17"/>
+        <path d="M14 2 q26 -18 52 0 l6 56 h-64 z"/>
+        <path d="M66 -78 l38 -22 l6 10 l-36 24 z"/>
+      </g>
+      <!-- 帮腔拖音声波 -->
+      <g fill="none" stroke="#37648c" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7">
+        <path d="M-116 -44 q14 -12 28 0"/>
+        <path d="M-132 -66 q22 -18 44 0" stroke-opacity="0.5"/>
+        <path d="M-148 -88 q30 -24 60 0" stroke-opacity="0.32"/>
+      </g>
+      <rect x="-170" y="76" width="340" height="12" rx="5" fill="#264a6b" opacity="0.85"/>
+    </g>
+  <g transform="translate(32 372)">
+    <text font-family="Songti SC, SimSun, serif" font-size="25" font-weight="700" fill="#1d2b2a" opacity="0.9">四平戏</text>
+    <text y="24" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1d2b2a" opacity="0.55">高腔 · 中国戏剧活化石</text>
+  </g>
+  <rect x="0.75" y="0.75" width="638.5" height="418.5" rx="14" fill="none" stroke="#1d2b2a" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>
