@@ -37,14 +37,19 @@ jobs:
         with:
           enablement: true
 
-      # 这里必须用 npm install 而不是 npm ci。
-      # 锁文件是在 Windows 上生成的，不含 @rollup/rollup-linux-x64-gnu 这类
-      # 平台专属可选依赖（npm 已知问题 #4828）；npm ci 严格照锁文件装，
-      # 于是 rollup 在 ubuntu 上找不到原生模块，build 直接报
+      # 锁文件是在 Windows 上生成的，@rollup/* 只留下了 win32 两个条目，
+      # npm 会按 os/cpu 把其它平台的条目裁掉（npm 已知问题 #4828）。
+      # 结果：ubuntu runner 上 rollup 找不到原生模块，build 直接报
       # "Cannot find module @rollup/rollup-linux-x64-gnu"。
-      # npm install 会按当前平台把可选依赖补齐。
+      # npm ci 和 npm install 都会中招（后者也以锁文件为准），所以显式补一个。
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: |
+          npm install --no-audit --no-fund
+          if ! node -e "require('@rollup/rollup-linux-x64-gnu')" 2>/dev/null; then
+            ver=$(node -p "require('rollup/package.json').version")
+            echo "锁文件缺 linux 平台的 rollup 原生包，按已装版本 $ver 补装"
+            npm install --no-save --no-audit --no-fund "@rollup/rollup-linux-x64-gnu@$ver"
+          fi
 
       - name: Build
         run: npm run build
