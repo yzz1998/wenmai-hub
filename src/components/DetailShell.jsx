@@ -53,7 +53,7 @@ export default function DetailShell({
                 <CollectionBadge collection={entry.collection} solid />
                 <CategoryChip collection={entry.collection} category={entry.category} />
                 {entry.level && (
-                  <span className="chip border border-black/[0.07] bg-white/70 text-ink-soft">
+                  <span className="chip border border-black/[0.07] bg-white text-ink-soft">
                     <Icon name="award" size={12} />
                     {entry.level}
                   </span>
@@ -97,7 +97,7 @@ export default function DetailShell({
 
           <aside className="space-y-4 lg:sticky lg:top-[76px]">
             {entry.tags?.length > 0 && (
-              <section className="rounded-2xl border border-black/[0.07] bg-white/70 p-4">
+              <section className="rounded-2xl border border-black/[0.07] bg-white p-4">
                 <h3 className="mb-2.5 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
                   <Icon name="tag" size={14} />
                   主题标签
@@ -112,7 +112,7 @@ export default function DetailShell({
               </section>
             )}
 
-            <section className="rounded-2xl border border-black/[0.07] bg-white/70 p-4">
+            <section className="rounded-2xl border border-black/[0.07] bg-white p-4">
               <h3 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
                 <Icon name="info" size={14} />
                 资料来源
@@ -148,7 +148,7 @@ export default function DetailShell({
               )}
             </section>
 
-            <section className="rounded-2xl border border-black/[0.07] bg-white/70 p-4">
+            <section className="rounded-2xl border border-black/[0.07] bg-white p-4">
               <h3 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
                 <Icon name="layers" size={14} />
                 条目信息
@@ -177,7 +177,7 @@ export default function DetailShell({
             {prevEntry ? (
               <button
                 onClick={() => nav(`/entry/${prevEntry.id}`)}
-                className="group flex items-center gap-3 rounded-xl border border-black/[0.07] bg-white/60 p-3 text-left transition-colors hover:border-dai-300 hover:bg-white"
+                className="group flex items-center gap-3 rounded-xl border border-black/[0.07] bg-white p-3 text-left transition-colors hover:border-dai-300 hover:bg-white"
               >
                 <Icon name="back" size={16} className="shrink-0 text-ink-mute" />
                 <span className="min-w-0">
@@ -193,7 +193,7 @@ export default function DetailShell({
             {nextEntry && (
               <button
                 onClick={() => nav(`/entry/${nextEntry.id}`)}
-                className="group flex items-center justify-end gap-3 rounded-xl border border-black/[0.07] bg-white/60 p-3 text-right transition-colors hover:border-dai-300 hover:bg-white"
+                className="group flex items-center justify-end gap-3 rounded-xl border border-black/[0.07] bg-white p-3 text-right transition-colors hover:border-dai-300 hover:bg-white"
               >
                 <span className="min-w-0">
                   <span className="block text-[11px] text-ink-mute">下一件</span>
@@ -229,7 +229,7 @@ export default function DetailShell({
                 <Link
                   key={r.id}
                   to={`/entry/${r.id}`}
-                  className="group rounded-xl border border-black/[0.07] bg-white/70 p-3 transition-all hover:-translate-y-0.5 hover:border-dai-300 hover:shadow-card"
+                  className="group rounded-xl border border-black/[0.07] bg-white p-3 transition-all hover:-translate-y-0.5 hover:border-dai-300 hover:shadow-card"
                 >
                   <CollectionBadge collection={r.collection} className="mb-2" />
                   <p className="line-clamp-2 font-serif text-[13.5px] font-semibold leading-snug text-ink group-hover:text-dai-700">

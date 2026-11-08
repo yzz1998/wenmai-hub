@@ -282,7 +282,7 @@ export default function Library() {
       {/* ===== 引导去专题馆 ===== */}
       {!hasFilter && (
         <section className="wrap pb-4">
-          <div className="rounded-2xl border border-black/[0.07] bg-white/60 p-5">
+          <div className="rounded-2xl border border-black/[0.07] bg-white p-5">
             <SectionTitle
               eyebrow="ALSO TRY"
               title="按策展路径浏览"
@@ -293,7 +293,7 @@ export default function Library() {
                 <Link
                   key={c.id}
                   to={c.route}
-                  className="group flex min-w-0 items-center justify-between gap-3 rounded-xl border border-black/[0.06] bg-paper/50 p-3 transition-colors hover:border-dai-300 hover:bg-white"
+                  className="group flex min-w-0 items-center justify-between gap-3 rounded-xl border border-black/[0.06] bg-paper-sunk p-3 transition-colors hover:border-dai-300 hover:bg-white"
                 >
                   <span className="min-w-0">
                     <span className="block font-serif text-[13.5px] font-semibold text-ink group-hover:text-dai-700">

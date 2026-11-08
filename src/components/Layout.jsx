@@ -36,14 +36,14 @@ function MountainSeaBand() {
     >
       <defs>
         <linearGradient id="bandFar" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stopColor="#37648c" stopOpacity="0.20" />
-          <stop offset="55%" stopColor="#2b463e" stopOpacity="0.16" />
-          <stop offset="100%" stopColor="#37648c" stopOpacity="0.20" />
+          <stop offset="0%" stopColor="#2e6ea7" stopOpacity="0.22" />
+          <stop offset="55%" stopColor="#287e77" stopOpacity="0.18" />
+          <stop offset="100%" stopColor="#2e6ea7" stopOpacity="0.22" />
         </linearGradient>
         <linearGradient id="bandNear" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stopColor="#2b463e" stopOpacity="0.30" />
-          <stop offset="50%" stopColor="#37648c" stopOpacity="0.24" />
-          <stop offset="100%" stopColor="#2b463e" stopOpacity="0.30" />
+          <stop offset="0%" stopColor="#287e77" stopOpacity="0.3" />
+          <stop offset="50%" stopColor="#2e6ea7" stopOpacity="0.24" />
+          <stop offset="100%" stopColor="#287e77" stopOpacity="0.3" />
         </linearGradient>
       </defs>
       <path
@@ -76,8 +76,13 @@ function MobileNav() {
             to={n.to}
             end={n.to === '/'}
             className={({ isActive }) =>
-              `flex flex-col items-center gap-1 py-2.5 text-[11px] font-medium transition-colors ${
-                isActive ? 'text-zhu-500' : 'text-ink-mute'
+              /**
+               * 激活色用主色而不是朱砂。
+               * 桌面顶栏的激活项是青底白字，底部导航原本却用朱砂描红 —— 同一件事两种颜色，
+               * 一边青一边红，看着像两套导航拼起来的。朱砂只留给真正的「主操作」（提交成果）。
+               */
+              `flex flex-col items-center gap-1 py-2.5 text-[11px] transition-colors ${
+                isActive ? 'font-semibold text-dai-700' : 'font-medium text-ink-mute'
               }`
             }
           >
@@ -103,10 +108,13 @@ export function Header({ onOpenSelection, onOpenSettings }) {
           <button onClick={() => nav('/')} className="flex min-w-0 items-center gap-3 text-left" aria-label="返回首页">
             <span className="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-dai-700 shadow-sm">
               <svg viewBox="0 0 40 40" className="h-full w-full" aria-hidden="true">
-                <path d="M0 27 C8 23 14 28 22 24 C29 20 34 25 40 22 L40 40 L0 40 Z" fill="#37648c" opacity="0.9" />
-                <path d="M0 32 C8 29 15 33 23 30 C30 27 35 31 40 29 L40 40 L0 40 Z" fill="#17314a" opacity="0.75" />
-                <path d="M6 27 L14 13 L20 23 L25 16 L34 27 Z" fill="#f7f3ea" opacity="0.22" />
-                <circle cx="30" cy="10" r="4.4" fill="#bd4536" />
+                {/* 品牌标：深青底 + 两重山影 + 朱砂日轮。
+                    三层都用「比底色更亮/更暗」的明度差拉开，而不是靠色相——
+                    在 40×40 的尺寸上，色相差异几乎看不出来，只有明度有效。 */}
+                <path d="M0 27 C8 23 14 28 22 24 C29 20 34 25 40 22 L40 40 L0 40 Z" fill="#3a7fb8" opacity="0.92" />
+                <path d="M0 32 C8 29 15 33 23 30 C30 27 35 31 40 29 L40 40 L0 40 Z" fill="#0b3331" opacity="0.8" />
+                <path d="M6 27 L14 13 L20 23 L25 16 L34 27 Z" fill="#ffffff" opacity="0.24" />
+                <circle cx="30" cy="10" r="4.4" fill="#e2513f" />
               </svg>
             </span>
             <span className="min-w-0 leading-tight">

@@ -343,7 +343,7 @@ export default function Home() {
               <Link
                 key={t.name}
                 to={`/library?q=${encodeURIComponent(t.name)}`}
-                className="group inline-flex items-baseline gap-1 rounded-lg border border-black/[0.06] bg-white/70 px-2.5 py-1.5 text-[12.5px] text-ink-soft transition-colors hover:border-dai-300 hover:text-dai-700"
+                className="group inline-flex items-baseline gap-1 rounded-lg border border-black/[0.06] bg-white px-2.5 py-1.5 text-[12.5px] text-ink-soft transition-colors hover:border-dai-300 hover:text-dai-700"
               >
                 {t.name}
                 <span className="text-[10px] tabular-nums text-ink-mute/60">{t.count}</span>
@@ -376,7 +376,7 @@ export default function Home() {
       {/* ================= 跨库关联示例 ================= */}
       {crossDemo.length > 0 && (
         <section className="wrap pb-12">
-          <div className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white/70">
+          <div className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white">
             <div className="grid gap-6 p-5 sm:p-7 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
               <div>
                 <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-zhu-500">
@@ -397,7 +397,7 @@ export default function Home() {
                   <Link
                     key={r.id}
                     to={`/entry/${r.id}`}
-                    className="group rounded-xl border border-black/[0.06] bg-paper/50 p-2.5 transition-colors hover:border-dai-300 hover:bg-white"
+                    className="group rounded-xl border border-black/[0.06] bg-paper-sunk p-2.5 transition-colors hover:border-dai-300 hover:bg-white"
                   >
                     <span className="mb-1 flex items-center gap-1 text-[10px] text-ink-mute">
                       <Icon name="link" size={10} />
@@ -419,7 +419,7 @@ export default function Home() {
         <SectionTitle eyebrow="ARCHITECTURE" title="共享的四件事" sub="合并不是几个站并排，而是把重复的骨架抽出来只做一次。" />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {CAPABILITIES.map((c) => (
-            <div key={c.title} className="rounded-2xl border border-black/[0.07] bg-white/70 p-4">
+            <div key={c.title} className="rounded-2xl border border-black/[0.07] bg-white p-4">
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-dai-50 text-dai-700">
                 <Icon name={c.icon} size={17} />
               </span>

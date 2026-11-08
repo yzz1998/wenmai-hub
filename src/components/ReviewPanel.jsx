@@ -17,11 +17,16 @@ import { isConfigured } from '../lib/settings'
  *   所以把正文、文档、配图、未纳入项逐项列出，并说明这些内容取自本页、无需重传。
  */
 
+/**
+ * 等级配色。stroke 用于分数圆环的 SVG，必须与 bar 的 class 同值——
+ * 圆环读的是十六进制、进度条读的是 Tailwind 类，两处一旦不同步，
+ * 同一份结果里圆环和进度条会呈现两个色（旧版就差点踩到）。
+ */
 const LEVEL_STYLE = {
-  优秀: { chip: 'bg-cha-50 text-cha-700', bar: 'bg-cha-500', stroke: '#b5893a' },
-  良好: { chip: 'bg-dai-50 text-dai-700', bar: 'bg-dai-500', stroke: '#3f6257' },
-  合格: { chip: 'bg-tan-100 text-tan-700', bar: 'bg-tan-500', stroke: '#c98f4d' },
-  待改进: { chip: 'bg-zhu-50 text-zhu-700', bar: 'bg-zhu-500', stroke: '#bd4536' }
+  优秀: { chip: 'bg-cha-50 text-cha-700', bar: 'bg-cha-500', stroke: '#ae7c26' },
+  良好: { chip: 'bg-dai-50 text-dai-700', bar: 'bg-dai-500', stroke: '#287e77' },
+  合格: { chip: 'bg-tan-100 text-tan-700', bar: 'bg-tan-500', stroke: '#bc6c36' },
+  待改进: { chip: 'bg-zhu-50 text-zhu-700', bar: 'bg-zhu-500', stroke: '#c63a2b' }
 }
 
 /**
@@ -39,7 +44,7 @@ function MaterialList({ materials, note = true }) {
     { text: `未纳入 ${skippedCount} 项`, on: skippedCount > 0 }
   ]
   return (
-    <div className="rounded-xl border border-black/[0.07] bg-white/60 px-3.5 py-3" data-testid="review-materials">
+    <div className="rounded-xl border border-black/[0.07] bg-white px-3.5 py-3" data-testid="review-materials">
       <p className="mb-2 flex items-center gap-1.5 text-[11.5px] font-semibold uppercase tracking-[0.1em] text-ink-mute">
         <Icon name="layers" size={11} />
         本次评阅材料
@@ -202,7 +207,7 @@ export default function ReviewPanel({ work, review, job, materials, onStart, onE
       data-testid="review-panel"
       aria-label="AI 评阅"
     >
-      <header className="flex flex-wrap items-center justify-between gap-2 border-b border-black/[0.07] bg-white/60 px-5 py-3">
+      <header className="flex flex-wrap items-center justify-between gap-2 border-b border-black/[0.07] bg-white px-5 py-3">
         <div className="flex items-center gap-2">
           <span className="flex h-6 w-6 items-center justify-center rounded-md bg-cha-50 text-cha-700">
             <Icon name="sparkle" size={13} />
@@ -337,7 +342,7 @@ export default function ReviewPanel({ work, review, job, materials, onStart, onE
 
             <ScoreRing total={review.total} dimsHint={shownRubric.dimsHint} />
 
-            <div className="mt-5 rounded-xl border border-black/[0.06] bg-paper/40 p-4">
+            <div className="mt-5 rounded-xl border border-black/[0.06] bg-paper-sunk p-4">
               <DimensionRows dimensions={review.dimensions} placeholder={dimensionsOf(shownRubric.key)} />
             </div>
 

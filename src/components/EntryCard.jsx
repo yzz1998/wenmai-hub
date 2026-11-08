@@ -25,7 +25,7 @@ function SelectionButton({ entry, className = 'btn-quiet btn-xs' }) {
         e.preventDefault()
         toggleSelection(entry.id)
       }}
-      className={`${className} ${on ? 'text-zhu-500' : ''}`}
+      className={`${className} ${on ? 'text-dai-700' : ''}`}
       title={on ? '从选辑移除' : '加入教学选辑'}
       aria-label={on ? '从选辑移除' : '加入教学选辑'}
     >
@@ -249,7 +249,7 @@ export function MiniEntryCard({ entry }) {
   return (
     <button
       onClick={() => nav(`/entry/${entry.id}`)}
-      className="group flex w-full items-center gap-3 rounded-xl border border-black/[0.06] bg-white/70 p-2.5 text-left transition-colors hover:border-dai-300 hover:bg-white"
+      className="group flex w-full items-center gap-3 rounded-xl border border-black/[0.06] bg-white p-2.5 text-left transition-colors hover:border-dai-300 hover:bg-white"
     >
       <div className="h-14 w-16 shrink-0 overflow-hidden rounded-lg bg-paper-sunk">
         <SmartImage src={entry.media?.[0]?.src ? asset(entry.media[0].src) : ''} alt={entry.title} ratio="h-full" />

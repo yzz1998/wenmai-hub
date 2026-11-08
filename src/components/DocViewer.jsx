@@ -70,7 +70,7 @@ export default function DocViewer({ doc, open, onClose }) {
         </div>
       )}
       {state === 'ready' && (
-        <pre className="whitespace-pre-wrap break-words rounded-xl border border-black/[0.07] bg-paper/60 p-4 font-sans text-[13px] leading-[1.9] text-ink-soft">
+        <pre className="whitespace-pre-wrap break-words rounded-xl border border-black/[0.07] bg-paper-sunk p-4 font-sans text-[13px] leading-[1.9] text-ink-soft">
           {text}
         </pre>
       )}

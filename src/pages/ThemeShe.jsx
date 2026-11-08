@@ -83,7 +83,7 @@ export default function ThemeShe() {
             }
             right={
               activeZone && (
-                <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white/70 px-2.5 py-1.5 text-[11px] text-indigoSea-700 sm:inline-flex">
+                <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white px-2.5 py-1.5 text-[11px] text-indigoSea-700 sm:inline-flex">
                   <Icon name="phoenix" size={12} />
                   {activeZone.en}
                 </span>
@@ -101,7 +101,7 @@ export default function ThemeShe() {
             </div>
           )}
 
-          <section className="mt-10 rounded-2xl border border-black/[0.07] bg-white/60 p-4">
+          <section className="mt-10 rounded-2xl border border-black/[0.07] bg-white p-4">
             <h2 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
               <Icon name="camera" size={14} />
               关于照片与署名

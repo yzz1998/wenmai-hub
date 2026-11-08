@@ -57,7 +57,7 @@ function Field({ label, hint, children, error }) {
 function Toggle({ checked, onChange, title, desc, testid, disabled }) {
   return (
     <label
-      className={`flex items-start gap-2.5 rounded-xl border border-black/[0.07] bg-white/60 px-3 py-2.5 ${
+      className={`flex items-start gap-2.5 rounded-xl border border-black/[0.07] bg-white px-3 py-2.5 ${
         disabled ? 'opacity-55' : 'cursor-pointer hover:border-dai-300'
       }`}
     >

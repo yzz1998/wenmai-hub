@@ -21,7 +21,7 @@ export default function CitationBar({ entry, compact = false }) {
   const on = inSelection(entry.id)
 
   return (
-    <section className={`rounded-2xl border border-black/[0.07] bg-white/70 ${compact ? 'p-3.5' : 'p-4'}`}>
+    <section className={`rounded-2xl border border-black/[0.07] bg-white ${compact ? 'p-3.5' : 'p-4'}`}>
       <div className="mb-2.5 flex items-center justify-between gap-2">
         <h3 className="flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
           <Icon name="quote" size={14} />
@@ -42,7 +42,7 @@ export default function CitationBar({ entry, compact = false }) {
         </div>
       </div>
 
-      <p className="select-all rounded-xl border border-dashed border-black/10 bg-paper/60 p-2.5 text-[12px] leading-[1.75] text-ink-soft">
+      <p className="select-all rounded-xl border border-dashed border-black/10 bg-paper-sunk p-2.5 text-[12px] leading-[1.75] text-ink-soft">
         {text}
       </p>
 

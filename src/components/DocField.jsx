@@ -126,7 +126,7 @@ export function DocField({ value, onChange, onFillContent, contentEmpty = true }
       {/* ---------- 已就绪 ---------- */}
       {ready ? (
         <div
-          className="rounded-xl border border-black/[0.09] bg-white/70 p-3.5"
+          className="rounded-xl border border-black/[0.09] bg-white p-3.5"
           data-testid="doc-status"
           data-state="ready"
         >
@@ -226,7 +226,7 @@ export function DocField({ value, onChange, onFillContent, contentEmpty = true }
           className={`flex w-full flex-col items-center justify-center gap-1.5 rounded-xl border border-dashed px-4 py-6 text-center transition-colors ${
             dragging
               ? 'border-dai-500 bg-dai-50'
-              : 'border-black/[0.16] bg-paper/40 hover:border-dai-300 hover:bg-white/70'
+              : 'border-black/[0.16] bg-paper-sunk hover:border-dai-300 hover:bg-white'
           }`}
         >
           <Icon name="upload" size={20} className="text-ink-mute" />

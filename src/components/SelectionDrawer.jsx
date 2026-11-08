@@ -96,7 +96,7 @@ export default function SelectionDrawer({ open, onClose }) {
                     {g.items.map((e) => (
                       <li
                         key={e.id}
-                        className="group flex items-center gap-2.5 rounded-xl border border-black/[0.06] bg-white/70 p-2 transition-colors hover:border-dai-300"
+                        className="group flex items-center gap-2.5 rounded-xl border border-black/[0.06] bg-white p-2 transition-colors hover:border-dai-300"
                       >
                         <button
                           onClick={() => {

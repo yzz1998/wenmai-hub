@@ -104,7 +104,7 @@ export default function ThemeMindong() {
                 : `五类主题依次陈列 · 素材涉及闽东 ${counties.size || '九'} 个县市区`
             }
             right={
-              <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white/70 px-2.5 py-1.5 text-[11px] text-dai-700 sm:inline-flex">
+              <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white px-2.5 py-1.5 text-[11px] text-dai-700 sm:inline-flex">
                 <Icon name="book" size={12} />
                 可检索 · 可引用 · 可维护
               </span>
@@ -147,7 +147,7 @@ export default function ThemeMindong() {
           )}
 
           <section className="mt-10 grid gap-3 sm:grid-cols-2">
-            <div className="rounded-2xl border border-black/[0.07] bg-white/60 p-4">
+            <div className="rounded-2xl border border-black/[0.07] bg-white p-4">
               <h2 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
                 <Icon name="camera" size={14} />
                 关于素材与来源
@@ -158,7 +158,7 @@ export default function ThemeMindong() {
                 各地政府门户与史志资料整理，原始出处见「参考与延伸」。
               </p>
             </div>
-            <div className="rounded-2xl border border-black/[0.07] bg-white/60 p-4">
+            <div className="rounded-2xl border border-black/[0.07] bg-white p-4">
               <h2 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
                 <Icon name="edit" size={14} />
                 这是一座可维护的馆

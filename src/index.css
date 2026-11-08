@@ -3,39 +3,48 @@
 @tailwind utilities;
 
 /* =====================================================================
-   文脉馆 · 统一设计令牌
-   三源合并原则：一套基础层（纸 / 墨 / 线 / 圆角 / 阴影 / 缓动）
-   + 五支专题色（黛青·靛蓝·朱砂·茶金·暮金），专题各自取用、互不夺主。
-   取色来源：闽东知识库山海配色 ↔ 剪纸馆墨朱金青 ↔ 畲族馆五色，
-   三者在色相上高度同构，合并后统一收敛为下面这一组。
+   文脉馆 · 统一设计令牌（2026-11 重设计）
+
+   本次改版的核心：**取消米色底**。
+   旧版以宣纸米（#f7f3ea）承载全部页面，暖底 + 墨绿字 + 朱金点缀，
+   气质偏"旧纸"，但有两种代价：一是米色与图片边缘、白卡片混在一起时层次发糊，
+   二是米色在 OLED 手机屏上偏黄，长时间阅读容易显脏。
+
+   新方案换成三层中性 + 一支主色 + 一支强调色：
+     中性层  冷灰白（页面）／纯白（表面）／浅灰（凹陷）
+     主色    青瓷 #287E77 —— 品牌、主按钮、导航激活、链接
+     强调色  朱砂 #C63A2B —— 主 CTA、未读角标、风险提示、印章
+     专题色  靛蓝 / 琥珀 / 陶土 —— 只做分类与馆别标记
+   五个专题色统一收进同一条明度带，并排时不打架；文化锚点（山海 + 朱砂）保留，
+   但饱和度与明度按现代 UI 重算。
    ===================================================================== */
 :root {
-  /* 墨 */
-  --ink: #1d2b2a;
-  --ink-soft: #33443f;
-  --ink-mute: #5d6f68;
+  /* 墨：冷调石板灰。旧值是 #1d2b2a（偏绿的墨），在白底上会隐隐发绿，像印刷偏色 */
+  --ink: #0f1e26;
+  --ink-soft: #3b4d57;
+  --ink-mute: #5a6b75;
 
-  /* 纸 */
-  --paper: #f7f3ea;
-  --paper-warm: #fbf8f1;
-  --paper-sunk: #efe8da;
+  /* 纸：冷灰白。--paper-warm 现在是纯白，用它当"表面"而不是"更暖的纸" */
+  --paper: #f4f7f8;
+  --paper-warm: #ffffff;
+  --paper-sunk: #e9eef0;
 
   /* 线 / 分隔 */
-  --line: rgba(29, 43, 42, 0.1);
-  --line-soft: rgba(29, 43, 42, 0.06);
+  --line: rgba(15, 30, 38, 0.1);
+  --line-soft: rgba(15, 30, 38, 0.055);
 
-  /* 专题色 */
-  --dai: #2b463e;
-  --sea: #37648c;
-  --zhu: #bd4536;
-  --cha: #b5893a;
-  --tan: #c98f4d;
+  /* 主色与专题色 */
+  --dai: #287e77;
+  --sea: #2e6ea7;
+  --zhu: #c63a2b;
+  --cha: #ae7c26;
+  --tan: #bc6c36;
 
-  /* 专题色 · 淡底（用于徽标底色与浅染区） */
-  --dai-tint: rgba(43, 70, 62, 0.08);
-  --sea-tint: rgba(55, 100, 140, 0.08);
-  --zhu-tint: rgba(189, 69, 54, 0.08);
-  --cha-tint: rgba(181, 137, 58, 0.1);
+  /* 专题色 · 淡底（徽标底色、浅染区） */
+  --dai-tint: rgba(40, 126, 119, 0.09);
+  --sea-tint: rgba(46, 110, 167, 0.09);
+  --zhu-tint: rgba(198, 58, 43, 0.09);
+  --cha-tint: rgba(174, 124, 38, 0.11);
 
   /* 字号阶梯：正文 15px 基准，1.333 比例 */
   --fs-2xs: 11px;
@@ -54,14 +63,19 @@
   }
   body {
     @apply bg-paper text-ink font-sans antialiased;
-    /* 山海雾霭：顶部两团极淡的靛蓝与朱砂，作为全站统一环境光 */
+    /**
+     * 环境光：顶部两团极淡的主色与海蓝。
+     * 旧版是靛蓝 7% + 朱砂 5% 压在米色上，会混出灰粉调；换成冷白底后
+     * 朱砂在这种大面积的柔光里反而显脏，所以只留青瓷与海蓝两色，
+     * 朱砂回归"小面积强对比"的本职。
+     */
     background-image:
-      radial-gradient(1200px 520px at 12% -8%, rgba(55, 100, 140, 0.07), transparent 62%),
-      radial-gradient(900px 440px at 92% 4%, rgba(189, 69, 54, 0.05), transparent 60%);
+      radial-gradient(1100px 460px at 8% -10%, rgba(40, 126, 119, 0.075), transparent 64%),
+      radial-gradient(900px 420px at 96% 0%, rgba(46, 110, 167, 0.055), transparent 62%);
     background-attachment: fixed;
   }
   ::selection {
-    background: rgba(189, 69, 54, 0.18);
+    background: rgba(40, 126, 119, 0.2);
   }
   ::-webkit-scrollbar {
     width: 10px;
@@ -71,17 +85,17 @@
     background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    background: rgba(29, 43, 42, 0.18);
+    background: rgba(15, 30, 38, 0.16);
     border-radius: 999px;
     border: 3px solid transparent;
     background-clip: content-box;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(29, 43, 42, 0.32);
+    background: rgba(15, 30, 38, 0.3);
     background-clip: content-box;
   }
   *:focus-visible {
-    outline: 2px solid var(--sea);
+    outline: 2px solid var(--dai);
     outline-offset: 2px;
     border-radius: 6px;
   }
@@ -103,12 +117,15 @@
     @apply mx-auto w-full max-w-[1240px] px-4 sm:px-6 lg:px-8;
   }
 
-  /* ---------------- 卡片 ---------------- */
+  /* ---------------- 卡片 ----------------
+     纯白而不是 white/80：底已经够浅（#F4F7F8），半透明白叠上去只剩 1.02 的对比，
+     卡片边界会彻底消失。现在靠「纯白 + 细边框 + 极淡阴影」三层一起立起来。
+     去掉 backdrop-blur 也是这个原因——不透明的白不需要模糊，还省一层合成。 */
   .card {
-    @apply rounded-2xl border border-black/[0.06] bg-white/80 shadow-card backdrop-blur-sm;
+    @apply rounded-2xl border border-black/[0.07] bg-white shadow-card;
   }
   .card-hover {
-    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lift hover:border-dai-300/50;
+    @apply transition-all duration-300 hover:-translate-y-1 hover:border-dai-300 hover:shadow-lift;
   }
 
   /* ---------------- 按钮 ---------------- */
@@ -117,16 +134,16 @@
       transition-all duration-200 active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-45 disabled:active:scale-100;
   }
   .btn-primary {
-    @apply btn bg-dai-700 text-paper-warm hover:bg-dai-900 shadow-sm;
+    @apply btn bg-dai-700 text-white shadow-sm hover:bg-dai-900;
   }
   .btn-zhu {
-    @apply btn bg-zhu-500 text-white hover:bg-zhu-700 shadow-sm;
+    @apply btn bg-zhu-500 text-white shadow-sm hover:bg-zhu-700;
   }
   .btn-ghost {
-    @apply btn border border-black/10 bg-white/70 text-ink-soft hover:border-dai-300 hover:bg-white hover:text-dai-700;
+    @apply btn border border-black/10 bg-white text-ink-soft hover:border-dai-300 hover:bg-dai-50 hover:text-dai-700;
   }
   .btn-quiet {
-    @apply btn text-ink-mute hover:bg-black/[0.045] hover:text-ink;
+    @apply btn text-ink-mute hover:bg-black/[0.05] hover:text-ink;
   }
   .btn-xs {
     @apply px-2.5 py-1.5 text-xs;
@@ -134,7 +151,7 @@
 
   /* ---------------- 表单 ---------------- */
   .field {
-    @apply w-full rounded-xl border border-black/10 bg-white/90 px-3.5 py-2.5 text-sm text-ink
+    @apply w-full rounded-xl border border-black/10 bg-white px-3.5 py-2.5 text-sm text-ink
       placeholder:text-ink-mute/60 transition-colors
       focus:border-dai-500 focus:outline-none focus:ring-4 focus:ring-dai-500/10;
   }
@@ -143,7 +160,8 @@
   }
   .select-field {
     @apply field cursor-pointer appearance-none bg-no-repeat pr-9;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235d6f68' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    /* 箭头描边色同步到 --ink-mute，否则换肤后还会留一枚旧墨绿的箭头 */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235a6b75' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
     background-position: right 0.8rem center;
   }
 
@@ -155,13 +173,16 @@
   }
   /* 可点击的标签（首页试搜、专题分类入口） */
   .chip-tag {
-    @apply chip cursor-pointer border border-black/[0.07] bg-white/80 text-ink-mute transition-colors hover:border-dai-300 hover:text-dai-700;
+    @apply chip cursor-pointer border border-black/[0.08] bg-white text-ink-mute transition-colors hover:border-dai-300 hover:text-dai-700;
   }
   .chip-tag-on {
-    @apply chip cursor-pointer border border-dai-700 bg-dai-700 text-paper-warm;
+    @apply chip cursor-pointer border border-dai-700 bg-dai-700 text-white;
   }
   .chip-mono {
-    @apply chip border border-black/[0.07] bg-white/70 font-mono text-[11px] tracking-wide text-ink-mute;
+    /* 用 ink-soft 而不是 ink-mute：11px 等宽字压在 paper-sunk 上，ink-mute 只有 4.73，
+       已经贴边；这一档取 ink-soft 更稳。凹陷底比白底更吃对比度，凡是放在 sunk 上的
+       小字都要先算一遍再定色。 */
+    @apply chip border border-black/[0.08] bg-paper-sunk font-mono text-[11px] tracking-wide text-ink-soft;
   }
 
   /* ---------------- 标题 ---------------- */
@@ -179,7 +200,7 @@
   }
   .ridge-cha {
     @apply h-[3px] w-16 rounded-full;
-    background: linear-gradient(90deg, var(--zhu), var(--cha), var(--gold, #d3af62));
+    background: linear-gradient(90deg, var(--zhu), var(--cha), var(--tan));
   }
 
   /* ---------------- 正文 ---------------- */
@@ -196,9 +217,9 @@
   /* ---------------- 印章（剪纸馆的朱印范式，升为全站署名元素） ---------------- */
   .seal {
     @apply inline-flex flex-col items-center justify-center rounded-[3px] font-serif font-bold leading-none text-white;
-    background: radial-gradient(120% 120% at 30% 20%, #c9604c, #a63c2a 55%, #87281a);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.28), inset 0 0 0 3px rgba(135, 40, 26, 0.55),
-      0 2px 6px rgba(94, 28, 21, 0.22);
+    background: radial-gradient(120% 120% at 30% 20%, #d4513c, #b23323 55%, #8a2418);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 3px rgba(138, 36, 24, 0.55),
+      0 2px 6px rgba(100, 27, 19, 0.24);
   }
 
   /* ---------------- 专题题匾（书法体，仅专题馆使用） ---------------- */
@@ -245,19 +266,23 @@
   .text-balance {
     text-wrap: balance;
   }
-  /* 宣纸肌理：极淡的斜向纤维，用于专题馆开篇区 */
+  /**
+   * 细布纹：专题馆开篇区的肌理。
+   * 旧版是宣纸纤维，用了暖褐 rgba(120,96,60) —— 米色底一撤，那点褐就成了污渍。
+   * 现在改成中性石板灰的极低透明度，只留"有织物感"而不带色相。
+   */
   .paper-grain {
     background-image: repeating-linear-gradient(
         45deg,
-        rgba(120, 96, 60, 0.028) 0px,
-        rgba(120, 96, 60, 0.028) 1px,
+        rgba(15, 30, 38, 0.022) 0px,
+        rgba(15, 30, 38, 0.022) 1px,
         transparent 1px,
         transparent 4px
       ),
       repeating-linear-gradient(
         -45deg,
-        rgba(120, 96, 60, 0.02) 0px,
-        rgba(120, 96, 60, 0.02) 1px,
+        rgba(15, 30, 38, 0.016) 0px,
+        rgba(15, 30, 38, 0.016) 1px,
         transparent 1px,
         transparent 5px
       );

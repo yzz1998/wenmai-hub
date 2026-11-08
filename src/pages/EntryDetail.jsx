@@ -123,7 +123,7 @@ export default function EntryDetail() {
               </button>
             )}
             {entry.collection === 'papercut' && siblings.length > 1 && (
-              <p className="rounded-xl border border-black/[0.06] bg-white/60 p-3 text-[11.5px] leading-relaxed text-ink-mute">
+              <p className="rounded-xl border border-black/[0.06] bg-white p-3 text-[11.5px] leading-relaxed text-ink-mute">
                 本条属于「{meta.name}」，同类共 {siblings.length} 件。可用页面底部的上一件 / 下一件连续翻看，
                 或回到
                 <Link to={`/theme/papercut?cat=${encodeURIComponent(entry.category)}`} className="mx-1 text-zhu-700 hover:underline">
@@ -133,7 +133,7 @@ export default function EntryDetail() {
               </p>
             )}
             {entry.collection === 'she' && (
-              <p className="rounded-xl border border-black/[0.06] bg-white/60 p-3 text-[11.5px] leading-relaxed text-ink-mute">
+              <p className="rounded-xl border border-black/[0.06] bg-white p-3 text-[11.5px] leading-relaxed text-ink-mute">
                 本条属于「{meta.name}」展区。展区说明与其余展项见
                 <Link to={`/theme/she?cat=${entry.category}`} className="mx-1 text-indigoSea-700 hover:underline">
                   畲族民俗馆
@@ -142,7 +142,7 @@ export default function EntryDetail() {
               </p>
             )}
             {entry.collection === 'mindong' && (
-              <p className="rounded-xl border border-black/[0.06] bg-white/60 p-3 text-[11.5px] leading-relaxed text-ink-mute">
+              <p className="rounded-xl border border-black/[0.06] bg-white p-3 text-[11.5px] leading-relaxed text-ink-mute">
                 知识素材可在「管理」页批量维护（新增 / 导入 / 配图 / 导出），修改后本页即时更新。
               </p>
             )}
@@ -199,7 +199,7 @@ export default function EntryDetail() {
 
           {/* 剪纸条目：图录信息卡 */}
           {entry.collection === 'papercut' && (
-            <section className="rounded-2xl border border-black/[0.07] bg-white/60 p-4">
+            <section className="rounded-2xl border border-black/[0.07] bg-white p-4">
               <h2 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
                 <Icon name="book" size={14} />
                 图录著录

@@ -58,10 +58,16 @@ function hash(str) {
   return h
 }
 
+/**
+ * 无图条目的母题配色。
+ * c 是渐变底（会被压到纯白上），所以必须是该色系的 50 档；
+ * a / b 是母题线条的两支主色，d 是收口的深色。
+ * 数值与 tailwind.config.js 的专题色逐一对应，换肤时两处要一起改。
+ */
 const PALETTE = {
-  papercut: { a: '#bd4536', b: '#b5893a', c: '#fdefec', d: '#8f2f24' },
-  she: { a: '#264a6b', b: '#2b463e', c: '#eef3f8', d: '#bd4536' },
-  mindong: { a: '#2b463e', b: '#37648c', c: '#eef4f2', d: '#b5893a' }
+  papercut: { a: '#c63a2b', b: '#ae7c26', c: '#fdf0ee', d: '#9a2a1e' },
+  she: { a: '#225483', b: '#287e77', c: '#edf4fb', d: '#c63a2b' },
+  mindong: { a: '#287e77', b: '#2e6ea7', c: '#eef7f6', d: '#ae7c26' }
 }
 
 /**
@@ -162,8 +168,9 @@ export function isCourseEntry(entry) {
 
 function CourseArt({ entry }) {
   const isRes = entry?.collection === 'hs-res'
-  const ink = isRes ? '#836021' : '#966532'
-  const paperSoft = isRes ? '#fbf5e8' : '#f6e7d2'
+  /* 两个章节分别用琥珀与陶土：色相只差 16°，靠这一步明度差把卡片区分开 */
+  const ink = isRes ? '#875f19' : '#914f22'
+  const paperSoft = isRes ? '#fcf6e5' : '#f8e2cc'
   const num = String(entry?.facets?.chapter || '').replace(/^第/, '').replace(/章$/, '')
   /* 印章里放「本章第几条要点」而不是章号：同一节的卡片章号相同，放序号才能彼此区分 */
   const seq = entry?.facets?.order ? String(entry.facets.order).padStart(2, '0') : num

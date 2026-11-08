@@ -281,8 +281,8 @@ function WorkCard({ work, score, index = 0, onOpen }) {
         ) : (
           <>
             <svg className="absolute inset-0 h-full w-full opacity-25" viewBox="0 0 400 100" preserveAspectRatio="none" aria-hidden="true">
-              <path d="M0 78 L60 52 L110 72 L170 40 L230 70 L290 46 L340 68 L400 44 L400 100 L0 100 Z" fill="#f7f3ea" opacity="0.35" />
-              <path d="M0 92 L70 74 L130 88 L200 66 L270 86 L340 70 L400 84 L400 100 L0 100 Z" fill="#f7f3ea" opacity="0.25" />
+              <path d="M0 78 L60 52 L110 72 L170 40 L230 70 L290 46 L340 68 L400 44 L400 100 L0 100 Z" fill="#ffffff" opacity="0.3" />
+              <path d="M0 92 L70 74 L130 88 L200 66 L270 86 L340 70 L400 84 L400 100 L0 100 Z" fill="#ffffff" opacity="0.22" />
             </svg>
             <span className="relative flex h-12 w-12 items-center justify-center rounded-2xl bg-paper/95 text-dai-700 shadow-sm">
               <Icon name={work.type} size={23} />

@@ -94,7 +94,7 @@ export default function ThemePapercut() {
                 : '八个题材按图录编次排列；点开任一图样可查看纹样细解'
             }
             right={
-              <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white/70 px-2.5 py-1.5 text-[11px] text-ink-mute sm:inline-flex">
+              <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white px-2.5 py-1.5 text-[11px] text-ink-mute sm:inline-flex">
                 <Icon name="expand" size={12} />
                 详情页支持 1–6× 缩放
               </span>
@@ -136,7 +136,7 @@ export default function ThemePapercut() {
           )}
 
           {/* 图录说明 */}
-          <section className="mt-10 rounded-2xl border border-black/[0.07] bg-white/60 p-4">
+          <section className="mt-10 rounded-2xl border border-black/[0.07] bg-white p-4">
             <h2 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
               <Icon name="book" size={14} />
               关于这套图录

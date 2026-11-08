@@ -14,7 +14,14 @@ export function ThemeHero({ collection, stats = [], children }) {
   return (
     <section className="relative overflow-hidden border-b border-black/[0.06]">
       <div className="paper-grain absolute inset-0" aria-hidden="true" />
-      <div className={`absolute inset-0 bg-gradient-to-br ${c.accent.hero} opacity-[0.07]`} aria-hidden="true" />
+      {/**
+       * 开篇底色统一用极淡的冷灰，不再铺馆色渐变。
+       * 原来是 `${c.accent.hero} opacity-[0.07]`，五个馆各染一层 —— 7% 的深红拌棕
+       * 压在冷白底上，出来是一片「脏粉」，远看像纸的旧化，正好是这次要去掉的东西。
+       * 馆别识别改由「专题馆」前的色条、统计数字的馆色、以及右侧朱印承担，
+       * 底子留白反而更利落。
+       */}
+      <div className="absolute inset-0 bg-paper-sunk/70" aria-hidden="true" />
       <div className="wrap relative py-10 sm:py-14">
         <div className="flex flex-wrap items-start justify-between gap-6">
           <div className="min-w-0">
@@ -32,7 +39,7 @@ export function ThemeHero({ collection, stats = [], children }) {
               {stats.map((s) => (
                 <span
                   key={s.label}
-                  className="inline-flex items-baseline gap-1.5 rounded-lg border border-black/[0.07] bg-white/70 px-2.5 py-1.5"
+                  className="inline-flex items-baseline gap-1.5 rounded-lg border border-black/[0.07] bg-white px-2.5 py-1.5"
                 >
                   <b className={`font-serif text-[15px] ${c.accent.text}`}>{s.value}</b>
                   <span className="text-[11px] text-ink-mute">{s.label}</span>
@@ -116,7 +123,7 @@ export function ThemeSidebar({ categories, active, onChange, total, allLabel = '
       </nav>
 
       {intro && (
-        <div className="mt-4 hidden rounded-xl border border-black/[0.06] bg-white/60 p-3 lg:block">
+        <div className="mt-4 hidden rounded-xl border border-black/[0.06] bg-white p-3 lg:block">
           <p className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold tracking-wide text-ink-mute">
             <Icon name="info" size={12} />
             分类释义

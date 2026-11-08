@@ -80,7 +80,7 @@ export default function ThemeCourse({ collection }) {
       >
         <div className="mt-6 grid gap-4 lg:grid-cols-[1.35fr_1fr]">
           {/* 章名与导语：馆名是「馆」，这里才是教材里的那一章 */}
-          <div className="rounded-2xl border border-black/[0.07] bg-white/70 p-4 sm:p-5">
+          <div className="rounded-2xl border border-black/[0.07] bg-white p-4 sm:p-5">
             <p className="flex flex-wrap items-baseline gap-x-2 gap-y-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-mute">
               <span className={`chip ${accent.bg} ${accent.text} text-[10px]`}>{chapter.chapter.no}</span>
               <span className="font-serif text-[13.5px] font-bold normal-case tracking-normal text-ink">
@@ -96,7 +96,7 @@ export default function ThemeCourse({ collection }) {
           </div>
 
           {/* 学习目标：让「读这一章要拿到什么」先立起来 */}
-          <div className="rounded-2xl border border-black/[0.07] bg-paper/60 p-4 sm:p-5">
+          <div className="rounded-2xl border border-black/[0.07] bg-paper-sunk p-4 sm:p-5">
             <p className="mb-2.5 flex items-center gap-1.5 text-[11px] font-semibold tracking-[0.14em] text-ink-mute">
               <Icon name="compass" size={12} />
               读完之后应该能
@@ -137,7 +137,7 @@ export default function ThemeCourse({ collection }) {
                 : '按教材的节次顺序陈列，三节之间是递进关系'
             }
             right={
-              <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white/70 px-2.5 py-1.5 text-[11px] text-ink-mute sm:inline-flex">
+              <span className="hidden items-center gap-1.5 rounded-lg border border-black/[0.07] bg-white px-2.5 py-1.5 text-[11px] text-ink-mute sm:inline-flex">
                 <Icon name="layers" size={12} />
                 节 → 要点 两级编次
               </span>
@@ -202,7 +202,7 @@ export default function ThemeCourse({ collection }) {
           )}
 
           {/* 馆尾：教材依据 + 与另一馆的显式区分 */}
-          <div className="mt-10 grid gap-3 rounded-2xl border border-black/[0.07] bg-white/60 p-4 sm:p-5 lg:grid-cols-[1.4fr_1fr]">
+          <div className="mt-10 grid gap-3 rounded-2xl border border-black/[0.07] bg-white p-4 sm:p-5 lg:grid-cols-[1.4fr_1fr]">
             <div>
               <h2 className="mb-2 flex items-center gap-1.5 font-serif text-[13.5px] font-bold text-ink">
                 <Icon name="info" size={13} />
@@ -218,7 +218,7 @@ export default function ThemeCourse({ collection }) {
             {other && (
               <Link
                 to={other.route}
-                className="group flex items-center justify-between gap-3 rounded-xl border border-black/[0.06] bg-paper/50 p-3 transition-colors hover:border-black/10 hover:bg-white"
+                className="group flex items-center justify-between gap-3 rounded-xl border border-black/[0.06] bg-paper-sunk p-3 transition-colors hover:border-black/10 hover:bg-white"
               >
                 <span className="min-w-0">
                   <span className="mb-0.5 block text-[10px] tracking-[0.16em] text-ink-mute">另一个课程专题馆</span>

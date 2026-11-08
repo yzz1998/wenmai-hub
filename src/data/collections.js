@@ -39,7 +39,7 @@ export const COLLECTIONS = [
       ring: 'ring-cha-100',
       dot: 'bg-cha-500',
       soft: 'bg-cha-900',
-      hero: 'from-cha-900 via-cha-700 to-cha-500'
+      hero: 'from-[#0a2f2d] via-[#1a5f5a] to-[#3fa79e]'
     },
     facts: ['3 节', '12 条要点', '第二章'],
     points: ['资源与三种分类依据', '资源环境问题与承载力', '可持续发展三个原则']
@@ -67,7 +67,7 @@ export const COLLECTIONS = [
       ring: 'ring-tan-100',
       dot: 'bg-tan-500',
       soft: 'bg-tan-900',
-      hero: 'from-tan-900 via-tan-700 to-tan-500'
+      hero: 'from-[#102a3d] via-[#225483] to-[#4d92c6]'
     },
     facts: ['3 节', '13 条要点', '第五章'],
     points: ['城市化与诺瑟姆曲线', '农业与乡村社会变迁', '工业化与城乡关系']
@@ -93,7 +93,7 @@ export const COLLECTIONS = [
       ring: 'ring-dai-100',
       dot: 'bg-dai-500',
       soft: 'bg-dai-900',
-      hero: 'from-dai-900 via-dai-700 to-dai-500'
+      hero: 'from-[#0f1e26] via-[#1a5f5a] to-[#3f9e96]'
     },
     facts: ['5 类主题', '38 条素材', '38 张配图'],
     points: ['五类主题分类与释义', '来源标注可回溯到原文', '支持增删改与配图替换']
@@ -117,7 +117,7 @@ export const COLLECTIONS = [
       ring: 'ring-zhu-100',
       dot: 'bg-zhu-500',
       soft: 'bg-zhu-900',
-      hero: 'from-zhu-900 via-zhu-700 to-zhu-500'
+      hero: 'from-[#0f1e26] via-[#96301f] to-[#d4533c]'
     },
     facts: ['241 件图样', '8 类题材', '上下两册图录'],
     points: ['按题材编次的侧栏目录', '单幅 1–6× 深度缩放', '图录页码与图版尺寸著录']
@@ -141,7 +141,7 @@ export const COLLECTIONS = [
       ring: 'ring-indigoSea-100',
       dot: 'bg-indigoSea-500',
       soft: 'bg-indigoSea-900',
-      hero: 'from-indigoSea-900 via-indigoSea-700 to-indigoSea-500'
+      hero: 'from-[#0f1e26] via-[#225483] to-[#4a8fc4]'
     },
     facts: ['7 个展区', '30 个展项', '78 帧实景照片'],
     points: ['七展区动线导览', '逐帧署名与版权提示', '原始报道可回溯']

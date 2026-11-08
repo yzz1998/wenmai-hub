@@ -165,9 +165,11 @@ export default function WorkNew() {
                 type="button"
                 onClick={() => set('type', t.id)}
                 className={`flex flex-col items-center gap-2 rounded-xl border p-3.5 transition-all ${
+                  /* 选中态用主色。原来用的是朱砂 —— 但朱砂在本站专指「主操作 / 必填 / 错误」，
+                     拿来标选中会让「选了文章」看起来像「文章这里出了问题」。 */
                   form.type === t.id
-                    ? 'border-zhu-500 bg-zhu-50 text-zhu-700 shadow-sm'
-                    : 'border-black/10 bg-white/70 text-ink-mute hover:border-dai-300 hover:text-dai-700'
+                    ? 'border-dai-500 bg-dai-50 text-dai-700 shadow-sm ring-1 ring-dai-500/25'
+                    : 'border-black/10 bg-white text-ink-mute hover:border-dai-300 hover:text-dai-700'
                 }`}
               >
                 <Icon name={t.icon} size={22} />
@@ -344,7 +346,7 @@ export default function WorkNew() {
         </div>
 
         {!editing && (
-          <label className="flex cursor-pointer items-start gap-2.5 rounded-xl border border-black/[0.08] bg-paper/50 p-3.5">
+          <label className="flex cursor-pointer items-start gap-2.5 rounded-xl border border-black/[0.08] bg-paper-sunk p-3.5">
             <input
               type="checkbox"
               checked={autoReview}
@@ -361,7 +363,7 @@ export default function WorkNew() {
 
         {/* 标准要能被看得见：学生提交前就能判断自己还缺什么，而不是评完才知道 */}
         {!editing && (
-          <details className="rounded-xl border border-black/[0.08] bg-paper/50 px-3.5 py-2.5">
+          <details className="rounded-xl border border-black/[0.08] bg-paper-sunk px-3.5 py-2.5">
             <summary className="flex cursor-pointer list-none items-center gap-1.5 text-[12px] font-medium text-ink-soft">
               <Icon name="info" size={13} className="shrink-0 text-dai-700" />
               评阅按什么标准打分

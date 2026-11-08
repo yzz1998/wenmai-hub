@@ -295,7 +295,7 @@ export default function WorkDetail() {
                 {docs.map((doc, i) => (
                   <li
                     key={doc.id}
-                    className="flex flex-wrap items-center gap-3 rounded-xl border border-black/[0.08] bg-white/70 p-3.5"
+                    className="flex flex-wrap items-center gap-3 rounded-xl border border-black/[0.08] bg-white p-3.5"
                   >
                     <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-dai-50 text-dai-700">
                       <Icon name={doc.kind === 'pdf' ? 'doc' : doc.kind === 'docx' ? 'book' : 'scroll'} size={17} />

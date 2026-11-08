@@ -132,7 +132,7 @@ export default function Themes() {
               { k: '乡土专题', n: cards.filter((c) => c.kind !== 'course').length, icon: 'mountain' },
               { k: '五个馆各自独立成篇，不混排', icon: 'layers' }
             ].map((x) => (
-              <span key={x.k} className="chip border border-black/[0.07] bg-white/70 text-[11px] text-ink-mute">
+              <span key={x.k} className="chip border border-black/[0.07] bg-white text-[11px] text-ink-mute">
                 <Icon name={x.icon} size={11} />
                 {x.k}
                 {x.n != null && <b className="ml-0.5 font-serif text-[12px] text-ink-soft">{x.n}</b>}
@@ -252,7 +252,7 @@ export default function Themes() {
       </section>
 
       <section className="wrap pb-12">
-        <div className="rounded-2xl border border-black/[0.07] bg-white/60 p-5 sm:p-6">
+        <div className="rounded-2xl border border-black/[0.07] bg-white p-5 sm:p-6">
           <SectionTitle
             eyebrow="WHY FIVE HALLS"
             title="五个馆为什么这样分工"
@@ -285,7 +285,7 @@ export default function Themes() {
                 d: '所有路径最终都落到 /entry/:id，同一份内容、同一套引用与图集，不会出现两个版本。'
               }
             ].map((x) => (
-              <div key={x.t} className="rounded-xl border border-black/[0.06] bg-paper/50 p-4">
+              <div key={x.t} className="rounded-xl border border-black/[0.06] bg-paper-sunk p-4">
                 <p className="font-serif text-[13.5px] font-bold text-ink">{x.t}</p>
                 <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-mute">{x.d}</p>
               </div>

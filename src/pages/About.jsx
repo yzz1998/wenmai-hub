@@ -178,7 +178,7 @@ export default function About() {
               tone: 'bg-zhu-50 text-zhu-700'
             }
           ].map((x) => (
-            <div key={x.t} className="rounded-2xl border border-black/[0.07] bg-white/70 p-5">
+            <div key={x.t} className="rounded-2xl border border-black/[0.07] bg-white p-5">
               <span className={`flex h-10 w-10 items-center justify-center rounded-xl ${x.tone}`}>
                 <Icon name={x.icon} size={18} />
               </span>
@@ -190,7 +190,7 @@ export default function About() {
         </div>
 
         {/* 模型字段 */}
-        <div className="mt-4 overflow-hidden rounded-2xl border border-black/[0.07] bg-white/60">
+        <div className="mt-4 overflow-hidden rounded-2xl border border-black/[0.07] bg-white">
           <div className="border-b border-black/[0.06] px-4 py-3">
             <p className="font-serif text-[13.5px] font-bold text-ink">Entry 统一字段</p>
             <p className="mt-0.5 text-[11.5px] text-ink-mute">
@@ -230,7 +230,7 @@ export default function About() {
         />
         <div className="space-y-4">
           {SOURCE_MAP.map((s) => (
-            <div key={s.from} className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white/70">
+            <div key={s.from} className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white">
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-black/[0.06] px-4 py-3">
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="font-serif text-[14.5px] font-bold text-ink">{s.from}</span>
@@ -281,7 +281,7 @@ export default function About() {
           title="共享组件清单"
           sub="合并后「同一件事只有一处实现」。下表是可以直接对应到源码文件的。"
         />
-        <div className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white/70">
+        <div className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white">
           <div className="grid grid-cols-[140px_1fr_170px] gap-px bg-black/[0.06] text-[11.5px] sm:grid-cols-[170px_1fr_200px]">
             <div className="bg-paper-sunk/60 px-3 py-2 font-semibold text-ink-soft">组件</div>
             <div className="bg-paper-sunk/60 px-3 py-2 font-semibold text-ink-soft">职责</div>
@@ -304,7 +304,7 @@ export default function About() {
           title="导航与页面结构"
           sub="桌面端顶部六项，移动端底部五项（「关于」收进页脚）；所有页面共用一套外壳与页脚。"
         />
-        <div className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white/70">
+        <div className="overflow-hidden rounded-2xl border border-black/[0.07] bg-white">
           {NAV_TREE.map(([path, name, desc], i) => (
             <div
               key={path}
@@ -329,7 +329,7 @@ export default function About() {
         <SectionTitle eyebrow="TRADE-OFFS" title="合并中的取舍与冲突处理" sub="合并不是把所有东西塞进一个页面，而是明确哪些该合、哪些不该合。" />
         <div className="space-y-3">
           {DECISIONS.map((d) => (
-            <details key={d.q} className="group rounded-2xl border border-black/[0.07] bg-white/70 px-4 py-3">
+            <details key={d.q} className="group rounded-2xl border border-black/[0.07] bg-white px-4 py-3">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-3">
                 <span className="font-serif text-[13.5px] font-bold text-ink">{d.q}</span>
                 <Icon name="chevron" size={16} className="shrink-0 text-ink-mute transition-transform group-open:rotate-180" />
@@ -343,7 +343,7 @@ export default function About() {
       {/* ---------------- 数据与使用 ---------------- */}
       <section className="wrap pb-12">
         <div className="grid gap-4 lg:grid-cols-3">
-          <div className="rounded-2xl border border-black/[0.07] bg-white/70 p-5">
+          <div className="rounded-2xl border border-black/[0.07] bg-white p-5">
             <h3 className="mb-2 flex items-center gap-1.5 font-serif text-[14px] font-bold text-ink">
               <Icon name="shield" size={15} />
               分类规模
@@ -355,7 +355,7 @@ export default function About() {
               <li>课程：第二章 3 节 12 条 · 第五章 3 节 13 条</li>
             </ul>
           </div>
-          <div className="rounded-2xl border border-black/[0.07] bg-white/70 p-5">
+          <div className="rounded-2xl border border-black/[0.07] bg-white p-5">
             <h3 className="mb-2 flex items-center gap-1.5 font-serif text-[14px] font-bold text-ink">
               <Icon name="info" size={15} />
               来源与版权
@@ -365,7 +365,7 @@ export default function About() {
               知识素材来源为政府门户、地方史志、权威媒体与非遗名录。正式发表或商业使用请自行核实并取得授权。
             </p>
           </div>
-          <div className="rounded-2xl border border-black/[0.07] bg-white/70 p-5">
+          <div className="rounded-2xl border border-black/[0.07] bg-white p-5">
             <h3 className="mb-2 flex items-center gap-1.5 font-serif text-[14px] font-bold text-ink">
               <Icon name="layers" size={15} />
               技术形态

@@ -91,7 +91,7 @@ export function SectionTitle({ title, sub, right, eyebrow, tone = 'sea' }) {
     <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
       <div>
         {eyebrow && (
-          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-zhu-500">{eyebrow}</p>
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-dai-700">{eyebrow}</p>
         )}
         <h2 className="sec-title">{title}</h2>
         {sub && <p className="sec-sub">{sub}</p>}
@@ -105,7 +105,7 @@ export function SectionTitle({ title, sub, right, eyebrow, tone = 'sea' }) {
 /** 分段控件（专题 / 视图切换） */
 export function Segmented({ options, value, onChange, size = 'sm' }) {
   return (
-    <div className="inline-flex flex-wrap gap-1 rounded-xl border border-black/10 bg-white/70 p-1">
+    <div className="inline-flex flex-wrap gap-1 rounded-xl border border-black/10 bg-white p-1">
       {options.map((o) => (
         <button
           key={o.id}
