@@ -101,9 +101,34 @@ const isBeige = ({ r, g, b }) => {
       const page = await browser.newPage({ viewport: { width: vw, height: vh }, deviceScaleFactor: 1 })
       page.on('pageerror', (e) => errors.push(`${name}/${tag}: ${e.message.slice(0, 120)}`))
       page.on('console', (m) => {
-        if (m.type() === 'error') errors.push(`${name}/${tag}: ${m.text().slice(0, 120)}`)
+        if (m.type() !== 'error') return
+        const t = m.text()
+        /**
+         * 打线上时 GitHub Pages 的边缘节点会掐掉一部分连接（连续快速开 16 个页面时常见）。
+         * 逐个 curl 复验都是 200，说明不是资源缺失，是网络层噪声。
+         * 这类单独计数，不判失败；其余 console 错误照旧算错。
+         */
+        if (/net::ERR_(CONNECTION_CLOSED|NETWORK_CHANGED|TIMED_OUT|ABORTED|CONNECTION_RESET)/.test(t)) {
+          errors.netFlake = (errors.netFlake || 0) + 1
+          return
+        }
+        errors.push(`${name}/${tag}: ${t.slice(0, 120)}`)
       })
-      await page.goto(BASE + '/#' + route, { waitUntil: 'networkidle' })
+      /**
+       * 打线上时偶发 ERR_CONNECTION_CLOSED（GitHub Pages 对我们这种
+       * 「连续快速开 16 个页面」的访问会掐连接）。这不是站点故障，
+       * 但一次网络抖动就让整轮审计中断没有意义，所以失败时退避重试一次。
+       */
+      let navigated = false
+      for (let attempt = 0; attempt < 2 && !navigated; attempt += 1) {
+        try {
+          await page.goto(BASE + '/#' + route, { waitUntil: 'networkidle', timeout: 45000 })
+          navigated = true
+        } catch (e) {
+          if (attempt === 1) throw e
+          await page.waitForTimeout(1800)
+        }
+      }
       await page.waitForTimeout(1100)
       // 懒加载图不滚到底永远不加载，截图会出现一片白 —— 先滚一轮
       await page.evaluate(async () => {
@@ -307,6 +332,7 @@ const isBeige = ({ r, g, b }) => {
   }
 
   console.log('\n==== 4. 控制台 ====')
+  if (errors.netFlake) console.log(`  （已忽略 ${errors.netFlake} 处网络层断连，非应用错误）`)
   errors.length === 0 ? ok('无 JS 报错') : bad('有 JS 报错', errors.slice(0, 3).join(' | '))
 
   await browser.close()
