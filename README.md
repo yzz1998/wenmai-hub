@@ -532,3 +532,59 @@ node work/shot-live-panel.cjs
 
 清单：`配图清单-已完成.md`（334 行逐条来源 ＋ 附录 A 逐条核验记录）、`配图清单-未匹配.md`（受限项与原因），
 同名 `.csv` 为表格版（UTF-8 BOM，Excel 直接打开）。
+
+## 十一、部署（GitHub Pages）
+
+- 线上地址：**https://yzz1998.github.io/wenmai-hub/**
+- 仓库：`yzz1998/wenmai-hub`（public）
+
+### 发布链路
+
+推送 `main` → `.github/workflows/deploy.yml` → checkout / setup-node 22 / configure-pages →
+`npm install` → `vite build` → `upload-pages-artifact(dist)` → `deploy-pages`。
+
+Pages 的 Publishing source 设为 **GitHub Actions**（仓库 API 里是 `build_type: workflow`），
+不占 `gh-pages` 分支，也不必把 `dist/` 提交进仓库。手动重发：Actions → Deploy to GitHub Pages → Run workflow。
+
+### 为什么能跑在子路径
+
+- `vite.config.js` 的 `base: './'`：产物里是 `./assets/...`，挂在 `/<repo>/` 下照样解析正确。
+- `HashRouter`：路由都在 `#` 之后，刷新任意深链仍只请求 `index.html`，Pages 侧不需要 404 兜底。
+- 图片统一走 `src/lib/assets.js` 的 `asset()`，按 `import.meta.env.BASE_URL` 拼路径。
+
+**上线前必须改的一处**：`ImageField` 里内置图库的缩略图原本写死 `/img/${file}.svg`。
+根绝对路径在子目录部署下会指到域名根、直接 404，而本地 dev 跑在域名根，永远暴露不出来。
+已改为 `asset()`。
+
+### 两个在 CI 上真实撞到的坑
+
+1. **锁文件跨平台**：`package-lock.json` 在 Windows 上生成，`@rollup/*` 只剩 win32 两个条目，
+   npm 按 `os`/`cpu` 把其它平台的裁掉（npm 已知问题 #4828）。ubuntu runner 上 rollup 直接报
+   `Cannot find module @rollup/rollup-linux-x64-gnu`。`npm ci` 与 `npm install` **都**会中招（后者也以锁文件为准），
+   工作流里改成按已装 rollup 的版本显式补装 linux 原生包。
+2. **Pages 必须先开通**：新建仓库时 Pages 是关闭的，`configure-pages` 的 `enablement: true`
+   只覆盖「已开通但发布源不对」的情形。本次是先用 API `POST /repos/{owner}/{repo}/pages`
+   带 `{"build_type":"workflow"}` 开通后再让工作流发布。
+
+### 发布前后的自检
+
+`work/serve-pages.cjs` 把 `dist/` 挂在 `http://127.0.0.1:8099/wenmai-hub/`（模拟 Pages 子目录），
+`work/check-pages-subpath.cjs` 逐页比对：首页 / 资源库 / 剪纸馆 / 畲族馆 / 闽东馆 / 成果列表 / 素材详情 /
+内置图库 / 深链直达，并检查「有没有指向域名根的绝对资源」。打线上：
+
+```bash
+node work/serve-pages.cjs 8099 &
+PAGES_BASE=https://yzz1998.github.io/wenmai-hub node work/check-pages-subpath.cjs
+```
+
+脚本注释里记了两个会误判的点：懒加载图片未进视口时 `naturalWidth` 为 0（需先滚到底或强制 `eager` 再 `decode()`）；
+同页改 hash 不产生导航，`page.goto` 的 response 为 `null`，不能用它判断深链是否可达。
+
+### 结果与边界
+
+- 线上复跑 **13 / 13**：13 个页面视图图片全部命中、0 个 4xx、0 个 JS 报错、深链可直达、无根绝对路径资源。
+- 仓库约 **178MB**（1279 个文件），体积几乎全部是 334 张标准图与剪纸、畲族图版；
+  `.edgeone/`（dist 副本）与 347MB 的整站 zip 已排除。
+- AI 评阅在 Pages 域下可用：`api.deepseek.com` 对 `https://yzz1998.github.io` 返回了
+  `access-control-allow-origin`，浏览器直连不需要中继。
+- Key 只存浏览器 `localStorage`，不进仓库；`.env*` 已在 `.gitignore`。
