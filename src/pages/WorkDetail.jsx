@@ -17,8 +17,9 @@ import Icon from '../components/Icon'
 export default function WorkDetail() {
   const { id } = useParams()
   const nav = useNavigate()
-  const { works, removeWork, reviews, reviewJobs, startReview, notify } = useStore()
+  const { works, removeWork, reviews, reviewJobs, startReview, updateReview, notify } = useStore()
   const [confirm, setConfirm] = useState(false)
+  const [rerunConfirm, setRerunConfirm] = useState(false)
   const [copied, setCopied] = useState('')
   const [viewerIdx, setViewerIdx] = useState(-1)
 
@@ -84,13 +85,37 @@ export default function WorkDetail() {
   }
 
   const runReview = () => {
+    // 已有人工修订时先确认：重评会整份覆盖，修订内容无法找回
+    if (review?.edited) {
+      setRerunConfirm(true)
+      return
+    }
     // 面板自己会渲染失败态，这里只需要吞掉 rejection，避免控制台报未捕获
     startReview(work.id, { force: true }).catch(() => {})
   }
 
   const exportReview = () => {
     if (!review) return
-    downloadText(`${work.id}-${work.title}-AI评阅.md`, buildReviewMarkdown(review, work))
+    // 文件名带「人工修订」：报告一旦离站，最先被看到的就是标题，事后分不清哪份是模型原判
+    downloadText(
+      `${work.id}-${work.title}-AI评阅${review.edited ? '-人工修订' : ''}.md`,
+      buildReviewMarkdown(review, work)
+    )
+  }
+
+  /**
+   * 保存人工修订。清洗（钳分、重算总分与等级、存 AI 原始快照）在 lib/review.js 里完成，
+   * 这里只落盘并给一句反馈。写进 reviews 后详情页、成果列表、导出报告自动同步，
+   * 因为它们读的都是同一份 Map。
+   */
+  const saveReview = (next) => {
+    if (!next) return
+    updateReview(work.id, next)
+    notify(
+      next.edited
+        ? `评阅结果已保存（人工修订 · ${next.total} 分）`
+        : '已恢复 AI 原始评阅结果'
+    )
   }
 
   const downloadDoc = async (doc) => {
@@ -139,7 +164,11 @@ export default function WorkDetail() {
             </span>
             <span className="chip bg-paper/15 text-paper">{work.semester}</span>
             <span className="chip bg-paper/15 text-paper">{work.grade}</span>
-            {review && <span className="chip bg-paper/15 text-paper">AI 评阅 {review.total} 分</span>}
+            {review && (
+              <span className="chip bg-paper/15 text-paper" title={review.edited ? '经教师人工修订' : 'AI 自动评阅'}>
+                AI 评阅 {review.total} 分{review.edited ? ' · 已修订' : ''}
+              </span>
+            )}
             <span className="font-mono text-[11px] text-paper/45">{work.id}</span>
           </div>
 
@@ -225,6 +254,7 @@ export default function WorkDetail() {
             materials={materialPreview}
             onStart={runReview}
             onExport={exportReview}
+            onSave={saveReview}
             onOpenSettings={requestOpenSettings}
           />
 
@@ -372,7 +402,7 @@ export default function WorkDetail() {
                 ['关联课程', work.course || '—'],
                 ['成果类型', workTypeName(work.type)],
                 ['成果文档', docs.length ? `${docs[0].kind.toUpperCase()} · ${docs[0].chars} 字` : '未上传'],
-                ['AI 评阅', review ? `${review.total} / 100` : '未评阅'],
+                ['AI 评阅', review ? `${review.total} / 100${review.edited ? '（人工修订）' : ''}` : '未评阅'],
                 ['提交日期', work.createdAt],
                 ['最近更新', work.updatedAt]
               ].map(([k, v]) => (
@@ -424,6 +454,18 @@ export default function WorkDetail() {
           setConfirm(false)
           removeWork(work.id)
           nav('/works')
+        }}
+      />
+
+      <ConfirmDialog
+        open={rerunConfirm}
+        title="重新评阅会覆盖人工修订"
+        desc={`当前结果中有 ${review?.editCount || 1} 次人工修订。重新评阅会用模型新生成的结果整份替换，修订内容无法找回（除非先导出报告留档）。`}
+        confirmText="仍然重新评阅"
+        onCancel={() => setRerunConfirm(false)}
+        onConfirm={() => {
+          setRerunConfirm(false)
+          startReview(work.id, { force: true }).catch(() => {})
         }}
       />
     </article>

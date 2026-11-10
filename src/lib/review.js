@@ -206,6 +206,171 @@ export const gradeOf = (total) => {
   return '待改进'
 }
 
+/* ------------------------------------------------------------------ */
+/* 人工修订                                                            */
+/* ------------------------------------------------------------------ */
+/**
+ * AI 结果允许人工修订，但修订必须是**受约束的编辑**，不能变成「随便填一个分」：
+ *
+ * 1) 分数一律钳到 0–该维满分并取整，等级由分数重算 —— 界面上永远不可能出现
+ *    「72 分但标优秀」这种自相矛盾的组合。
+ * 2) 总分一律由分项相加，不接受手工填总分。改了某一维，总分立刻跟着动。
+ * 3) 第一次修订前把 AI 原始结果整份存进 `origin`，用户随时可以一键恢复；
+ *    报告里也能标出哪些维度被改过（✎）。
+ *
+ * 4) 长度上限比 AI 那套（评语 60 / 证据 40）宽得多：人工写评语不该被 60 字卡住。
+ *    但仍设硬顶，因为整份评阅结果存在 localStorage 里，超长会静默写失败。
+ */
+export const EDIT_LIMITS = { comment: 300, evidence: 200, summary: 800, item: 120 }
+
+const clampScore = (v, max) => {
+  const raw = typeof v === 'number' ? v : parseFloat(String(v ?? '').replace(/[^\d.-]/g, ''))
+  if (!Number.isFinite(raw)) return 0
+  return Math.max(0, Math.min(max, Math.round(raw)))
+}
+
+/** 人工输入保留换行与原有标点，只压掉多余空白；不做 AI 那套「退到句读截断」 */
+const softTrim = (v, max) => {
+  const s = String(v ?? '')
+    .replace(/\r\n?/g, '\n')
+    .replace(/[ \t]+$/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+  return s.length > max ? s.slice(0, max) : s
+}
+
+const cleanList = (list) =>
+  (Array.isArray(list) ? list : [])
+    .map((s) => softTrim(s, EDIT_LIMITS.item))
+    .filter(Boolean)
+
+/** AI 原始结果的快照（不含 origin 自身，避免无限嵌套） */
+function snapshotOf(review) {
+  return {
+    total: review.total,
+    dimensions: (review.dimensions || []).map((d) => ({ ...d })),
+    highlights: [...(review.highlights || [])],
+    summary: review.summary || '',
+    suggestions: [...(review.suggestions || [])],
+    at: review.createdAt || null
+  }
+}
+
+/** 把已有结果转成可编辑草稿：分数转成字符串，输入框才能「清空后重填」而不跳成 0 */
+export function editableDraft(review) {
+  if (!review) return null
+  return {
+    dimensions: (review.dimensions || []).map((d) => ({
+      key: d.key,
+      name: d.name,
+      max: d.max || 25,
+      block: d.block || '',
+      score: String(d.score ?? ''),
+      comment: d.comment || '',
+      evidence: d.evidence || ''
+    })),
+    highlights: [...(review.highlights || [])],
+    summary: review.summary || '',
+    suggestions: [...(review.suggestions || [])]
+  }
+}
+
+/** 草稿的总分（编辑时实时预览用），与保存后的算法完全一致 */
+export function draftTotal(draft) {
+  return (draft?.dimensions || []).reduce((s, d) => s + clampScore(d.score, d.max || 25), 0)
+}
+
+/** 草稿某一维的等级（随输入实时变化） */
+export function draftLevel(d) {
+  return levelOf(clampScore(d?.score, d?.max || 25), d?.max || 25)
+}
+
+/** 相对 AI 原始结果被改过的维度 key，报告里用来打 ✎ */
+export function editedDimensionKeys(review) {
+  if (!review?.origin?.dimensions) return []
+  const byKey = new Map(review.origin.dimensions.map((d) => [d.key, d]))
+  return (review.dimensions || [])
+    .filter((d) => {
+      const o = byKey.get(d.key)
+      return !o || o.score !== d.score || o.comment !== d.comment || o.evidence !== d.evidence
+    })
+    .map((d) => d.key)
+}
+
+/**
+ * 把草稿合并回评阅结果。
+ *
+ * @param {object} review 当前结果
+ * @param {object} draft  editableDraft() 的形状（分数可以是字符串）
+ * @returns {object} 新结果：分数钳位、等级重算、总分求和、origin 快照、修订元信息
+ */
+export function applyReviewEdits(review, draft) {
+  if (!review || !draft) return review
+  const prev = new Map((review.dimensions || []).map((d) => [d.key, d]))
+
+  const dimensions = (draft.dimensions || []).map((d) => {
+    const base = prev.get(d.key) || {}
+    const max = base.max || d.max || 25
+    const score = clampScore(d.score, max)
+    return {
+      key: base.key || d.key,
+      name: base.name || d.name,
+      max,
+      score,
+      level: levelOf(score, max),
+      block: base.block || d.block || '',
+      comment: softTrim(d.comment, EDIT_LIMITS.comment),
+      evidence: softTrim(d.evidence, EDIT_LIMITS.evidence)
+    }
+  })
+
+  const total = dimensions.reduce((s, d) => s + d.score, 0)
+  const highlights = cleanList(draft.highlights)
+  const suggestions = cleanList(draft.suggestions)
+  const summary = softTrim(draft.summary, EDIT_LIMITS.summary)
+
+  // 以「首次 AI 结果」为基准判断是否真的改过；改回原样就等于没改
+  const origin = review.origin || snapshotOf(review)
+  const next = { ...review, total, dimensions, highlights, summary, suggestions }
+  const untouched =
+    !editedDimensionKeys({ ...next, origin }).length &&
+    JSON.stringify(highlights) === JSON.stringify(origin.highlights || []) &&
+    JSON.stringify(suggestions) === JSON.stringify(origin.suggestions || []) &&
+    summary === (origin.summary || '') &&
+    total === origin.total
+
+  if (untouched) {
+    // 全部改回去了：不留下「已修订」的痕迹，也不该再提供「恢复原结果」按钮
+    return { ...next, edited: false, origin: null, editedAt: null, editCount: 0 }
+  }
+
+  return {
+    ...next,
+    origin,
+    edited: true,
+    editedAt: new Date().toISOString(),
+    editCount: (review.editCount || 0) + 1
+  }
+}
+
+/** 一键恢复 AI 原始结果（保留评阅来源信息与量表元数据） */
+export function restoreOriginalReview(review) {
+  const o = review?.origin
+  if (!o) return review
+  return {
+    ...review,
+    total: o.total,
+    dimensions: (o.dimensions || []).map((d) => ({ ...d })),
+    highlights: [...(o.highlights || [])],
+    summary: o.summary || '',
+    suggestions: [...(o.suggestions || [])],
+    edited: false,
+    origin: null,
+    editedAt: null,
+    restoredAt: new Date().toISOString()
+  }
+}
+
 export function isMockMode(s = readSettings()) {
   if (s?.mock) return true
   try {
@@ -754,6 +919,7 @@ export async function testConnection(settings) {
 export function buildReviewMarkdown(review, work) {
   if (!review) return ''
   const mb = review.materialsBrief
+  const editedKeys = new Set(editedDimensionKeys(review))
   const materialLine = mb
     ? `- 评阅材料：正文 ${(review.inputChars || 0).toLocaleString('zh-CN')} 字${mb.docs ? ` · 文档 ${mb.docs} 份` : ''}${mb.images ? ` · 配图 ${mb.images} 张` : ''}${mb.skipped ? ` · 未纳入 ${mb.skipped} 项` : ''}`
     : ''
@@ -767,6 +933,11 @@ export function buildReviewMarkdown(review, work) {
     materialLine,
     `- 总分：${review.total} / 100（${gradeOf(review.total)}）`,
     `- 评阅模型：${review.model} ｜ 生成时间：${new Date(review.createdAt).toLocaleString('zh-CN')}`,
+    ...(review.edited
+      ? [
+          `- 人工修订：是（第 ${review.editCount || 1} 次，${new Date(review.editedAt || review.createdAt).toLocaleString('zh-CN')}）；标 ✎ 的维度分数或评语已由教师手动调整`
+        ]
+      : []),
     ...(review.condensed
       ? [`- 注意：正文过长，本次评阅使用的是压缩后的 ${review.inputChars} 字版本（保留表格与标题）`]
       : review.truncated
@@ -779,7 +950,7 @@ export function buildReviewMarkdown(review, work) {
     '| --- | --- | --- | --- | --- |',
     ...review.dimensions.map(
       (d) =>
-        `| ${d.name} | ${d.score}/${d.max} | ${d.level} | ${(d.comment || '').replace(/\|/g, '／')} | ${(d.evidence || '').replace(/\|/g, '／')} |`
+        `| ${d.name}${editedKeys.has(d.key) ? ' ✎' : ''} | ${d.score}/${d.max} | ${d.level} | ${(d.comment || '').replace(/\|/g, '／')} | ${(d.evidence || '').replace(/\|/g, '／')} |`
     ),
     '',
     ...((review.highlights || []).length
@@ -795,7 +966,9 @@ export function buildReviewMarkdown(review, work) {
     '',
     '---',
     '',
-    `> 本报告由 AI 依据《${review.rubricName || '评阅量表'}》自动生成，仅供教学参考。`,
+    review.edited
+      ? `> 本报告以 AI 依据《${review.rubricName || '评阅量表'}》生成的评阅为基础，其中标 ✎ 的维度已由教师人工修订，总分按修订后的分项重新求和。`
+      : `> 本报告由 AI 依据《${review.rubricName || '评阅量表'}》自动生成，仅供教学参考。`,
     ''
   ]
   return lines.filter((l) => l !== undefined).join('\n')

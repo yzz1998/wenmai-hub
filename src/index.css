@@ -158,6 +158,20 @@
   .field-label {
     @apply mb-1.5 block text-[13px] font-medium text-ink-soft;
   }
+  /**
+   * 分数输入框：隐藏原生增减箭头。
+   * 不隐藏的话，鼠标划过时箭头凭空出现，把居中的数字挤到左边，看起来像输入框在抖；
+   * 滚轮误触还会悄悄改分 —— 评分框最不该出现这种「改了却不知道」。
+   */
+  .no-spin::-webkit-outer-spin-button,
+  .no-spin::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .no-spin {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
   .select-field {
     @apply field cursor-pointer appearance-none bg-no-repeat pr-9;
     /* 箭头描边色同步到 --ink-mute，否则换肤后还会留一枚旧墨绿的箭头 */

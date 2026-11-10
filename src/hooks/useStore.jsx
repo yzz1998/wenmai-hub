@@ -282,6 +282,22 @@ export function StoreProvider({ children }) {
     })
   }, [])
 
+  /**
+   * 保存人工修订后的评阅结果。
+   *
+   * 与 startReview 分开是刻意的：修订不碰模型、不动评阅材料、不重置 job 状态，
+   * 只把「一份完整结果」替换进去。谁来做清洗（钳分、重算总分、存 origin）由调用方
+   * 通过 applyReviewEdits 完成，store 只负责落盘 —— 这样列表页、详情页、导出报告
+   * 读到的永远是同一份数据，不会出现「面板里改了 85，列表页还显示 78」。
+   */
+  const updateReview = useCallback((workId, next) => {
+    if (!workId || !next) return
+    setReviews((prev) => {
+      if (!prev[workId]) return prev
+      return { ...prev, [workId]: { ...prev[workId], ...next } }
+    })
+  }, [])
+
   /* ---------------- 教学选辑（跨专题收藏） ---------------- */
   const inSelection = useCallback((id) => selection.includes(id), [selection])
 
@@ -330,6 +346,7 @@ export function StoreProvider({ children }) {
       reviewJobs,
       startReview,
       clearReview,
+      updateReview,
       selection,
       selectedEntries,
       inSelection,
@@ -358,6 +375,7 @@ export function StoreProvider({ children }) {
       reviewJobs,
       startReview,
       clearReview,
+      updateReview,
       selection,
       selectedEntries,
       inSelection,
